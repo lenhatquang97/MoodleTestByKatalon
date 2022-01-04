@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Trong phần này, thì sẽ điền hết các mục có dấu chấm than</description>
+   <name>Điền đầy đủ thông tin bắt buộc</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>700b2c14-d339-47e9-81d7-9dd5b7a203a4</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Trong phần này, thì sẽ điền sai định dạng về email để kiểm tra Exception</description>
+   <name>Điền sai thông tin bắt buộc</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>deb0e6ca-673a-4855-a5b2-7062fe6f2570</testCaseGuid>
+</TestCaseEntity>
