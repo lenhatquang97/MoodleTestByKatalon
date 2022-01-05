@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test case này sẽ upload ảnh với định dạng khác chuẩn jpg, jpeg, png</description>
-   <name>Upload ảnh nền định dạng đặc biệt WEBP</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>c2de46d8-cd79-457d-aada-9e5b46565079</testCaseGuid>
-</TestCaseEntity>
