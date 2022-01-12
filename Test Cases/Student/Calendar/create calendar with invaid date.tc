@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>create calendar with invaid date</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dc5a04a1-f070-4479-a435-362547b6c812</testCaseGuid>
+</TestCaseEntity>
