@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case sẽ kiểm tra account bị ban</description>
+   <name>Kiểm tra việc tài khoản bị ban sau khi chọn Suspended account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f9e77611-db4b-466c-9627-1a8c86c80c3c</testCaseGuid>
+</TestCaseEntity>

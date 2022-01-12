@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Phần này sẽ check có tính năng tin nhắn hay không</description>
+   <name>Kiểm tra sự hiện diện của tính năng tin nhắn</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e6616b01-e6e4-47cc-9d5e-149bc824cae3</testCaseGuid>
+</TestCaseEntity>

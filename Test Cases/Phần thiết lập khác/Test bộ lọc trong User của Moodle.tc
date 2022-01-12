@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Điều kiện là đã có 2 tài khoản đã tạo</description>
+   <name>Test bộ lọc trong User của Moodle</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>69611d57-5c5e-42d3-9a51-a29b9feb3c69</testCaseGuid>
+</TestCaseEntity>
