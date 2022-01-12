@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Xóa tài khoản cho suspended account</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>ebabbb56-0c1c-4e16-9f6f-444163cd23da</testCaseGuid>
-</TestCaseEntity>

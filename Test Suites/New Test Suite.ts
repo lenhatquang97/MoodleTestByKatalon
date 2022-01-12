@@ -12,12 +12,6 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>b9d75058-0440-4b35-a9ba-17ec4276eb6e</testSuiteGuid>
    <testCaseLink>
-      <guid>b54822ad-bae7-4a67-877a-8902c05a64df</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Tạo 1 User mới/Kiểm tra việc tài khoản bị ban sau khi chọn Suspended account</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>5aeb787f-f793-4f01-9bf7-4f6fde40f650</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -28,11 +22,5 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Tạo 1 User mới/Điền đầy đủ thông tin bắt buộc</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>401e9653-2ffc-4e97-83bf-217b87293fc4</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Xóa tài khoản/Xóa hết tài khoản đã tạo</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ta sẽ điền mật khẩu 12345678</description>
+   <name>Điền mật khẩu yếu</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>36657f19-6f15-4204-a7b2-369db8eaa41f</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Log xuất hiện khi có các mục như sau:
+Select log reader
+Standard log
+Có giờ xuất hiện</description>
+   <name>Test chức năng xem Log của hôm nay</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5c0197b6-1db5-40ff-b482-bbdce322d831</testCaseGuid>
+</TestCaseEntity>
