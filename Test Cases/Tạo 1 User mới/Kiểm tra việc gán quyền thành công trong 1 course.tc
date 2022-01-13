@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case này gán quyền cho 1 course tên là Sample Course For Permission (đã tạo sẵn)</description>
+   <name>Kiểm tra việc gán quyền thành công trong 1 course</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>111234f7-63fe-4283-81da-7f32879f056a</testCaseGuid>
+</TestCaseEntity>

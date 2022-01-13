@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Trong test case này, sẽ check tài khoản nhập đúng (đã tạo sẵn) với mật khẩu là Asuna@22</description>
+   <name>Đăng nhập thành công</name>
+   <tag>Login</tag>
+   <comment></comment>
+   <testCaseGuid>47e8de53-d4b4-49f5-9614-127fa9629eb1</testCaseGuid>
+</TestCaseEntity>

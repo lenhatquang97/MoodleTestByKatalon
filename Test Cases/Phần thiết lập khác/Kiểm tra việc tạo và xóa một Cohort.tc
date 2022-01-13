@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Kiểm tra việc tạo và xóa một Cohort</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dbf36f0d-1552-4dd2-a34a-e07d0679562b</testCaseGuid>
+</TestCaseEntity>

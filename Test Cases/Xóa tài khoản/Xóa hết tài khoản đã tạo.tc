@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Trong test cases này, xóa hết khi không còn thùng rác nữa</description>
+   <name>Xóa hết tài khoản đã tạo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d6cbc396-8c6c-4639-b1dd-9719a9476a36</testCaseGuid>
+</TestCaseEntity>

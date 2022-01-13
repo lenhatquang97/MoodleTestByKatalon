@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Tạo course cho việc setup quyền hạn</description>
+   <name>Tạo Course tên là Sample Course For Permission</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bec9a1d2-2696-417c-9f60-c99d580a581d</testCaseGuid>
+</TestCaseEntity>

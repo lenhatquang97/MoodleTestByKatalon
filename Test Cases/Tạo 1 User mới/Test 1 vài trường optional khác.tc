@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case này sẽ thực hiện việc kiểm thử tính năng Description có hoạt động tốt hay không + điền thêm 1-2 trường</description>
+   <name>Test 1 vài trường optional khác</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1df102fd-a8f2-4cc6-b893-f78edc372ec0</testCaseGuid>
+</TestCaseEntity>
