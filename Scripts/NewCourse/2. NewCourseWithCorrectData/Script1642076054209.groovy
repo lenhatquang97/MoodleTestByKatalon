@@ -42,6 +42,9 @@ WebUI.setText(findTestObject('NewCourse/Page_SiteTesting Add a new course (1)/in
 
 WebUI.setText(findTestObject('NewCourse/Page_SiteTesting Add a new course (1)/input_Course short name_shortname'), 'test')
 
+WebUI.setText(findTestObject('Object Repository/NewCourse/Page_SiteTesting Add a new course/input_Course ID number_idnumber'), 
+    '123')
+
 WebUI.click(findTestObject('NewCourse/Page_SiteTesting Add a new course (1)/input__saveanddisplay'))
 
 WebUI.verifyElementText(findTestObject('NewCourse/Page_test Participants (1)/h1_Test Course'), 'Test Course')
