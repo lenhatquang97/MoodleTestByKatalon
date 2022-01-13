@@ -126,7 +126,7 @@
       <testCaseId>Test Cases/NewCourse/5. Duplicate ID</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7299a5a3-14d4-401e-b31e-6d9062b04f3c</guid>
+      <guid>a586b508-ccdd-4bed-a31c-d6235d6747b2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Xóa tài khoản/Xóa hết tài khoản đã tạo</testCaseId>

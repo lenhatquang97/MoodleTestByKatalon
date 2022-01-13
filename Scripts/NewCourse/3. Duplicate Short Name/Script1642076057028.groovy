@@ -46,7 +46,7 @@ WebUI.setText(findTestObject('Object Repository/NewCourse/Page_SiteTesting Add a
 WebUI.click(findTestObject('Object Repository/NewCourse/Page_SiteTesting Add a new course/input__saveanddisplay'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/NewCourse/Page_SiteTesting Add a new course/div_Short name is already used for another _823d7b'), 
-    'Short name is already used for another course (Test Course)')
+    'Short name is already used for another course (Init Course)')
 
 WebUI.closeBrowser()
 

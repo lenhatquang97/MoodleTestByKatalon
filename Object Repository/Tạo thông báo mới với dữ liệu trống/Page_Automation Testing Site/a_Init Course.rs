@@ -6,12 +6,16 @@
    <elementGuidId>fa36bb91-0c9a-4db2-b080-22214b322597</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='frontpage-available-course-list']/div/div/div/h3/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.aalink</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'http://localhost/course/view.php?id=10' and (text() = 'Init Course' or . = 'Init Course')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='frontpage-available-course-list']/div/div/div/h3/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

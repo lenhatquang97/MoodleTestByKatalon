@@ -38,7 +38,7 @@ WebUI.click(findTestObject('NewCourse/Page_SiteTesting Administration Search (1)
 
 WebUI.click(findTestObject('NewCourse/Page_SiteTesting Administration Search (1)/a_Add a new course'))
 
-WebUI.setText(findTestObject('NewCourse/Page_SiteTesting Add a new course (1)/input_Course full name_fullname'), 'Test Course')
+WebUI.setText(findTestObject('NewCourse/Page_SiteTesting Add a new course (1)/input_Course full name_fullname'), 'Init Course')
 
 WebUI.setText(findTestObject('NewCourse/Page_SiteTesting Add a new course (1)/input_Course short name_shortname'), 'test')
 
@@ -47,7 +47,7 @@ WebUI.setText(findTestObject('Object Repository/NewCourse/Page_SiteTesting Add a
 
 WebUI.click(findTestObject('NewCourse/Page_SiteTesting Add a new course (1)/input__saveanddisplay'))
 
-WebUI.verifyElementText(findTestObject('NewCourse/Page_test Participants (1)/h1_Test Course'), 'Test Course')
+WebUI.verifyTextPresent('Init Course', false)
 
 WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 

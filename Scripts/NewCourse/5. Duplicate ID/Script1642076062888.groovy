@@ -48,7 +48,7 @@ WebUI.setText(findTestObject('Object Repository/NewCourse/Page_SiteTesting Add a
 
 WebUI.click(findTestObject('Object Repository/NewCourse/Page_SiteTesting Add a new course/input_tag_test2_saveanddisplay'))
 
-WebUI.verifyTextPresent('ID number is already used for another course (Test Course)', false)
+WebUI.verifyTextPresent('ID number is already used for another course (Init Course)', false)
 
 WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 
