@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1. Add category with blank fields</name>
+   <tag>NewCategory</tag>
+   <comment></comment>
+   <testCaseGuid>f86f35e1-fa69-49f6-ac96-d2737e3d9fb8</testCaseGuid>
+</TestCaseEntity>

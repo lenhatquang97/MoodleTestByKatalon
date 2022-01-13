@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1. Create New Tag Success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cb533e9a-6187-45bf-9d9d-f7862ee229c7</testCaseGuid>
+</TestCaseEntity>
