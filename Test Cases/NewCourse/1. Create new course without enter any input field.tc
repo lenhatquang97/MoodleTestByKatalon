@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1. Create new course without enter any input field</name>
+   <tag>NewCourse</tag>
+   <comment></comment>
+   <testCaseGuid>e01b459b-e8e9-43a1-85c9-4429a627839a</testCaseGuid>
+</TestCaseEntity>
