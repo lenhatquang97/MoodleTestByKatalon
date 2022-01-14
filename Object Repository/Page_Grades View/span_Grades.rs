@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Topic 1</name>
+   <name>span_Grades</name>
    <tag></tag>
-   <elementGuidId>582a7865-08b7-4402-9bee-dbb8ddb993e0</elementGuidId>
+   <elementGuidId>98fffc79-7313-4fa4-adfc-acb02ffc09ca</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
+         <value>span.media-body.font-weight-bold</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='nav-drawer']/nav/ul/li[7]/a/div/div/span[2]</value>
+         <value>//div[@id='nav-drawer']/nav/ul/li[5]/a/div/div/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,69 +28,62 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>media-body </value>
+      <value>media-body font-weight-bold</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Topic 1</value>
+      <value>Grades</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;nav-drawer&quot;)/nav[@class=&quot;list-group&quot;]/ul[1]/li[7]/a[@class=&quot;list-group-item list-group-item-action&quot;]/div[@class=&quot;ml-0&quot;]/div[@class=&quot;media&quot;]/span[@class=&quot;media-body&quot;]</value>
+      <value>id(&quot;nav-drawer&quot;)/nav[@class=&quot;list-group&quot;]/ul[1]/li[5]/a[@class=&quot;list-group-item list-group-item-action active active_tree_node&quot;]/div[@class=&quot;ml-0&quot;]/div[@class=&quot;media&quot;]/span[@class=&quot;media-body font-weight-bold&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='nav-drawer']/nav/ul/li[7]/a/div/div/span[2]</value>
+      <value>//div[@id='nav-drawer']/nav/ul/li[5]/a/div/div/span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='General'])[1]/following::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Competencies'])[1]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Grades'])[2]/following::span[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Badges'])[1]/following::span[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Topic 2'])[1]/preceding::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='General'])[1]/preceding::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Topic 3'])[1]/preceding::span[4]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Topic 1']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Topic 1'])[1]/preceding::span[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[7]/a/div/div/span[2]</value>
+      <value>//li[5]/a/div/div/span[2]</value>
    </webElementXpaths>
 </WebElementEntity>

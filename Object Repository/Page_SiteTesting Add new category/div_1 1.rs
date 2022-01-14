@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Topic 1</name>
+   <name>div_1 1</name>
    <tag></tag>
-   <elementGuidId>582a7865-08b7-4402-9bee-dbb8ddb993e0</elementGuidId>
+   <elementGuidId>7ef3b6c9-b89b-43d6-80a7-4431af611772</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
+         <value>div</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='nav-drawer']/nav/ul/li[7]/a/div/div/span[2]</value>
+         <value>//body[@id='page-course-editcategory']/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,76 +21,62 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>contenteditable</name>
       <type>Main</type>
-      <value>media-body </value>
+      <value>true</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Topic 1</value>
+      <value>1 1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;nav-drawer&quot;)/nav[@class=&quot;list-group&quot;]/ul[1]/li[7]/a[@class=&quot;list-group-item list-group-item-action&quot;]/div[@class=&quot;ml-0&quot;]/div[@class=&quot;media&quot;]/span[@class=&quot;media-body&quot;]</value>
+      <value>id(&quot;page-course-editcategory&quot;)/div[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='nav-drawer']/nav/ul/li[7]/a/div/div/span[2]</value>
+      <value>//body[@id='page-course-editcategory']/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='General'])[1]/following::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Skip to main content'])[1]/preceding::div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Grades'])[2]/following::span[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Side panel'])[1]/preceding::div[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Topic 2'])[1]/preceding::span[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Topic 3'])[1]/preceding::span[4]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Topic 1']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='1']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[7]/a/div/div/span[2]</value>
+      <value>//div</value>
    </webElementXpaths>
 </WebElementEntity>

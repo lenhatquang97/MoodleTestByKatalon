@@ -31,9 +31,13 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Automation Testing
 
 WebUI.click(findTestObject('Object Repository/Page_Automation Testing Site Log in to the site/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Site home'))
+WebUI.click(findTestObject('Object Repository/Page_Course and category management/span_Site administration'))
 
-WebUI.click(findTestObject('Object Repository/Page_Automation Testing Site/button_Add a new course'))
+WebUI.click(findTestObject('Object Repository/Page_SiteTesting Administration Search/a_Courses'))
+
+WebUI.click(findTestObject('Object Repository/Page_SiteTesting Administration Search/a_Manage courses and categories'))
+
+WebUI.click(findTestObject('Object Repository/Page_Course and category management/a_Create new course'))
 
 WebUI.setText(findTestObject('Object Repository/Page_SiteTesting Add a new course/input_Course full name_fullname'), 'CNTN')
 
@@ -41,7 +45,7 @@ WebUI.setText(findTestObject('Object Repository/Page_SiteTesting Add a new cours
 
 WebUI.click(findTestObject('Object Repository/Page_SiteTesting Add a new course/input__saveanddisplay'))
 
-WebUI.click(findTestObject('Object Repository/Page_cntn Participants/span_Topic 1'))
+WebUI.click(findTestObject('Object Repository/Page_Grades View/span_General'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course CNTN/button_Turn editing on'))
 
@@ -50,6 +54,8 @@ WebUI.click(findTestObject('Object Repository/Page_Course CNTN/span_Add an activ
 WebUI.click(findTestObject('Object Repository/Page_Course CNTN/div_Assignment'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Editing Assignment/input_Assignment name_name'), 'assignment test')
+
+WebUI.click(findTestObject('Object Repository/Page_Editing Assignment/input_File submissions_assignsubmission_fil_19d1d4'))
 
 WebUI.click(findTestObject('Object Repository/Page_Editing Assignment/input_Online text_assignsubmission_onlinete_900d47'))
 
@@ -61,11 +67,9 @@ WebUI.click(findTestObject('Object Repository/Page_Course CNTN/div_Chat'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Editing Chat/input_Name of this chat room_name'), 'chat test')
 
-WebUI.click(findTestObject('Object Repository/Page_Editing Chat/input_Upon activity completion_submitbutton'))
+WebUI.click(findTestObject('Object Repository/Page_Editing Chat/input_Upon activity completion_submitbutton2'))
 
-WebUI.click(findTestObject('Object Repository/Page_cntn chat test/a_General'))
-
-WebUI.click(findTestObject('Object Repository/Page_Course CNTN/span_Add an activity or resource_1_2'))
+WebUI.click(findTestObject('Object Repository/Page_Course CNTN/span_Add an activity or resource_1_2_3'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course CNTN/div_Forum'))
 
