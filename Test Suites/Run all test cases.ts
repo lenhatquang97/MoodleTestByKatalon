@@ -12,6 +12,114 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>188512f6-74a1-4ff2-830c-d0967abbccef</testSuiteGuid>
    <testCaseLink>
+      <guid>1bb00365-d3b5-45a0-83ee-a3761fa308cb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student/0. Setup student env</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6f146c2f-30ee-41e5-88c4-0535f35db803</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student/1. Join class</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>332d5870-0045-4482-ab19-a807fce69f6e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student/3. Calendar/1. create calendar event</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3b222466-7c9c-4988-89e9-3958a3b56997</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student/3. Calendar/2. create and delete calendar</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e9b810ba-be29-406e-bdb5-f54fd8f8b67e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student/3. Calendar/3. create calendar empty title</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3e293772-dc42-453f-a3d2-1fe5d5e50785</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student/3. Calendar/4. create calendar with invaid date</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8f2da10a-c272-4c73-bdfa-b66628d174bc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student/4. Comment/1. Add empty comment</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5fda11f8-5db4-4a77-a46e-57f9a02cca49</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student/4. Comment/2. Add comment</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c1d3d113-ca3f-41cc-a3f6-84b2f9ec8126</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student/5. Submit/1. Mask Done</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ddf81e87-b580-4610-be43-4d19353c95ee</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student/5. Submit/2. Submit empty text</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e0699cbf-a1a2-4474-ad59-876428cb6cbb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student/5. Submit/3. Submit</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>af96c9a4-1448-44eb-81ea-e9a68a9ff32b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student/5. Submit/4. Remove submittion</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0724bcdb-da6e-4dbe-9fed-7ea70f0dc5bc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student/6. Grade/1. Give grade</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0fb127aa-52ba-426a-a27c-4c817317c960</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student/6. Grade/2. View Grade</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e5f60b6a-7bff-4ac2-b646-916cbecd8a22</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student/6. Grade/3. View Overview report</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6922c9c2-052d-4c0d-b2d9-9c402b6e9916</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student/6. Grade/4. Check graded</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e52b1c0a-c4f0-4541-9ce0-36995631b174</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student/7. Khác/1. Forum</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7a51e4a9-fac6-45a9-9f59-031a00c7a723</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student/7. Khác/2. Create forum with empty description</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>4eeaa666-4ae7-4836-9135-889bc700ec43</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -40,12 +148,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Phần thiết lập khác/Kiểm tra việc tạo và xóa một Cohort</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>987a1ef5-ff6f-44cd-aba9-ef533c162b22</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Phần thiết lập khác/Test chức năng xem Log của hôm nay</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ea5398af-ae6a-49cf-bafa-0e1169378bec</guid>
@@ -184,6 +286,24 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Role Giáo Viên/4. Tạo bài tập mới với dữ liệu đúng</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>df0a931a-227b-43bb-8dcf-1ebef0c5d6f5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Role Giáo Viên/5. Tạo bài tập mới với ngày open lớn hơn due day</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dbcfb043-0701-4e76-b433-c5bcc99d845a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Role Giáo Viên/6. Chuyển đổi mode</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>aabc1622-3fa5-4d0a-b660-110cd5c57bd7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Role Giáo Viên/7. Tạo quiz</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a586b508-ccdd-4bed-a31c-d6235d6747b2</guid>
