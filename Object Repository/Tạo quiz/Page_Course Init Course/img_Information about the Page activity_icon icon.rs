@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//img[@class = 'icon icon' and @aria-hidden = 'true' and @src = 'http://localhost/theme/image.php/boost/quiz/1641197589/icon']</value>
+         <value>//*[@class = 'icon icon' and @src = 'http://localhost/theme/image.php/boost/quiz/1641197589/icon']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -21,7 +20,7 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -35,7 +34,7 @@
       <value>icon icon</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-hidden</name>
       <type>Main</type>

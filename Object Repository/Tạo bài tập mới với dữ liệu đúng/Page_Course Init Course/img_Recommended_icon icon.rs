@@ -6,16 +6,16 @@
    <elementGuidId>5dbf972e-aa27-4ed5-a10a-11656529090c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>div.optionicon.mt-2.mb-1.icon-size-5.icon-no-margin > img.icon.icon</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[@src = 'http://localhost/theme/image.php/boost/assign/1641197589/icon']</value>
+         <value>//*[@class = 'icon icon' and @src = 'http://localhost/theme/image.php/boost/assign/1641197589/icon']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='all-4']/div/div/div/a/div/img</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>div.optionicon.mt-2.mb-1.icon-size-5.icon-no-margin > img.icon.icon</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,7 +28,7 @@
       <value>img</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
