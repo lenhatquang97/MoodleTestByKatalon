@@ -6,6 +6,14 @@
    <elementGuidId>f9287866-100e-4178-aa35-1fb6144c984a</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//a[@class = 'btn btn-primary' and (text() = '
+        Add a new topic
+            ' or . = '
+        Add a new topic
+            ')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//a[@id='yui_3_17_2_1_1642077210671_491']</value>
       </entry>
@@ -14,17 +22,17 @@
          <value>#yui_3_17_2_1_1642077210671_491</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -38,14 +46,14 @@
       <value>collapse</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>#collapseAddForm</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>

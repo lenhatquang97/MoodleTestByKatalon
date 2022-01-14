@@ -6,6 +6,10 @@
    <elementGuidId>f865dcdc-c646-4686-8334-1b7393ab3f0a</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '#' and (text() = 'Tags' or . = 'Tags')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#yui_3_17_2_1_1641560066667_96</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>//a[@id='yui_3_17_2_1_1641560066667_96']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +63,7 @@
       <value>false</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>

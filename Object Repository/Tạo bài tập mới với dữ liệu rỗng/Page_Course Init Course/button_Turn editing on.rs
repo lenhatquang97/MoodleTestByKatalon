@@ -6,6 +6,10 @@
    <elementGuidId>87dad624-9211-431f-ac80-42fb682dec8d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and (text() = 'Turn editing on' or . = 'Turn editing on')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//button[@id='single_button61e01d78671621']</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>#single_button61e01d78671621</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <value>btn btn-primary</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>

@@ -39,13 +39,13 @@ WebUI.click(findTestObject('Object Repository/Tạo quiz/Page_Course Init Course
 
 WebUI.click(findTestObject('Object Repository/Tạo quiz/Page_Course Init Course/span_Add an activity or resource'))
 
-WebUI.click(findTestObject('Object Repository/Tạo quiz/Page_Course Init Course/a_Quiz'))
+WebUI.click(findTestObject('Object Repository/Tạo quiz/Page_Course Init Course/img_Information about the Page activity_icon icon'))
+
+WebUI.navigateToUrl('http://localhost/course/modedit.php?add=quiz&type=&course=21&section=0&return=0&sr=0')
 
 WebUI.setText(findTestObject('Object Repository/Tạo quiz/Page_Editing Quiz/input_Name_name'), 'tsesst')
 
-WebUI.click(findTestObject('Object Repository/Tạo quiz/Page_Editing Quiz/input_Upon activity completion_submitbutton'))
+WebUI.click(findTestObject('Object Repository/Tạo quiz/Page_Editing Quiz/input_Upon activity completion_submitbutton2'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Tạo quiz/Page_init tsesst/h2_tsesst'), 'tsesst')
-
-WebUI.closeBrowser()
+WebUI.verifyTextPresent('tsesst', false)
 

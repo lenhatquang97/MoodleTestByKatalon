@@ -6,6 +6,10 @@
    <elementGuidId>5dbf972e-aa27-4ed5-a10a-11656529090c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@src = 'http://localhost/theme/image.php/boost/assign/1641197589/icon']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='all-4']/div/div/div/a/div/img</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>div.optionicon.mt-2.mb-1.icon-size-5.icon-no-margin > img.icon.icon</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

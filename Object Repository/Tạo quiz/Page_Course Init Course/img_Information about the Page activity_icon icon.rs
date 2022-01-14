@@ -6,32 +6,36 @@
    <elementGuidId>6e883bbf-6489-455a-bff7-d399d2e5303a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='all-4']/div/div[17]/div/a/div/img</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value></value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//img[@class = 'icon icon' and @aria-hidden = 'true' and @src = 'http://localhost/theme/image.php/boost/quiz/1641197589/icon']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='all-4']/div/div[17]/div/a/div/img</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>icon icon</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-hidden</name>
       <type>Main</type>

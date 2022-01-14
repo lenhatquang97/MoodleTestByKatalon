@@ -1,79 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img_Recommended_icon icon</name>
+   <name>input_Upon activity completion_submitbutton2</name>
    <tag></tag>
-   <elementGuidId>8a91bc8f-afcd-4069-a461-6b24212ba834</elementGuidId>
+   <elementGuidId>77a4e2af-505f-4512-92d0-75ae62330b90</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.optionicon.mt-2.mb-1.icon-size-5.icon-no-margin > img.icon.icon</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//img[@class = 'icon icon' and @aria-hidden = 'true' and @src = 'http://localhost/theme/image.php/boost/assign/1641197589/icon']</value>
+         <value>#id_submitbutton2</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='all-4']/div/div/div/a/div/img</value>
+         <value>//input[@id='id_submitbutton2']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>img</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>icon icon</value>
+      <value>btn
+                        btn-primary
+                        
+                    
+                    </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-hidden</name>
+      <name>name</name>
       <type>Main</type>
-      <value>true</value>
+      <value>submitbutton2</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>src</name>
+      <name>id</name>
       <type>Main</type>
-      <value>http://localhost/theme/image.php/boost/assign/1641197589/icon</value>
+      <value>id_submitbutton2</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Save and return to course</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;all-4&quot;)/div[@class=&quot;optionscontainer d-flex flex-wrap p-1 mw-100 position-relative&quot;]/div[@class=&quot;option border-0 card m-1 bg-white&quot;]/div[@class=&quot;optioninfo card-body d-flex flex-column text-center p-1&quot;]/a[@class=&quot;d-flex flex-column justify-content-between flex-fill&quot;]/div[@class=&quot;optionicon mt-2 mb-1 icon-size-5 icon-no-margin&quot;]/img[@class=&quot;icon icon&quot;]</value>
+      <value>id(&quot;id_submitbutton2&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='all-4']/div/div/div/a/div/img</value>
+      <value>//input[@id='id_submitbutton2']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:img</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(//img[contains(@src,'http://localhost/theme/image.php/boost/assign/1641197589/icon')])[3]</value>
+      <value>//span[@id='yui_3_17_2_1_1642096705637_2459']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a/div/img</value>
+      <value>//div[3]/div[2]/fieldset/div/div/span/input</value>
    </webElementXpaths>
 </WebElementEntity>

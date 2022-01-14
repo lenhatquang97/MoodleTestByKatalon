@@ -6,6 +6,10 @@
    <elementGuidId>a2a70486-4fee-409b-94ca-ba511ea96413</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '1 1' or . = '1 1')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>//body[@id='page-course-editcategory']/div</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -6,6 +6,10 @@
    <elementGuidId>f63194c3-13f1-46d8-95bb-549df5cc58e6</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//span[@class = 'section-modchooser-text' and (text() = 'Add an activity or resource' or . = 'Add an activity or resource')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//span[@id='yui_3_17_2_1_1642077975816_663']</value>
       </entry>
@@ -14,24 +18,24 @@
          <value>#yui_3_17_2_1_1642077975816_663</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>section-modchooser-text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>

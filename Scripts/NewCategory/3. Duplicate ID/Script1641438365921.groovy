@@ -37,8 +37,6 @@ WebUI.click(findTestObject('Object Repository/NewCategory/Page_SiteTesting Admin
 
 WebUI.click(findTestObject('Object Repository/NewCategory/Page_SiteTesting Administration Search/a_Add a category'))
 
-WebUI.setText(findTestObject('Object Repository/NewCategory/Page_SiteTesting Add new category/div_1 1'), '1 <p>1</p>')
-
 WebUI.setText(findTestObject('Object Repository/NewCategory/Page_SiteTesting Add new category/input_Category name_name'), 
     'test2')
 

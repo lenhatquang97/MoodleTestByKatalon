@@ -6,6 +6,10 @@
    <elementGuidId>1ce68d1a-40d4-448d-bba3-50c451eb3c66</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'http://localhost/tag/manage.php?tc=1' and (text() = 'Manage standard tags' or . = 'Manage standard tags')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#yui_3_17_2_1_1641560066667_1045</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>//a[@id='yui_3_17_2_1_1641560066667_1045']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +35,7 @@
       <value>http://localhost/tag/manage.php?tc=1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>

@@ -6,6 +6,10 @@
    <elementGuidId>fff24d8d-02f9-4c5f-b633-a9b205c139b4</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Announcements' or . = 'Announcements')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//li[@id='module-9']/div/div/div[2]/div/a/span</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>span.instancename</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +39,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Announcements Forum</value>
+      <value>Announcements</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

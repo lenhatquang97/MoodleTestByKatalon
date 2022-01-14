@@ -41,8 +41,5 @@ WebUI.click(findTestObject('Object Repository/Tạo thông báo mới với dữ
 
 WebUI.click(findTestObject('Object Repository/Tạo thông báo mới với dữ liệu trống/Page_Announcements/input_Message_submitbutton'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Tạo thông báo mới với dữ liệu trống/Page_Announcements/div_- Required'), 
-    '- Required')
-
-WebUI.closeBrowser()
+WebUI.verifyTextPresent('- Required', false)
 
