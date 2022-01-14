@@ -6,18 +6,22 @@
    <elementGuidId>c8ab73ae-ba5c-439e-b9d6-d1e6938ee05d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='single_button61d3caa59c59a18']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#single_button61d3caa59c59a18</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'submit' and @class = 'btn btn-secondary' and (text() = 'Remove submission' or . = 'Remove submission')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='single_button61d3caa59c59a18']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -31,14 +35,14 @@
       <value>submit</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>btn btn-secondary</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>

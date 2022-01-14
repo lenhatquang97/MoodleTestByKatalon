@@ -6,18 +6,22 @@
    <elementGuidId>206a33de-7638-4f6e-8809-bca5ce4de212</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='yui_3_17_2_1_1641269282999_750']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#yui_3_17_2_1_1641269282999_750</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '#' and @class = 'nav-link' and @aria-selected = 'false' and (text() = ' Recent files' or . = ' Recent files')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='yui_3_17_2_1_1641269282999_750']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -31,7 +35,7 @@
       <value>#</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -45,14 +49,14 @@
       <value>-1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>

@@ -25,8 +25,6 @@ WebUI.navigateToUrl('http://localhost/course/view.php?id=2')
 
 WebUI.click(findTestObject('Object Repository/Page_Course CNTN/span_Forum'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Forum/div_1 1'), '1 <p>1</p>')
-
 WebUI.click(findTestObject('Object Repository/Page_Forum/a_Add a new discussion topic'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Forum/input_Subject_subject'), 'test')
@@ -42,8 +40,6 @@ WebUI.click(findTestObject('Object Repository/Page_Forum/a_test'))
 WebUI.click(findTestObject('Object Repository/Page_CNTN test/a_Delete'))
 
 WebUI.click(findTestObject('Object Repository/Page_CNTN/button_Continue'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Forum/div_1 1'), '1 <p>1</p>')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Forum/div_(There are no discussion topics yet in _507a86'), 
     '(There are no discussion topics yet in this forum)')

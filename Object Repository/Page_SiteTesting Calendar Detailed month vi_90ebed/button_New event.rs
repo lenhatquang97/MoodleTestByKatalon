@@ -6,39 +6,47 @@
    <elementGuidId>bd62ffcd-b7df-4e74-9220-c2a2fd125a4c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='calendar-month-61d3b3ad3596261d3b3acea65a15']/div/button</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.btn.btn-secondary.float-sm-right.float-right</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@class = 'btn btn-secondary float-sm-right float-right' and @data-context-id = '2' and @data-action = 'new-event-button' and (text() = '
+            New event
+        ' or . = '
+            New event
+        ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='calendar-month-61d3b3ad3596261d3b3acea65a15']/div/button</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>btn btn-secondary float-sm-right float-right</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-context-id</name>
       <type>Main</type>
       <value>2</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-action</name>
       <type>Main</type>

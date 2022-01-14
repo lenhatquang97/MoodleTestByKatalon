@@ -6,12 +6,23 @@
    <elementGuidId>79d6ca1b-caf1-4076-8a18-2945f2f160ed</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='fgroup_id_durationgroup']/div[2]/fieldset/div/label[2]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//*[(text() = '
+
+
+    Until
+' or . = '
+
+
+    Until
+')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='fgroup_id_durationgroup']/div[2]/fieldset/div/label[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

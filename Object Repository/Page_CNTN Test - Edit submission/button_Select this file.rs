@@ -6,32 +6,36 @@
    <elementGuidId>64f5a2be-f6a4-4f5b-9591-d32b2cbe8ad1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='yui_3_17_2_1_1641269282999_855']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#yui_3_17_2_1_1641269282999_855</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@class = 'fp-select-confirm btn-primary btn' and (text() = 'Select this file' or . = 'Select this file')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='yui_3_17_2_1_1641269282999_855']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>fp-select-confirm btn-primary btn</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>

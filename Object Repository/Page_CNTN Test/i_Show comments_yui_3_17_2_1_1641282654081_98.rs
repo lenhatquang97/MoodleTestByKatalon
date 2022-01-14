@@ -6,25 +6,29 @@
    <elementGuidId>6428b481-12b5-4357-aff8-5aadd4211f53</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//i[@id='yui_3_17_2_1_1641282654081_98']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#yui_3_17_2_1_1641282654081_98</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//i[@class = 'icon fa fa-caret-right fa-fw ' and @title = 'Comments' and @aria-label = 'Comments']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//i[@id='yui_3_17_2_1_1641282654081_98']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -38,14 +42,14 @@
       <value>Comments</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-label</name>
       <type>Main</type>
       <value>Comments</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>

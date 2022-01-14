@@ -29,7 +29,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_Course CNTN/butto
 
 WebUI.click(findTestObject('Object Repository/Page_Course CNTN/button_Done'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Course CNTN/button_Mark as done_1'), 'Mark as done')
+WebUI.verifyTextPresent('Mark as done', false)
 
 WebUI.closeBrowser()
 
