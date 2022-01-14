@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>create forum with empty description</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>7761e8ab-bde7-4e0f-a885-030f4a71337f</testCaseGuid>
-</TestCaseEntity>

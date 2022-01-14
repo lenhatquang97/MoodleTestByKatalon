@@ -6,12 +6,12 @@
    <elementGuidId>b90b00e8-f0b0-4d8f-aa6b-f35e4f37afba</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//body[@id='page-mod-forum-view']/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[@id='page-mod-forum-view']/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

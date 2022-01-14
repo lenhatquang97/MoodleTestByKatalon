@@ -6,12 +6,12 @@
    <elementGuidId>9cf1cb5e-4adc-4ef3-b19b-9e4a1734502c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='action_link61d4068f69b5516']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#action_link61d4068f69b5516</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='action_link61d4068f69b5516']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

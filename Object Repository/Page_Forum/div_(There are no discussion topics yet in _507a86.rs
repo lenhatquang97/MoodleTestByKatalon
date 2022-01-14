@@ -6,12 +6,12 @@
    <elementGuidId>e1e1ee49-cbc2-4d1b-9378-ab5226901adb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='discussion-list-61d407d0d30b661d407d022f7222']/div[3]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.forumnodiscuss</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='discussion-list-61d407d0d30b661d407d022f7222']/div[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
