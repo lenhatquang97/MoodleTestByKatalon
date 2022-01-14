@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>2. Create new tag with blank field</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c3c4e09a-cf66-4c28-974b-25c0bb7b96ab</testCaseGuid>
+</TestCaseEntity>

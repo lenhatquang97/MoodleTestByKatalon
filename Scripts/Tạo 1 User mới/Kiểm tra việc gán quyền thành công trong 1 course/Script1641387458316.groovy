@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Tạo 1 User mới/Điền đầy đủ thông tin bắt buộc'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Kiểm tra thẻ Site Administration/Đăng nhập thành công'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/AddToCourseObj/Page_Dashboard/span_Site home'))
 
@@ -36,6 +36,5 @@ WebUI.click(findTestObject('Object Repository/AddToCourseObj/Page_SampleC Partic
 
 WebUI.click(findTestObject('Object Repository/AddToCourseObj/Page_SampleC Participants/button_Enrol users'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/AddToCourseObj/Page_SampleC Participants/td_testinggmail.com'), 
-    'testing@gmail.com')
+WebUI.verifyTextPresent('testing@gmail.com', false)
 

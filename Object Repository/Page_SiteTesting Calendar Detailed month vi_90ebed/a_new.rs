@@ -6,32 +6,52 @@
    <elementGuidId>1773e7f2-69f4-4a46-b45a-3624f2d71a03</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='yui_3_17_2_1_1641264045231_2005']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#yui_3_17_2_1_1641264045231_2005</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@data-action = 'view-event' and @data-event-id = '13' and @href = 'http://localhost/?redirect=0' and @title = 'new' and (text() = '
+                                                    
+                                                         
+                                                    
+                                                    
+                                                    
+                                                        
+                                                    new
+                                                ' or . = '
+                                                    
+                                                         
+                                                    
+                                                    
+                                                    
+                                                        
+                                                    new
+                                                ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='yui_3_17_2_1_1641264045231_2005']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-action</name>
       <type>Main</type>
       <value>view-event</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-event-id</name>
       <type>Main</type>
@@ -52,7 +72,7 @@
       <value>new</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
