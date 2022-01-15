@@ -1,0 +1,1677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Run all test cases" time="323.459" tests="20" failures="0" errors="0">
+   <testsuite name="Run all test cases" tests="20" failures="0" errors="0" time="323.459" skipped="0" timestamp="2022-01-15 07:11:56" hostname="ASUS - LAPTOP-O4I5TINJ" id="Test Suites/Run all test cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\MoodleTestByKatalon\\Reports\\20220115_071141\\Run all test cases\\20220115_071141"/>
+         <property name="logFiles" value="E:\\MoodleTestByKatalon\\Reports\\20220115_071141\\Run all test cases\\20220115_071141\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - LAPTOP-O4I5TINJ"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Edge Chromium 97"/>
+         <property name="hostAddress" value="192.168.11.1"/>
+         <property name="sessionId" value="0004570336b92c6e0b8f9ed0045136a1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập dưới quyền Ẩn danh" time="10.781" classname="Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập dưới quyền Ẩn danh" status="PASSED">
+         <system-out><![CDATA[2022-01-15 07:11:56 - [TEST_CASE][PASSED] - Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập dưới quyền Ẩn danh: Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập dưới quyền Ẩn danh
+
+2022-01-15 07:11:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 07:11:57 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2022-01-15 07:11:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 07:12:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 07:12:00 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:12:01 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:12:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AnonymousSignIn/Page_Automation Testing Site/a_Log in")): Object: 'Object Repository/AnonymousSignIn/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:12:02 - [MESSAGE][PASSED] - Object: 'Object Repository/AnonymousSignIn/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:12:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AnonymousSignIn/Page_Automation Testing Site Log in to the site/button_Log in as a guest"), 0): Object 'Object Repository/AnonymousSignIn/Page_Automation Testing Site Log in to the site/button_Log in as a guest' is present
+
+2022-01-15 07:12:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-01-15 07:12:03 - [MESSAGE][PASSED] - Object 'Object Repository/AnonymousSignIn/Page_Automation Testing Site Log in to the site/button_Log in as a guest' is present
+
+2022-01-15 07:12:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AnonymousSignIn/Page_Automation Testing Site Log in to the site/button_Log in as a guest")): Object: 'Object Repository/AnonymousSignIn/Page_Automation Testing Site Log in to the site/button_Log in as a guest' is clicked on
+
+2022-01-15 07:12:03 - [MESSAGE][PASSED] - Object: 'Object Repository/AnonymousSignIn/Page_Automation Testing Site Log in to the site/button_Log in as a guest' is clicked on
+
+2022-01-15 07:12:03 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:12:04 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:12:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AnonymousSignIn/Page_Automation Testing Site/span_Calendar"), 0): Object 'Object Repository/AnonymousSignIn/Page_Automation Testing Site/span_Calendar' is present
+
+2022-01-15 07:12:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-01-15 07:12:04 - [MESSAGE][PASSED] - Object 'Object Repository/AnonymousSignIn/Page_Automation Testing Site/span_Calendar' is present
+
+2022-01-15 07:12:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AnonymousSignIn/Page_Automation Testing Site/span_Calendar")): Object: 'Object Repository/AnonymousSignIn/Page_Automation Testing Site/span_Calendar' is clicked on
+
+2022-01-15 07:12:05 - [MESSAGE][PASSED] - Object: 'Object Repository/AnonymousSignIn/Page_Automation Testing Site/span_Calendar' is clicked on
+
+2022-01-15 07:12:05 - [TEST_STEP][PASSED] - verifyTextPresent("You are currently using guest access (Log in)", false): Text 'You are currently using guest access (Log in)' is present on page 
+
+2022-01-15 07:12:07 - [MESSAGE][PASSED] - Text 'You are currently using guest access (Log in)' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công" time="7.84" classname="Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công" status="PASSED">
+         <system-out><![CDATA[2022-01-15 07:12:07 - [TEST_CASE][PASSED] - Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công: Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công
+
+2022-01-15 07:12:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 07:12:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-15 07:12:08 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2022-01-15 07:12:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 07:12:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 07:12:09 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:12:10 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:12:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site/a_Log in")): Object: 'Object Repository/LoginObject/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:12:10 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:12:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:12:11 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:12:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password"), "cnpXG5HhkrZpEXzNIGBMZQ=="): Text ****** has been set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:12:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:12:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in")): Object: 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:12:13 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:12:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/LoginObject/Page_Dashboard/span_Site administration"), "Site administration"): Actual text and expected text of test object 'Object Repository/LoginObject/Page_Dashboard/span_Site administration' are matched.
+
+2022-01-15 07:12:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginObject/Page_Dashboard/span_Site administration' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thất bại" time="6.616" classname="Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thất bại" status="PASSED">
+         <system-out><![CDATA[2022-01-15 07:12:15 - [TEST_CASE][PASSED] - Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thất bại: Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thất bại
+
+2022-01-15 07:12:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 07:12:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-15 07:12:16 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2022-01-15 07:12:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 07:12:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 07:12:17 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:12:17 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:12:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginFailedObject/Page_Automation Testing Site/a_Log in")): Object: 'Object Repository/LoginFailedObject/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:12:18 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginFailedObject/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:12:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginFailedObject/Page_Automation Testing Site Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/LoginFailedObject/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:12:19 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/LoginFailedObject/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:12:19 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginFailedObject/Page_Automation Testing Site Log in to the site/input_Password_password"), "RAIVpflpDOg="): Text ****** has been set on object 'Object Repository/LoginFailedObject/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:12:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginFailedObject/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:12:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginFailedObject/Page_Automation Testing Site Log in to the site/button_Log in")): Object: 'Object Repository/LoginFailedObject/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:12:20 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginFailedObject/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:12:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/LoginFailedObject/Page_Automation Testing Site Log in to the site/div_Invalid login, please try again"), 0): Object 'Object Repository/LoginFailedObject/Page_Automation Testing Site Log in to the site/div_Invalid login, please try again' is present
+
+2022-01-15 07:12:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-01-15 07:12:20 - [MESSAGE][PASSED] - Object 'Object Repository/LoginFailedObject/Page_Automation Testing Site Log in to the site/div_Invalid login, please try again' is present
+
+2022-01-15 07:12:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 07:12:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Phần thiết lập khác/Tạo Course tên là Sample Course For Permission" time="15.451" classname="Test Cases/Phần thiết lập khác/Tạo Course tên là Sample Course For Permission" status="PASSED">
+         <system-out><![CDATA[2022-01-15 07:12:21 - [TEST_CASE][PASSED] - Test Cases/Phần thiết lập khác/Tạo Course tên là Sample Course For Permission: Test Cases/Phần thiết lập khác/Tạo Course tên là Sample Course For Permission
+
+2022-01-15 07:12:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Kiểm tra thẻ Site Administration/Đăng nhập thành công"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công' successfully
+
+2022-01-15 07:12:21 - [TEST_CASE][PASSED] - Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công: Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công
+
+2022-01-15 07:12:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 07:12:21 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2022-01-15 07:12:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 07:12:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 07:12:23 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:12:23 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:12:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site/a_Log in")): Object: 'Object Repository/LoginObject/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:12:24 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:12:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:12:25 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:12:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password"), "cnpXG5HhkrZpEXzNIGBMZQ=="): Text ****** has been set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:12:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:12:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in")): Object: 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:12:26 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:12:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/LoginObject/Page_Dashboard/span_Site administration"), "Site administration"): Actual text and expected text of test object 'Object Repository/LoginObject/Page_Dashboard/span_Site administration' are matched.
+
+2022-01-15 07:12:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginObject/Page_Dashboard/span_Site administration' are matched.
+
+2022-01-15 07:12:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công' successfully
+
+2022-01-15 07:12:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddSampleCourse/Page_Dashboard/span_Site home")): Object: 'Object Repository/AddSampleCourse/Page_Dashboard/span_Site home' is clicked on
+
+2022-01-15 07:12:29 - [MESSAGE][PASSED] - Object: 'Object Repository/AddSampleCourse/Page_Dashboard/span_Site home' is clicked on
+
+2022-01-15 07:12:29 - [TEST_STEP][PASSED] - if (verifyTextPresent("Sample Course For Permission", false, OPTIONAL) == true): Text 'Sample Course For Permission' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Sample Course For Permission' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1707)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at Tạo Course tên là Sample Course For Permission.run(Tạo Course tên là Sample Course For Permission:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642205501771.run(TempTestSuite1642205501771.groovy:36)
+)
+
+2022-01-15 07:12:29 - [MESSAGE][WARNING] - Text 'Sample Course For Permission' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Sample Course For Permission' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1707)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at Tạo Course tên là Sample Course For Permission.run(Tạo Course tên là Sample Course For Permission:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642205501771.run(TempTestSuite1642205501771.groovy:36)
+)
+
+2022-01-15 07:12:29 - [TEST_STEP][PASSED] - else: Text 'Sample Course For Permission' is present on page 
+
+2022-01-15 07:12:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddSampleCourse/Page_Automation Testing Site/button_Add a new course")): Object: 'Object Repository/AddSampleCourse/Page_Automation Testing Site/button_Add a new course' is clicked on
+
+2022-01-15 07:12:32 - [MESSAGE][PASSED] - Object: 'Object Repository/AddSampleCourse/Page_Automation Testing Site/button_Add a new course' is clicked on
+
+2022-01-15 07:12:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AddSampleCourse/Page_SiteTesting Add a new course/input_Course full name_fullname"), "Sample Course For Permission"): Text 'Sample Course For Permission' is set on object 'Object Repository/AddSampleCourse/Page_SiteTesting Add a new course/input_Course full name_fullname'
+
+2022-01-15 07:12:34 - [MESSAGE][PASSED] - Text 'Sample Course For Permission' is set on object 'Object Repository/AddSampleCourse/Page_SiteTesting Add a new course/input_Course full name_fullname'
+
+2022-01-15 07:12:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AddSampleCourse/Page_SiteTesting Add a new course/input_Course short name_shortname"), "SampleC"): Text 'SampleC' is set on object 'Object Repository/AddSampleCourse/Page_SiteTesting Add a new course/input_Course short name_shortname'
+
+2022-01-15 07:12:35 - [MESSAGE][PASSED] - Text 'SampleC' is set on object 'Object Repository/AddSampleCourse/Page_SiteTesting Add a new course/input_Course short name_shortname'
+
+2022-01-15 07:12:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddSampleCourse/Page_SiteTesting Add a new course/input__saveandreturn")): Object: 'Object Repository/AddSampleCourse/Page_SiteTesting Add a new course/input__saveandreturn' is clicked on
+
+2022-01-15 07:12:36 - [MESSAGE][PASSED] - Object: 'Object Repository/AddSampleCourse/Page_SiteTesting Add a new course/input__saveandreturn' is clicked on
+
+2022-01-15 07:12:36 - [TEST_STEP][PASSED] - verifyTextPresent("Sample Course For Permission", false): Text 'Sample Course For Permission' is present on page 
+
+2022-01-15 07:12:37 - [MESSAGE][PASSED] - Text 'Sample Course For Permission' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Phần thiết lập khác/Kiểm tra sự hiện diện của tính năng tin nhắn" time="10.307" classname="Test Cases/Phần thiết lập khác/Kiểm tra sự hiện diện của tính năng tin nhắn" status="PASSED">
+         <system-out><![CDATA[2022-01-15 07:12:37 - [TEST_CASE][PASSED] - Test Cases/Phần thiết lập khác/Kiểm tra sự hiện diện của tính năng tin nhắn: Test Cases/Phần thiết lập khác/Kiểm tra sự hiện diện của tính năng tin nhắn
+
+2022-01-15 07:12:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Kiểm tra thẻ Site Administration/Đăng nhập thành công"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công' successfully
+
+2022-01-15 07:12:37 - [TEST_CASE][PASSED] - Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công: Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công
+
+2022-01-15 07:12:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 07:12:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-15 07:12:38 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2022-01-15 07:12:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 07:12:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 07:12:39 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:12:40 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:12:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site/a_Log in")): Object: 'Object Repository/LoginObject/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:12:40 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:12:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:12:41 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:12:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password"), "cnpXG5HhkrZpEXzNIGBMZQ=="): Text ****** has been set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:12:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:12:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in")): Object: 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:12:43 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:12:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/LoginObject/Page_Dashboard/span_Site administration"), "Site administration"): Actual text and expected text of test object 'Object Repository/LoginObject/Page_Dashboard/span_Site administration' are matched.
+
+2022-01-15 07:12:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginObject/Page_Dashboard/span_Site administration' are matched.
+
+2022-01-15 07:12:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công' successfully
+
+2022-01-15 07:12:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CheckMessageVisible/Page_Dashboard/i_See all_icon fa fa-comment fa-fw")): Object: 'Object Repository/CheckMessageVisible/Page_Dashboard/i_See all_icon fa fa-comment fa-fw' is clicked on
+
+2022-01-15 07:12:44 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckMessageVisible/Page_Dashboard/i_See all_icon fa fa-comment fa-fw' is clicked on
+
+2022-01-15 07:12:44 - [TEST_STEP][PASSED] - verifyTextPresent("Contacts", false): Text 'Contacts' is present on page 
+
+2022-01-15 07:12:46 - [MESSAGE][PASSED] - Text 'Contacts' is present on page 
+
+2022-01-15 07:12:46 - [TEST_STEP][PASSED] - verifyTextPresent("Group", false): Text 'Group' is present on page 
+
+2022-01-15 07:12:46 - [MESSAGE][PASSED] - Text 'Group' is present on page 
+
+2022-01-15 07:12:46 - [TEST_STEP][PASSED] - verifyTextPresent("Private", false): Text 'Private' is present on page 
+
+2022-01-15 07:12:47 - [MESSAGE][PASSED] - Text 'Private' is present on page 
+
+2022-01-15 07:12:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CheckMessageVisible/Page_Dashboard/i_See all_icon fa fa-comment fa-fw")): Object: 'Object Repository/CheckMessageVisible/Page_Dashboard/i_See all_icon fa fa-comment fa-fw' is clicked on
+
+2022-01-15 07:12:47 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckMessageVisible/Page_Dashboard/i_See all_icon fa fa-comment fa-fw' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Phần thiết lập khác/Kiểm tra việc tạo và xóa một Cohort" time="17.254" classname="Test Cases/Phần thiết lập khác/Kiểm tra việc tạo và xóa một Cohort" status="PASSED">
+         <system-out><![CDATA[2022-01-15 07:12:47 - [TEST_CASE][PASSED] - Test Cases/Phần thiết lập khác/Kiểm tra việc tạo và xóa một Cohort: Test Cases/Phần thiết lập khác/Kiểm tra việc tạo và xóa một Cohort
+
+2022-01-15 07:12:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Kiểm tra thẻ Site Administration/Đăng nhập thành công"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công' successfully
+
+2022-01-15 07:12:47 - [TEST_CASE][PASSED] - Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công: Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công
+
+2022-01-15 07:12:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 07:12:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-15 07:12:48 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2022-01-15 07:12:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 07:12:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 07:12:50 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:12:50 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:12:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site/a_Log in")): Object: 'Object Repository/LoginObject/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:12:51 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:12:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:12:52 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:12:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password"), "cnpXG5HhkrZpEXzNIGBMZQ=="): Text ****** has been set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:12:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:12:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in")): Object: 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:12:53 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:12:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/LoginObject/Page_Dashboard/span_Site administration"), "Site administration"): Actual text and expected text of test object 'Object Repository/LoginObject/Page_Dashboard/span_Site administration' are matched.
+
+2022-01-15 07:12:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginObject/Page_Dashboard/span_Site administration' are matched.
+
+2022-01-15 07:12:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công' successfully
+
+2022-01-15 07:12:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddANewUserObject/Page_Dashboard/span_Site administration")): Object: 'Object Repository/AddANewUserObject/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-15 07:12:55 - [MESSAGE][PASSED] - Object: 'Object Repository/AddANewUserObject/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-15 07:12:55 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/admin/search.php"): Navigate to 'http://localhost/admin/search.php' successfully
+
+2022-01-15 07:12:56 - [MESSAGE][PASSED] - Navigate to 'http://localhost/admin/search.php' successfully
+
+2022-01-15 07:12:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddCohort/Page_SiteTesting Administration Search/a_Users")): Object: 'Object Repository/AddCohort/Page_SiteTesting Administration Search/a_Users' is clicked on
+
+2022-01-15 07:12:56 - [MESSAGE][PASSED] - Object: 'Object Repository/AddCohort/Page_SiteTesting Administration Search/a_Users' is clicked on
+
+2022-01-15 07:12:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddCohort/Page_SiteTesting Administration Search/a_Cohorts")): Object: 'Object Repository/AddCohort/Page_SiteTesting Administration Search/a_Cohorts' is clicked on
+
+2022-01-15 07:12:57 - [MESSAGE][PASSED] - Object: 'Object Repository/AddCohort/Page_SiteTesting Administration Search/a_Cohorts' is clicked on
+
+2022-01-15 07:12:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddCohort/Page_SiteTesting Administration Users Accou_c8a473/a_Add new cohort")): Object: 'Object Repository/AddCohort/Page_SiteTesting Administration Users Accou_c8a473/a_Add new cohort' is clicked on
+
+2022-01-15 07:12:58 - [MESSAGE][PASSED] - Object: 'Object Repository/AddCohort/Page_SiteTesting Administration Users Accou_c8a473/a_Add new cohort' is clicked on
+
+2022-01-15 07:12:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AddCohort/Page_Add new cohort/input_Name_name"), "Cohort1"): Text 'Cohort1' is set on object 'Object Repository/AddCohort/Page_Add new cohort/input_Name_name'
+
+2022-01-15 07:13:00 - [MESSAGE][PASSED] - Text 'Cohort1' is set on object 'Object Repository/AddCohort/Page_Add new cohort/input_Name_name'
+
+2022-01-15 07:13:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddCohort/Page_Add new cohort/input_Description_submitbutton")): Object: 'Object Repository/AddCohort/Page_Add new cohort/input_Description_submitbutton' is clicked on
+
+2022-01-15 07:13:01 - [MESSAGE][PASSED] - Object: 'Object Repository/AddCohort/Page_Add new cohort/input_Description_submitbutton' is clicked on
+
+2022-01-15 07:13:01 - [TEST_STEP][PASSED] - verifyTextPresent("Cohort1", false): Text 'Cohort1' is present on page 
+
+2022-01-15 07:13:02 - [MESSAGE][PASSED] - Text 'Cohort1' is present on page 
+
+2022-01-15 07:13:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddCohort/Page_SiteTesting Administration Users Accou_c8a473/i_Created manually_icon fa fa-trash fa-fw")): Object: 'Object Repository/AddCohort/Page_SiteTesting Administration Users Accou_c8a473/i_Created manually_icon fa fa-trash fa-fw' is clicked on
+
+2022-01-15 07:13:02 - [MESSAGE][PASSED] - Object: 'Object Repository/AddCohort/Page_SiteTesting Administration Users Accou_c8a473/i_Created manually_icon fa fa-trash fa-fw' is clicked on
+
+2022-01-15 07:13:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/AddCohort/Page_Delete cohort/p_Do you really want to delete cohort Cohort1"), "Do you really want to delete cohort 'Cohort1'?"): Actual text and expected text of test object 'Object Repository/AddCohort/Page_Delete cohort/p_Do you really want to delete cohort Cohort1' are matched.
+
+2022-01-15 07:13:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AddCohort/Page_Delete cohort/p_Do you really want to delete cohort Cohort1' are matched.
+
+2022-01-15 07:13:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddCohort/Page_Delete cohort/button_Continue")): Object: 'Object Repository/AddCohort/Page_Delete cohort/button_Continue' is clicked on
+
+2022-01-15 07:13:04 - [MESSAGE][PASSED] - Object: 'Object Repository/AddCohort/Page_Delete cohort/button_Continue' is clicked on
+
+2022-01-15 07:13:04 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/cohort/index.php?page=0&contextid=1"): Navigate to 'http://localhost/cohort/index.php?page=0&contextid=1' successfully
+
+2022-01-15 07:13:04 - [MESSAGE][PASSED] - Navigate to 'http://localhost/cohort/index.php?page=0&contextid=1' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tạo 1 User mới/Điền sai định dạng email" time="18.263" classname="Test Cases/Tạo 1 User mới/Điền sai định dạng email" status="PASSED">
+         <system-out><![CDATA[2022-01-15 07:13:04 - [TEST_CASE][PASSED] - Test Cases/Tạo 1 User mới/Điền sai định dạng email: Test Cases/Tạo 1 User mới/Điền sai định dạng email
+
+2022-01-15 07:13:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Kiểm tra thẻ Site Administration/Đăng nhập thành công"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công' successfully
+
+2022-01-15 07:13:05 - [TEST_CASE][PASSED] - Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công: Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công
+
+2022-01-15 07:13:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 07:13:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-15 07:13:05 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2022-01-15 07:13:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 07:13:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 07:13:07 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:13:07 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:13:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site/a_Log in")): Object: 'Object Repository/LoginObject/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:13:08 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:13:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:13:09 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:13:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password"), "cnpXG5HhkrZpEXzNIGBMZQ=="): Text ****** has been set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:13:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:13:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in")): Object: 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:13:10 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:13:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/LoginObject/Page_Dashboard/span_Site administration"), "Site administration"): Actual text and expected text of test object 'Object Repository/LoginObject/Page_Dashboard/span_Site administration' are matched.
+
+2022-01-15 07:13:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginObject/Page_Dashboard/span_Site administration' are matched.
+
+2022-01-15 07:13:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công' successfully
+
+2022-01-15 07:13:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddANewUserObject/Page_Dashboard/span_Site administration")): Object: 'Object Repository/AddANewUserObject/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-15 07:13:12 - [MESSAGE][PASSED] - Object: 'Object Repository/AddANewUserObject/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-15 07:13:12 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/admin/search.php"): Navigate to 'http://localhost/admin/search.php' successfully
+
+2022-01-15 07:13:13 - [MESSAGE][PASSED] - Navigate to 'http://localhost/admin/search.php' successfully
+
+2022-01-15 07:13:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Users")): Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Users' is clicked on
+
+2022-01-15 07:13:13 - [MESSAGE][PASSED] - Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Users' is clicked on
+
+2022-01-15 07:13:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Add a new user")): Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Add a new user' is clicked on
+
+2022-01-15 07:13:15 - [MESSAGE][PASSED] - Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Add a new user' is clicked on
+
+2022-01-15 07:13:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Username_username"), "testing_wrong_email"): Text 'testing_wrong_email' is set on object 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Username_username'
+
+2022-01-15 07:13:16 - [MESSAGE][PASSED] - Text 'testing_wrong_email' is set on object 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Username_username'
+
+2022-01-15 07:13:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/em_Click to enter text")): Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/em_Click to enter text' is clicked on
+
+2022-01-15 07:13:17 - [MESSAGE][PASSED] - Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/em_Click to enter text' is clicked on
+
+2022-01-15 07:13:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_New password_newpassword"), "cnpXG5HhkrZpEXzNIGBMZQ=="): Text ****** has been set on object 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_New password_newpassword'
+
+2022-01-15 07:13:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_New password_newpassword'
+
+2022-01-15 07:13:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_First name_firstname"), "Quang"): Text 'Quang' is set on object 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_First name_firstname'
+
+2022-01-15 07:13:18 - [MESSAGE][PASSED] - Text 'Quang' is set on object 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_First name_firstname'
+
+2022-01-15 07:13:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Surname_lastname"), "Le2"): Text 'Le2' is set on object 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Surname_lastname'
+
+2022-01-15 07:13:19 - [MESSAGE][PASSED] - Text 'Le2' is set on object 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Surname_lastname'
+
+2022-01-15 07:13:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Email address_email"), "testing_wrong_email"): Text 'testing_wrong_email' is set on object 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Email address_email'
+
+2022-01-15 07:13:20 - [MESSAGE][PASSED] - Text 'testing_wrong_email' is set on object 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Email address_email'
+
+2022-01-15 07:13:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Address_submitbutton")): Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Address_submitbutton' is clicked on
+
+2022-01-15 07:13:21 - [MESSAGE][PASSED] - Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Address_submitbutton' is clicked on
+
+2022-01-15 07:13:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/div_Invalid email address"), "Invalid email address"): Actual text and expected text of test object 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/div_Invalid email address' are matched.
+
+2022-01-15 07:13:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/div_Invalid email address' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tạo 1 User mới/Điền mật khẩu yếu" time="19.015" classname="Test Cases/Tạo 1 User mới/Điền mật khẩu yếu" status="PASSED">
+         <system-out><![CDATA[2022-01-15 07:13:22 - [TEST_CASE][PASSED] - Test Cases/Tạo 1 User mới/Điền mật khẩu yếu: Test Cases/Tạo 1 User mới/Điền mật khẩu yếu
+
+2022-01-15 07:13:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Kiểm tra thẻ Site Administration/Đăng nhập thành công"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công' successfully
+
+2022-01-15 07:13:23 - [TEST_CASE][PASSED] - Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công: Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công
+
+2022-01-15 07:13:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 07:13:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-15 07:13:24 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2022-01-15 07:13:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 07:13:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 07:13:25 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:13:25 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:13:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site/a_Log in")): Object: 'Object Repository/LoginObject/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:13:26 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:13:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:13:27 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:13:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password"), "cnpXG5HhkrZpEXzNIGBMZQ=="): Text ****** has been set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:13:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:13:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in")): Object: 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:13:29 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:13:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/LoginObject/Page_Dashboard/span_Site administration"), "Site administration"): Actual text and expected text of test object 'Object Repository/LoginObject/Page_Dashboard/span_Site administration' are matched.
+
+2022-01-15 07:13:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginObject/Page_Dashboard/span_Site administration' are matched.
+
+2022-01-15 07:13:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công' successfully
+
+2022-01-15 07:13:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddANewUserObject/Page_Dashboard/span_Site administration")): Object: 'Object Repository/AddANewUserObject/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-15 07:13:31 - [MESSAGE][PASSED] - Object: 'Object Repository/AddANewUserObject/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-15 07:13:31 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/admin/search.php"): Navigate to 'http://localhost/admin/search.php' successfully
+
+2022-01-15 07:13:31 - [MESSAGE][PASSED] - Navigate to 'http://localhost/admin/search.php' successfully
+
+2022-01-15 07:13:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Users")): Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Users' is clicked on
+
+2022-01-15 07:13:32 - [MESSAGE][PASSED] - Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Users' is clicked on
+
+2022-01-15 07:13:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Add a new user")): Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Add a new user' is clicked on
+
+2022-01-15 07:13:33 - [MESSAGE][PASSED] - Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Add a new user' is clicked on
+
+2022-01-15 07:13:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WeakPasswordObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Username_username"), "testing_weak_pass"): Text 'testing_weak_pass' is set on object 'Object Repository/WeakPasswordObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Username_username'
+
+2022-01-15 07:13:35 - [MESSAGE][PASSED] - Text 'testing_weak_pass' is set on object 'Object Repository/WeakPasswordObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Username_username'
+
+2022-01-15 07:13:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WeakPasswordObject/Page_SiteTesting Administration Users Accou_a8eb60/input_First name_firstname"), "Quang"): Text 'Quang' is set on object 'Object Repository/WeakPasswordObject/Page_SiteTesting Administration Users Accou_a8eb60/input_First name_firstname'
+
+2022-01-15 07:13:36 - [MESSAGE][PASSED] - Text 'Quang' is set on object 'Object Repository/WeakPasswordObject/Page_SiteTesting Administration Users Accou_a8eb60/input_First name_firstname'
+
+2022-01-15 07:13:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WeakPasswordObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Surname_lastname"), "Le6"): Text 'Le6' is set on object 'Object Repository/WeakPasswordObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Surname_lastname'
+
+2022-01-15 07:13:37 - [MESSAGE][PASSED] - Text 'Le6' is set on object 'Object Repository/WeakPasswordObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Surname_lastname'
+
+2022-01-15 07:13:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/WeakPasswordObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Email address_email"), "testing_weak_pass@gmail.com"): Text 'testing_weak_pass@gmail.com' is set on object 'Object Repository/WeakPasswordObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Email address_email'
+
+2022-01-15 07:13:37 - [MESSAGE][PASSED] - Text 'testing_weak_pass@gmail.com' is set on object 'Object Repository/WeakPasswordObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Email address_email'
+
+2022-01-15 07:13:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/em_Click to enter text")): Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/em_Click to enter text' is clicked on
+
+2022-01-15 07:13:38 - [MESSAGE][PASSED] - Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/em_Click to enter text' is clicked on
+
+2022-01-15 07:13:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/WeakPasswordObject/Page_SiteTesting Administration Users Accou_a8eb60/input_New password_newpassword"), "RigbBhfdqOBGNlJIWM1ClA=="): Text ****** has been set on object 'Object Repository/WeakPasswordObject/Page_SiteTesting Administration Users Accou_a8eb60/input_New password_newpassword'
+
+2022-01-15 07:13:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/WeakPasswordObject/Page_SiteTesting Administration Users Accou_a8eb60/input_New password_newpassword'
+
+2022-01-15 07:13:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Address_submitbutton")): Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Address_submitbutton' is clicked on
+
+2022-01-15 07:13:40 - [MESSAGE][PASSED] - Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Address_submitbutton' is clicked on
+
+2022-01-15 07:13:40 - [TEST_STEP][PASSED] - verifyTextPresent("The password must have at least 1 special character(s) such as as *, -, or #.", false): Text 'The password must have at least 1 special character(s) such as as *, -, or #.' is present on page 
+
+2022-01-15 07:13:41 - [MESSAGE][PASSED] - Text 'The password must have at least 1 special character(s) such as as *, -, or #.' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tạo 1 User mới/Điền không đầy đủ thông tin bắt buộc" time="16.232" classname="Test Cases/Tạo 1 User mới/Điền không đầy đủ thông tin bắt buộc" status="PASSED">
+         <system-out><![CDATA[2022-01-15 07:13:41 - [TEST_CASE][PASSED] - Test Cases/Tạo 1 User mới/Điền không đầy đủ thông tin bắt buộc: Test Cases/Tạo 1 User mới/Điền không đầy đủ thông tin bắt buộc
+
+2022-01-15 07:13:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Kiểm tra thẻ Site Administration/Đăng nhập thành công"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công' successfully
+
+2022-01-15 07:13:42 - [TEST_CASE][PASSED] - Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công: Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công
+
+2022-01-15 07:13:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 07:13:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-15 07:13:43 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2022-01-15 07:13:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 07:13:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 07:13:44 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:13:45 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:13:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site/a_Log in")): Object: 'Object Repository/LoginObject/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:13:45 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:13:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:13:46 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:13:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password"), "cnpXG5HhkrZpEXzNIGBMZQ=="): Text ****** has been set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:13:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:13:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in")): Object: 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:13:48 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:13:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/LoginObject/Page_Dashboard/span_Site administration"), "Site administration"): Actual text and expected text of test object 'Object Repository/LoginObject/Page_Dashboard/span_Site administration' are matched.
+
+2022-01-15 07:13:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginObject/Page_Dashboard/span_Site administration' are matched.
+
+2022-01-15 07:13:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công' successfully
+
+2022-01-15 07:13:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddANewUserObject/Page_Dashboard/span_Site administration")): Object: 'Object Repository/AddANewUserObject/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-15 07:13:50 - [MESSAGE][PASSED] - Object: 'Object Repository/AddANewUserObject/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-15 07:13:50 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/admin/search.php"): Navigate to 'http://localhost/admin/search.php' successfully
+
+2022-01-15 07:13:51 - [MESSAGE][PASSED] - Navigate to 'http://localhost/admin/search.php' successfully
+
+2022-01-15 07:13:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Users")): Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Users' is clicked on
+
+2022-01-15 07:13:51 - [MESSAGE][PASSED] - Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Users' is clicked on
+
+2022-01-15 07:13:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Add a new user")): Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Add a new user' is clicked on
+
+2022-01-15 07:13:53 - [MESSAGE][PASSED] - Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Add a new user' is clicked on
+
+2022-01-15 07:13:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Username_username"), "testing_redundant"): Text 'testing_redundant' is set on object 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Username_username'
+
+2022-01-15 07:13:54 - [MESSAGE][PASSED] - Text 'testing_redundant' is set on object 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Username_username'
+
+2022-01-15 07:13:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/em_Click to enter text")): Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/em_Click to enter text' is clicked on
+
+2022-01-15 07:13:54 - [MESSAGE][PASSED] - Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/em_Click to enter text' is clicked on
+
+2022-01-15 07:13:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_New password_newpassword"), "cnpXG5HhkrZpEXzNIGBMZQ=="): Text ****** has been set on object 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_New password_newpassword'
+
+2022-01-15 07:13:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_New password_newpassword'
+
+2022-01-15 07:13:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_First name_firstname"), "Quang"): Text 'Quang' is set on object 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_First name_firstname'
+
+2022-01-15 07:13:56 - [MESSAGE][PASSED] - Text 'Quang' is set on object 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_First name_firstname'
+
+2022-01-15 07:13:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Email address_email"), "testing_redundant@gmail.com"): Text 'testing_redundant@gmail.com' is set on object 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Email address_email'
+
+2022-01-15 07:13:57 - [MESSAGE][PASSED] - Text 'testing_redundant@gmail.com' is set on object 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Email address_email'
+
+2022-01-15 07:13:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Address_submitbutton")): Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Address_submitbutton' is clicked on
+
+2022-01-15 07:13:57 - [MESSAGE][PASSED] - Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Address_submitbutton' is clicked on
+
+2022-01-15 07:13:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/div_- Missing surname"), "- Missing surname"): Actual text and expected text of test object 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/div_- Missing surname' are matched.
+
+2022-01-15 07:13:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/div_- Missing surname' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tạo 1 User mới/Điền đầy đủ thông tin bắt buộc" time="17.983" classname="Test Cases/Tạo 1 User mới/Điền đầy đủ thông tin bắt buộc" status="PASSED">
+         <system-out><![CDATA[2022-01-15 07:13:58 - [TEST_CASE][PASSED] - Test Cases/Tạo 1 User mới/Điền đầy đủ thông tin bắt buộc: Test Cases/Tạo 1 User mới/Điền đầy đủ thông tin bắt buộc
+
+2022-01-15 07:13:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Kiểm tra thẻ Site Administration/Đăng nhập thành công"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công' successfully
+
+2022-01-15 07:13:58 - [TEST_CASE][PASSED] - Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công: Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công
+
+2022-01-15 07:13:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 07:13:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-15 07:13:59 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2022-01-15 07:13:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 07:14:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 07:14:00 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:14:01 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:14:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site/a_Log in")): Object: 'Object Repository/LoginObject/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:14:01 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:14:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:14:02 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:14:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password"), "cnpXG5HhkrZpEXzNIGBMZQ=="): Text ****** has been set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:14:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:14:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in")): Object: 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:14:04 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:14:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/LoginObject/Page_Dashboard/span_Site administration"), "Site administration"): Actual text and expected text of test object 'Object Repository/LoginObject/Page_Dashboard/span_Site administration' are matched.
+
+2022-01-15 07:14:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginObject/Page_Dashboard/span_Site administration' are matched.
+
+2022-01-15 07:14:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công' successfully
+
+2022-01-15 07:14:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddANewUserObject/Page_Dashboard/span_Site administration")): Object: 'Object Repository/AddANewUserObject/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-15 07:14:06 - [MESSAGE][PASSED] - Object: 'Object Repository/AddANewUserObject/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-15 07:14:06 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/admin/search.php"): Navigate to 'http://localhost/admin/search.php' successfully
+
+2022-01-15 07:14:07 - [MESSAGE][PASSED] - Navigate to 'http://localhost/admin/search.php' successfully
+
+2022-01-15 07:14:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Users")): Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Users' is clicked on
+
+2022-01-15 07:14:07 - [MESSAGE][PASSED] - Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Users' is clicked on
+
+2022-01-15 07:14:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Add a new user")): Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Add a new user' is clicked on
+
+2022-01-15 07:14:08 - [MESSAGE][PASSED] - Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Add a new user' is clicked on
+
+2022-01-15 07:14:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Username_username"), "testing"): Text 'testing' is set on object 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Username_username'
+
+2022-01-15 07:14:10 - [MESSAGE][PASSED] - Text 'testing' is set on object 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Username_username'
+
+2022-01-15 07:14:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/em_Click to enter text")): Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/em_Click to enter text' is clicked on
+
+2022-01-15 07:14:10 - [MESSAGE][PASSED] - Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/em_Click to enter text' is clicked on
+
+2022-01-15 07:14:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_New password_newpassword"), "cnpXG5HhkrZpEXzNIGBMZQ=="): Text ****** has been set on object 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_New password_newpassword'
+
+2022-01-15 07:14:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_New password_newpassword'
+
+2022-01-15 07:14:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_First name_firstname"), "Quang"): Text 'Quang' is set on object 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_First name_firstname'
+
+2022-01-15 07:14:12 - [MESSAGE][PASSED] - Text 'Quang' is set on object 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_First name_firstname'
+
+2022-01-15 07:14:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Surname_lastname"), "Le1"): Text 'Le1' is set on object 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Surname_lastname'
+
+2022-01-15 07:14:13 - [MESSAGE][PASSED] - Text 'Le1' is set on object 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Surname_lastname'
+
+2022-01-15 07:14:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Email address_email"), "testing@gmail.com"): Text 'testing@gmail.com' is set on object 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Email address_email'
+
+2022-01-15 07:14:14 - [MESSAGE][PASSED] - Text 'testing@gmail.com' is set on object 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Email address_email'
+
+2022-01-15 07:14:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Address_submitbutton")): Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Address_submitbutton' is clicked on
+
+2022-01-15 07:14:15 - [MESSAGE][PASSED] - Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Address_submitbutton' is clicked on
+
+2022-01-15 07:14:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_36dc4d/td_testinggmail.com"), "testing@gmail.com"): Actual text and expected text of test object 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_36dc4d/td_testinggmail.com' are matched.
+
+2022-01-15 07:14:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_36dc4d/td_testinggmail.com' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tạo 1 User mới/Test 1 vài trường optional khác" time="22.764" classname="Test Cases/Tạo 1 User mới/Test 1 vài trường optional khác" status="PASSED">
+         <system-out><![CDATA[2022-01-15 07:14:16 - [TEST_CASE][PASSED] - Test Cases/Tạo 1 User mới/Test 1 vài trường optional khác: Test Cases/Tạo 1 User mới/Test 1 vài trường optional khác
+
+2022-01-15 07:14:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Kiểm tra thẻ Site Administration/Đăng nhập thành công"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công' successfully
+
+2022-01-15 07:14:16 - [TEST_CASE][PASSED] - Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công: Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công
+
+2022-01-15 07:14:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 07:14:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-15 07:14:17 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2022-01-15 07:14:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 07:14:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 07:14:18 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:14:19 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:14:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site/a_Log in")): Object: 'Object Repository/LoginObject/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:14:19 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:14:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:14:20 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:14:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password"), "cnpXG5HhkrZpEXzNIGBMZQ=="): Text ****** has been set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:14:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:14:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in")): Object: 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:14:22 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:14:22 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/LoginObject/Page_Dashboard/span_Site administration"), "Site administration"): Actual text and expected text of test object 'Object Repository/LoginObject/Page_Dashboard/span_Site administration' are matched.
+
+2022-01-15 07:14:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginObject/Page_Dashboard/span_Site administration' are matched.
+
+2022-01-15 07:14:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công' successfully
+
+2022-01-15 07:14:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddANewUserObject/Page_Dashboard/span_Site administration")): Object: 'Object Repository/AddANewUserObject/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-15 07:14:24 - [MESSAGE][PASSED] - Object: 'Object Repository/AddANewUserObject/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-15 07:14:24 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/admin/search.php"): Navigate to 'http://localhost/admin/search.php' successfully
+
+2022-01-15 07:14:24 - [MESSAGE][PASSED] - Navigate to 'http://localhost/admin/search.php' successfully
+
+2022-01-15 07:14:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Users")): Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Users' is clicked on
+
+2022-01-15 07:14:25 - [MESSAGE][PASSED] - Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Users' is clicked on
+
+2022-01-15 07:14:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Add a new user")): Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Add a new user' is clicked on
+
+2022-01-15 07:14:26 - [MESSAGE][PASSED] - Object: 'Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Add a new user' is clicked on
+
+2022-01-15 07:14:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Username_username"), "testing_description"): Text 'testing_description' is set on object 'Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Username_username'
+
+2022-01-15 07:14:28 - [MESSAGE][PASSED] - Text 'testing_description' is set on object 'Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Username_username'
+
+2022-01-15 07:14:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/em_Click to enter text")): Object: 'Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/em_Click to enter text' is clicked on
+
+2022-01-15 07:14:28 - [MESSAGE][PASSED] - Object: 'Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/em_Click to enter text' is clicked on
+
+2022-01-15 07:14:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_New password_newpassword"), "cnpXG5HhkrZpEXzNIGBMZQ=="): Text ****** has been set on object 'Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_New password_newpassword'
+
+2022-01-15 07:14:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_New password_newpassword'
+
+2022-01-15 07:14:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_First name_firstname"), "Quang"): Text 'Quang' is set on object 'Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_First name_firstname'
+
+2022-01-15 07:14:30 - [MESSAGE][PASSED] - Text 'Quang' is set on object 'Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_First name_firstname'
+
+2022-01-15 07:14:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Surname_lastname"), "Le5"): Text 'Le5' is set on object 'Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Surname_lastname'
+
+2022-01-15 07:14:31 - [MESSAGE][PASSED] - Text 'Le5' is set on object 'Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Surname_lastname'
+
+2022-01-15 07:14:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Email address_email"), "testing_description@gmail.com"): Text 'testing_description@gmail.com' is set on object 'Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Email address_email'
+
+2022-01-15 07:14:31 - [MESSAGE][PASSED] - Text 'testing_description@gmail.com' is set on object 'Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Email address_email'
+
+2022-01-15 07:14:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/a_Additional names")): Object: 'Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/a_Additional names' is clicked on
+
+2022-01-15 07:14:32 - [MESSAGE][PASSED] - Object: 'Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/a_Additional names' is clicked on
+
+2022-01-15 07:14:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_First name - phonetic_firstnamephonetic"), "Quang"): Text 'Quang' is set on object 'Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_First name - phonetic_firstnamephonetic'
+
+2022-01-15 07:14:33 - [MESSAGE][PASSED] - Text 'Quang' is set on object 'Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_First name - phonetic_firstnamephonetic'
+
+2022-01-15 07:14:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Surname - phonetic_lastnamephonetic"), "Le"): Text 'Le' is set on object 'Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Surname - phonetic_lastnamephonetic'
+
+2022-01-15 07:14:34 - [MESSAGE][PASSED] - Text 'Le' is set on object 'Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Surname - phonetic_lastnamephonetic'
+
+2022-01-15 07:14:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Middle name_middlename"), "Nhat"): Text 'Nhat' is set on object 'Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Middle name_middlename'
+
+2022-01-15 07:14:34 - [MESSAGE][PASSED] - Text 'Nhat' is set on object 'Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Middle name_middlename'
+
+2022-01-15 07:14:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/a_Optional_1")): Object: 'Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/a_Optional_1' is clicked on
+
+2022-01-15 07:14:35 - [MESSAGE][PASSED] - Object: 'Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/a_Optional_1' is clicked on
+
+2022-01-15 07:14:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Phone_phone1"), "0123456789"): Text '0123456789' is set on object 'Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Phone_phone1'
+
+2022-01-15 07:14:36 - [MESSAGE][PASSED] - Text '0123456789' is set on object 'Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Phone_phone1'
+
+2022-01-15 07:14:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_ID number_idnumber"), "1000"): Text '1000' is set on object 'Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_ID number_idnumber'
+
+2022-01-15 07:14:37 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_ID number_idnumber'
+
+2022-01-15 07:14:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Address_submitbutton")): Object: 'Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Address_submitbutton' is clicked on
+
+2022-01-15 07:14:38 - [MESSAGE][PASSED] - Object: 'Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Address_submitbutton' is clicked on
+
+2022-01-15 07:14:38 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/admin/user.php"): Navigate to 'http://localhost/admin/user.php' successfully
+
+2022-01-15 07:14:38 - [MESSAGE][PASSED] - Navigate to 'http://localhost/admin/user.php' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tạo 1 User mới/Kiểm tra việc tài khoản bị ban sau khi chọn Suspended account" time="23.239" classname="Test Cases/Tạo 1 User mới/Kiểm tra việc tài khoản bị ban sau khi chọn Suspended account" status="PASSED">
+         <system-out><![CDATA[2022-01-15 07:14:38 - [TEST_CASE][PASSED] - Test Cases/Tạo 1 User mới/Kiểm tra việc tài khoản bị ban sau khi chọn Suspended account: Test Cases/Tạo 1 User mới/Kiểm tra việc tài khoản bị ban sau khi chọn Suspended account
+
+2022-01-15 07:14:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Kiểm tra thẻ Site Administration/Đăng nhập thành công"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công' successfully
+
+2022-01-15 07:14:39 - [TEST_CASE][PASSED] - Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công: Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công
+
+2022-01-15 07:14:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 07:14:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-15 07:14:40 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2022-01-15 07:14:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 07:14:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 07:14:41 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:14:42 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:14:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site/a_Log in")): Object: 'Object Repository/LoginObject/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:14:42 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:14:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:14:43 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:14:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password"), "cnpXG5HhkrZpEXzNIGBMZQ=="): Text ****** has been set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:14:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:14:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in")): Object: 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:14:45 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:14:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/LoginObject/Page_Dashboard/span_Site administration"), "Site administration"): Actual text and expected text of test object 'Object Repository/LoginObject/Page_Dashboard/span_Site administration' are matched.
+
+2022-01-15 07:14:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginObject/Page_Dashboard/span_Site administration' are matched.
+
+2022-01-15 07:14:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công' successfully
+
+2022-01-15 07:14:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddANewUserObject/Page_Dashboard/span_Site administration")): Object: 'Object Repository/AddANewUserObject/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-15 07:14:47 - [MESSAGE][PASSED] - Object: 'Object Repository/AddANewUserObject/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-15 07:14:47 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/admin/search.php"): Navigate to 'http://localhost/admin/search.php' successfully
+
+2022-01-15 07:14:48 - [MESSAGE][PASSED] - Navigate to 'http://localhost/admin/search.php' successfully
+
+2022-01-15 07:14:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Search/a_Users")): Object: 'Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Search/a_Users' is clicked on
+
+2022-01-15 07:14:48 - [MESSAGE][PASSED] - Object: 'Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Search/a_Users' is clicked on
+
+2022-01-15 07:14:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Search/a_Add a new user")): Object: 'Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Search/a_Add a new user' is clicked on
+
+2022-01-15 07:14:50 - [MESSAGE][PASSED] - Object: 'Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Search/a_Add a new user' is clicked on
+
+2022-01-15 07:14:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_a8eb60/input_Username_username"), "testing_ban"): Text 'testing_ban' is set on object 'Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_a8eb60/input_Username_username'
+
+2022-01-15 07:14:51 - [MESSAGE][PASSED] - Text 'testing_ban' is set on object 'Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_a8eb60/input_Username_username'
+
+2022-01-15 07:14:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_a8eb60/input_Choose an authentication method_suspended")): Object: 'Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_a8eb60/input_Choose an authentication method_suspended' is clicked on
+
+2022-01-15 07:14:52 - [MESSAGE][PASSED] - Object: 'Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_a8eb60/input_Choose an authentication method_suspended' is clicked on
+
+2022-01-15 07:14:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_a8eb60/em_Click to enter text")): Object: 'Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_a8eb60/em_Click to enter text' is clicked on
+
+2022-01-15 07:14:52 - [MESSAGE][PASSED] - Object: 'Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_a8eb60/em_Click to enter text' is clicked on
+
+2022-01-15 07:14:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_a8eb60/input_New password_newpassword"), "cnpXG5HhkrZpEXzNIGBMZQ=="): Text ****** has been set on object 'Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_a8eb60/input_New password_newpassword'
+
+2022-01-15 07:14:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_a8eb60/input_New password_newpassword'
+
+2022-01-15 07:14:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_a8eb60/input_First name_firstname"), "Quang"): Text 'Quang' is set on object 'Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_a8eb60/input_First name_firstname'
+
+2022-01-15 07:14:53 - [MESSAGE][PASSED] - Text 'Quang' is set on object 'Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_a8eb60/input_First name_firstname'
+
+2022-01-15 07:14:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_a8eb60/input_Surname_lastname"), "Le4"): Text 'Le4' is set on object 'Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_a8eb60/input_Surname_lastname'
+
+2022-01-15 07:14:54 - [MESSAGE][PASSED] - Text 'Le4' is set on object 'Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_a8eb60/input_Surname_lastname'
+
+2022-01-15 07:14:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_a8eb60/input_Email address_email"), "testing_ban@gmail.com"): Text 'testing_ban@gmail.com' is set on object 'Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_a8eb60/input_Email address_email'
+
+2022-01-15 07:14:55 - [MESSAGE][PASSED] - Text 'testing_ban@gmail.com' is set on object 'Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_a8eb60/input_Email address_email'
+
+2022-01-15 07:14:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_a8eb60/input_Address_submitbutton")): Object: 'Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_a8eb60/input_Address_submitbutton' is clicked on
+
+2022-01-15 07:14:57 - [MESSAGE][PASSED] - Object: 'Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_a8eb60/input_Address_submitbutton' is clicked on
+
+2022-01-15 07:14:57 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/admin/user.php"): Navigate to 'http://localhost/admin/user.php' successfully
+
+2022-01-15 07:14:57 - [MESSAGE][PASSED] - Navigate to 'http://localhost/admin/user.php' successfully
+
+2022-01-15 07:14:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_36dc4d/a_Quang Le")): Object: 'Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_36dc4d/a_Quang Le' is clicked on
+
+2022-01-15 07:14:58 - [MESSAGE][PASSED] - Object: 'Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_36dc4d/a_Quang Le' is clicked on
+
+2022-01-15 07:14:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_36dc4d/span_Log out")): Object: 'Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_36dc4d/span_Log out' is clicked on
+
+2022-01-15 07:14:59 - [MESSAGE][PASSED] - Object: 'Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_36dc4d/span_Log out' is clicked on
+
+2022-01-15 07:14:59 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:14:59 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:14:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddSuspendedUserAccount/Page_Automation Testing Site/a_Log in")): Object: 'Object Repository/AddSuspendedUserAccount/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:15:00 - [MESSAGE][PASSED] - Object: 'Object Repository/AddSuspendedUserAccount/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:15:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AddSuspendedUserAccount/Page_Automation Testing Site Log in to the site/input_Username_username"), "testing_ban"): Text 'testing_ban' is set on object 'Object Repository/AddSuspendedUserAccount/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:15:00 - [MESSAGE][PASSED] - Text 'testing_ban' is set on object 'Object Repository/AddSuspendedUserAccount/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:15:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/AddSuspendedUserAccount/Page_Automation Testing Site Log in to the site/input_Password_password"), "cnpXG5HhkrZpEXzNIGBMZQ=="): Text ****** has been set on object 'Object Repository/AddSuspendedUserAccount/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:15:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AddSuspendedUserAccount/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:15:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddSuspendedUserAccount/Page_Automation Testing Site Log in to the site/button_Log in")): Object: 'Object Repository/AddSuspendedUserAccount/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:15:01 - [MESSAGE][PASSED] - Object: 'Object Repository/AddSuspendedUserAccount/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:15:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/AddSuspendedUserAccount/Page_Automation Testing Site Log in to the site/div_Invalid login, please try again"), "Invalid login, please try again"): Actual text and expected text of test object 'Object Repository/AddSuspendedUserAccount/Page_Automation Testing Site Log in to the site/div_Invalid login, please try again' are matched.
+
+2022-01-15 07:15:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AddSuspendedUserAccount/Page_Automation Testing Site Log in to the site/div_Invalid login, please try again' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tạo 1 User mới/Kiểm tra việc gán quyền thành công trong 1 course" time="17.253" classname="Test Cases/Tạo 1 User mới/Kiểm tra việc gán quyền thành công trong 1 course" status="PASSED">
+         <system-out><![CDATA[2022-01-15 07:15:02 - [TEST_CASE][PASSED] - Test Cases/Tạo 1 User mới/Kiểm tra việc gán quyền thành công trong 1 course: Test Cases/Tạo 1 User mới/Kiểm tra việc gán quyền thành công trong 1 course
+
+2022-01-15 07:15:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Kiểm tra thẻ Site Administration/Đăng nhập thành công"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công' successfully
+
+2022-01-15 07:15:02 - [TEST_CASE][PASSED] - Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công: Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công
+
+2022-01-15 07:15:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 07:15:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-15 07:15:03 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2022-01-15 07:15:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 07:15:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 07:15:04 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:15:05 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:15:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site/a_Log in")): Object: 'Object Repository/LoginObject/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:15:05 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:15:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:15:06 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:15:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password"), "cnpXG5HhkrZpEXzNIGBMZQ=="): Text ****** has been set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:15:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:15:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in")): Object: 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:15:08 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:15:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/LoginObject/Page_Dashboard/span_Site administration"), "Site administration"): Actual text and expected text of test object 'Object Repository/LoginObject/Page_Dashboard/span_Site administration' are matched.
+
+2022-01-15 07:15:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginObject/Page_Dashboard/span_Site administration' are matched.
+
+2022-01-15 07:15:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công' successfully
+
+2022-01-15 07:15:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddToCourseObj/Page_Dashboard/span_Site home")): Object: 'Object Repository/AddToCourseObj/Page_Dashboard/span_Site home' is clicked on
+
+2022-01-15 07:15:10 - [MESSAGE][PASSED] - Object: 'Object Repository/AddToCourseObj/Page_Dashboard/span_Site home' is clicked on
+
+2022-01-15 07:15:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddToCourseObj/Page_Automation Testing Site/a_Sample Course For Permission")): Object: 'Object Repository/AddToCourseObj/Page_Automation Testing Site/a_Sample Course For Permission' is clicked on
+
+2022-01-15 07:15:11 - [MESSAGE][PASSED] - Object: 'Object Repository/AddToCourseObj/Page_Automation Testing Site/a_Sample Course For Permission' is clicked on
+
+2022-01-15 07:15:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddToCourseObj/Page_Course Sample Course For Permission/span_Participants")): Object: 'Object Repository/AddToCourseObj/Page_Course Sample Course For Permission/span_Participants' is clicked on
+
+2022-01-15 07:15:13 - [MESSAGE][PASSED] - Object: 'Object Repository/AddToCourseObj/Page_Course Sample Course For Permission/span_Participants' is clicked on
+
+2022-01-15 07:15:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddToCourseObj/Page_SampleC Participants/input_With selected users_btn btn-secondary my-1")): Object: 'Object Repository/AddToCourseObj/Page_SampleC Participants/input_With selected users_btn btn-secondary my-1' is clicked on
+
+2022-01-15 07:15:13 - [MESSAGE][PASSED] - Object: 'Object Repository/AddToCourseObj/Page_SampleC Participants/input_With selected users_btn btn-secondary my-1' is clicked on
+
+2022-01-15 07:15:13 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/AddToCourseObj/Page_SampleC Participants/select_Manager            Teacher          _ffc00f"), "4", true): All options with value '4' are selected in object 'Object Repository/AddToCourseObj/Page_SampleC Participants/select_Manager            Teacher          _ffc00f'  using regular expression
+
+2022-01-15 07:15:16 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/AddToCourseObj/Page_SampleC Participants/select_Manager            Teacher          _ffc00f'  using regular expression
+
+2022-01-15 07:15:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddToCourseObj/Page_SampleC Participants/span_")): Object: 'Object Repository/AddToCourseObj/Page_SampleC Participants/span_' is clicked on
+
+2022-01-15 07:15:16 - [MESSAGE][PASSED] - Object: 'Object Repository/AddToCourseObj/Page_SampleC Participants/span_' is clicked on
+
+2022-01-15 07:15:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddToCourseObj/Page_SampleC Participants/li_Quang Le1    testinggmail.com")): Object: 'Object Repository/AddToCourseObj/Page_SampleC Participants/li_Quang Le1    testinggmail.com' is clicked on
+
+2022-01-15 07:15:17 - [MESSAGE][PASSED] - Object: 'Object Repository/AddToCourseObj/Page_SampleC Participants/li_Quang Le1    testinggmail.com' is clicked on
+
+2022-01-15 07:15:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddToCourseObj/Page_SampleC Participants/button_Enrol users")): Object: 'Object Repository/AddToCourseObj/Page_SampleC Participants/button_Enrol users' is clicked on
+
+2022-01-15 07:15:18 - [MESSAGE][PASSED] - Object: 'Object Repository/AddToCourseObj/Page_SampleC Participants/button_Enrol users' is clicked on
+
+2022-01-15 07:15:18 - [TEST_STEP][PASSED] - verifyTextPresent("testing@gmail.com", false): Text 'testing@gmail.com' is present on page 
+
+2022-01-15 07:15:19 - [MESSAGE][PASSED] - Text 'testing@gmail.com' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Phần thiết lập khác/Test bộ lọc trong User của Moodle" time="17.585" classname="Test Cases/Phần thiết lập khác/Test bộ lọc trong User của Moodle" status="PASSED">
+         <system-out><![CDATA[2022-01-15 07:15:19 - [TEST_CASE][PASSED] - Test Cases/Phần thiết lập khác/Test bộ lọc trong User của Moodle: Test Cases/Phần thiết lập khác/Test bộ lọc trong User của Moodle
+
+2022-01-15 07:15:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Kiểm tra thẻ Site Administration/Đăng nhập thành công"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công' successfully
+
+2022-01-15 07:15:19 - [TEST_CASE][PASSED] - Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công: Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công
+
+2022-01-15 07:15:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 07:15:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-15 07:15:20 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2022-01-15 07:15:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 07:15:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 07:15:22 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:15:22 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:15:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site/a_Log in")): Object: 'Object Repository/LoginObject/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:15:23 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:15:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:15:24 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:15:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password"), "cnpXG5HhkrZpEXzNIGBMZQ=="): Text ****** has been set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:15:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:15:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in")): Object: 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:15:25 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:15:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/LoginObject/Page_Dashboard/span_Site administration"), "Site administration"): Actual text and expected text of test object 'Object Repository/LoginObject/Page_Dashboard/span_Site administration' are matched.
+
+2022-01-15 07:15:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginObject/Page_Dashboard/span_Site administration' are matched.
+
+2022-01-15 07:15:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công' successfully
+
+2022-01-15 07:15:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TestFilter/Page_Dashboard/span_Site administration")): Object: 'Object Repository/TestFilter/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-15 07:15:28 - [MESSAGE][PASSED] - Object: 'Object Repository/TestFilter/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-15 07:15:28 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/admin/search.php"): Navigate to 'http://localhost/admin/search.php' successfully
+
+2022-01-15 07:15:28 - [MESSAGE][PASSED] - Navigate to 'http://localhost/admin/search.php' successfully
+
+2022-01-15 07:15:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TestFilter/Page_SiteTesting Administration Search/a_Users")): Object: 'Object Repository/TestFilter/Page_SiteTesting Administration Search/a_Users' is clicked on
+
+2022-01-15 07:15:29 - [MESSAGE][PASSED] - Object: 'Object Repository/TestFilter/Page_SiteTesting Administration Search/a_Users' is clicked on
+
+2022-01-15 07:15:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TestFilter/Page_SiteTesting Administration Search/a_Browse list of users")): Object: 'Object Repository/TestFilter/Page_SiteTesting Administration Search/a_Browse list of users' is clicked on
+
+2022-01-15 07:15:30 - [MESSAGE][PASSED] - Object: 'Object Repository/TestFilter/Page_SiteTesting Administration Search/a_Browse list of users' is clicked on
+
+2022-01-15 07:15:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TestFilter/Page_SiteTesting Administration Users Accou_36dc4d/a_Show more")): Object: 'Object Repository/TestFilter/Page_SiteTesting Administration Users Accou_36dc4d/a_Show more' is clicked on
+
+2022-01-15 07:15:31 - [MESSAGE][PASSED] - Object: 'Object Repository/TestFilter/Page_SiteTesting Administration Users Accou_36dc4d/a_Show more' is clicked on
+
+2022-01-15 07:15:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TestFilter/Page_SiteTesting Administration Users Accou_36dc4d/input_User full name value_realname"), "Quang"): Text 'Quang' is set on object 'Object Repository/TestFilter/Page_SiteTesting Administration Users Accou_36dc4d/input_User full name value_realname'
+
+2022-01-15 07:15:32 - [MESSAGE][PASSED] - Text 'Quang' is set on object 'Object Repository/TestFilter/Page_SiteTesting Administration Users Accou_36dc4d/input_User full name value_realname'
+
+2022-01-15 07:15:32 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/TestFilter/Page_SiteTesting Administration Users Accou_36dc4d/select_contains        doesnt contain      _4edb1a"), "3", true): All options with value '3' are selected in object 'Object Repository/TestFilter/Page_SiteTesting Administration Users Accou_36dc4d/select_contains        doesnt contain      _4edb1a'  using regular expression
+
+2022-01-15 07:15:33 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/TestFilter/Page_SiteTesting Administration Users Accou_36dc4d/select_contains        doesnt contain      _4edb1a'  using regular expression
+
+2022-01-15 07:15:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TestFilter/Page_SiteTesting Administration Users Accou_36dc4d/input_Email address value_email"), "testing_des"): Text 'testing_des' is set on object 'Object Repository/TestFilter/Page_SiteTesting Administration Users Accou_36dc4d/input_Email address value_email'
+
+2022-01-15 07:15:34 - [MESSAGE][PASSED] - Text 'testing_des' is set on object 'Object Repository/TestFilter/Page_SiteTesting Administration Users Accou_36dc4d/input_Email address value_email'
+
+2022-01-15 07:15:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TestFilter/Page_SiteTesting Administration Users Accou_36dc4d/input_Last IP address value_addfilter")): Object: 'Object Repository/TestFilter/Page_SiteTesting Administration Users Accou_36dc4d/input_Last IP address value_addfilter' is clicked on
+
+2022-01-15 07:15:35 - [MESSAGE][PASSED] - Object: 'Object Repository/TestFilter/Page_SiteTesting Administration Users Accou_36dc4d/input_Last IP address value_addfilter' is clicked on
+
+2022-01-15 07:15:35 - [TEST_STEP][PASSED] - verifyTextPresent("testing_description@gmail.com", false): Text 'testing_description@gmail.com' is present on page 
+
+2022-01-15 07:15:36 - [MESSAGE][PASSED] - Text 'testing_description@gmail.com' is present on page 
+
+2022-01-15 07:15:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TestFilter/Page_SiteTesting Administration Users Accou_36dc4d/input_concat(Email address starts with , , _fe21c5")): Object: 'Object Repository/TestFilter/Page_SiteTesting Administration Users Accou_36dc4d/input_concat(Email address starts with , , _fe21c5' is clicked on
+
+2022-01-15 07:15:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TestFilter/Page_SiteTesting Administration Users Accou_36dc4d/input_concat(Email address starts with , , _fe21c5' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NewCategory/1. Add category with blank fields" time="13.134" classname="Test Cases/NewCategory/1. Add category with blank fields" status="PASSED">
+         <system-out><![CDATA[2022-01-15 07:15:37 - [TEST_CASE][PASSED] - Test Cases/NewCategory/1. Add category with blank fields: Test Cases/NewCategory/1. Add category with blank fields
+
+2022-01-15 07:15:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 07:15:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-15 07:15:38 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2022-01-15 07:15:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 07:15:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 07:15:39 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:15:40 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:15:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NewCategory/Page_Automation Testing Site/a_Log in")): Object: 'Object Repository/NewCategory/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:15:40 - [MESSAGE][PASSED] - Object: 'Object Repository/NewCategory/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:15:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:15:41 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:15:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/input_Password_password"), "cnpXG5HhkrZpEXzNIGBMZQ=="): Text ****** has been set on object 'Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:15:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:15:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/button_Log in")): Object: 'Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:15:43 - [MESSAGE][PASSED] - Object: 'Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:15:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NewCategory/Page_Dashboard/span_Site administration")): Object: 'Object Repository/NewCategory/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-15 07:15:44 - [MESSAGE][PASSED] - Object: 'Object Repository/NewCategory/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-15 07:15:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NewCategory/Page_SiteTesting Administration Search/a_Courses")): Object: 'Object Repository/NewCategory/Page_SiteTesting Administration Search/a_Courses' is clicked on
+
+2022-01-15 07:15:45 - [MESSAGE][PASSED] - Object: 'Object Repository/NewCategory/Page_SiteTesting Administration Search/a_Courses' is clicked on
+
+2022-01-15 07:15:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NewCategory/Page_SiteTesting Administration Search/a_Add a category")): Object: 'Object Repository/NewCategory/Page_SiteTesting Administration Search/a_Add a category' is clicked on
+
+2022-01-15 07:15:46 - [MESSAGE][PASSED] - Object: 'Object Repository/NewCategory/Page_SiteTesting Administration Search/a_Add a category' is clicked on
+
+2022-01-15 07:15:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NewCategory/Page_SiteTesting Add new category/input_Description_submitbutton")): Object: 'Object Repository/NewCategory/Page_SiteTesting Add new category/input_Description_submitbutton' is clicked on
+
+2022-01-15 07:15:48 - [MESSAGE][PASSED] - Object: 'Object Repository/NewCategory/Page_SiteTesting Add new category/input_Description_submitbutton' is clicked on
+
+2022-01-15 07:15:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/NewCategory/Page_SiteTesting Add new category/div_Required"), "Required"): Actual text and expected text of test object 'Object Repository/NewCategory/Page_SiteTesting Add new category/div_Required' are matched.
+
+2022-01-15 07:15:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/NewCategory/Page_SiteTesting Add new category/div_Required' are matched.
+
+2022-01-15 07:15:49 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2022-01-15 07:15:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NewCategory/2. Create successful" time="16.978" classname="Test Cases/NewCategory/2. Create successful" status="PASSED">
+         <system-out><![CDATA[2022-01-15 07:15:50 - [TEST_CASE][PASSED] - Test Cases/NewCategory/2. Create successful: Test Cases/NewCategory/2. Create successful
+
+2022-01-15 07:15:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 07:15:50 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2022-01-15 07:15:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 07:15:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 07:15:51 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:15:52 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:15:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NewCategory/Page_Automation Testing Site/a_Log in")): Object: 'Object Repository/NewCategory/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:15:53 - [MESSAGE][PASSED] - Object: 'Object Repository/NewCategory/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:15:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:15:53 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:15:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/input_Password_password"), "cnpXG5HhkrZpEXzNIGBMZQ=="): Text ****** has been set on object 'Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:15:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:15:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/button_Log in")): Object: 'Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:15:55 - [MESSAGE][PASSED] - Object: 'Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:15:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NewCategory/Page_Dashboard/span_Site administration")): Object: 'Object Repository/NewCategory/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-15 07:15:56 - [MESSAGE][PASSED] - Object: 'Object Repository/NewCategory/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-15 07:15:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NewCategory/Page_SiteTesting Administration Search/a_Courses")): Object: 'Object Repository/NewCategory/Page_SiteTesting Administration Search/a_Courses' is clicked on
+
+2022-01-15 07:15:57 - [MESSAGE][PASSED] - Object: 'Object Repository/NewCategory/Page_SiteTesting Administration Search/a_Courses' is clicked on
+
+2022-01-15 07:15:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NewCategory/Page_SiteTesting Administration Search/a_Add a category")): Object: 'Object Repository/NewCategory/Page_SiteTesting Administration Search/a_Add a category' is clicked on
+
+2022-01-15 07:15:58 - [MESSAGE][PASSED] - Object: 'Object Repository/NewCategory/Page_SiteTesting Administration Search/a_Add a category' is clicked on
+
+2022-01-15 07:15:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NewCategory/Page_SiteTesting Add new category/input_Category name_name"), "test"): Text 'test' is set on object 'Object Repository/NewCategory/Page_SiteTesting Add new category/input_Category name_name'
+
+2022-01-15 07:16:00 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/NewCategory/Page_SiteTesting Add new category/input_Category name_name'
+
+2022-01-15 07:16:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NewCategory/Page_SiteTesting Add new category/input_Category ID number_idnumber"), "1234"): Text '1234' is set on object 'Object Repository/NewCategory/Page_SiteTesting Add new category/input_Category ID number_idnumber'
+
+2022-01-15 07:16:01 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/NewCategory/Page_SiteTesting Add new category/input_Category ID number_idnumber'
+
+2022-01-15 07:16:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NewCategory/Page_SiteTesting Add new category/input_Description_submitbutton")): Object: 'Object Repository/NewCategory/Page_SiteTesting Add new category/input_Description_submitbutton' is clicked on
+
+2022-01-15 07:16:05 - [MESSAGE][PASSED] - Object: 'Object Repository/NewCategory/Page_SiteTesting Add new category/input_Description_submitbutton' is clicked on
+
+2022-01-15 07:16:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/NewCategory/Page_Course and category management/h2_Course and category management"), "Course and category management"): Actual text and expected text of test object 'Object Repository/NewCategory/Page_Course and category management/h2_Course and category management' are matched.
+
+2022-01-15 07:16:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/NewCategory/Page_Course and category management/h2_Course and category management' are matched.
+
+2022-01-15 07:16:06 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2022-01-15 07:16:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NewCategory/3. Duplicate ID" time="13.794" classname="Test Cases/NewCategory/3. Duplicate ID" status="PASSED">
+         <system-out><![CDATA[2022-01-15 07:16:07 - [TEST_CASE][PASSED] - Test Cases/NewCategory/3. Duplicate ID: Test Cases/NewCategory/3. Duplicate ID
+
+2022-01-15 07:16:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 07:16:07 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2022-01-15 07:16:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 07:16:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 07:16:08 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:16:09 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:16:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NewCategory/Page_Automation Testing Site/a_Log in")): Object: 'Object Repository/NewCategory/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:16:10 - [MESSAGE][PASSED] - Object: 'Object Repository/NewCategory/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:16:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:16:10 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:16:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/input_Password_password"), "cnpXG5HhkrZpEXzNIGBMZQ=="): Text ****** has been set on object 'Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:16:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:16:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/button_Log in")): Object: 'Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:16:12 - [MESSAGE][PASSED] - Object: 'Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:16:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NewCategory/Page_Dashboard/span_Site administration")): Object: 'Object Repository/NewCategory/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-15 07:16:13 - [MESSAGE][PASSED] - Object: 'Object Repository/NewCategory/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-15 07:16:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NewCategory/Page_SiteTesting Administration Search/a_Courses")): Object: 'Object Repository/NewCategory/Page_SiteTesting Administration Search/a_Courses' is clicked on
+
+2022-01-15 07:16:14 - [MESSAGE][PASSED] - Object: 'Object Repository/NewCategory/Page_SiteTesting Administration Search/a_Courses' is clicked on
+
+2022-01-15 07:16:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NewCategory/Page_SiteTesting Administration Search/a_Add a category")): Object: 'Object Repository/NewCategory/Page_SiteTesting Administration Search/a_Add a category' is clicked on
+
+2022-01-15 07:16:15 - [MESSAGE][PASSED] - Object: 'Object Repository/NewCategory/Page_SiteTesting Administration Search/a_Add a category' is clicked on
+
+2022-01-15 07:16:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NewCategory/Page_SiteTesting Add new category/input_Category name_name"), "test2"): Text 'test2' is set on object 'Object Repository/NewCategory/Page_SiteTesting Add new category/input_Category name_name'
+
+2022-01-15 07:16:17 - [MESSAGE][PASSED] - Text 'test2' is set on object 'Object Repository/NewCategory/Page_SiteTesting Add new category/input_Category name_name'
+
+2022-01-15 07:16:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NewCategory/Page_SiteTesting Add new category/input_Category ID number_idnumber"), "1234"): Text '1234' is set on object 'Object Repository/NewCategory/Page_SiteTesting Add new category/input_Category ID number_idnumber'
+
+2022-01-15 07:16:17 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/NewCategory/Page_SiteTesting Add new category/input_Category ID number_idnumber'
+
+2022-01-15 07:16:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/NewCategory/Page_SiteTesting Add new category/input_Description_submitbutton")): Object: 'Object Repository/NewCategory/Page_SiteTesting Add new category/input_Description_submitbutton' is clicked on
+
+2022-01-15 07:16:19 - [MESSAGE][PASSED] - Object: 'Object Repository/NewCategory/Page_SiteTesting Add new category/input_Description_submitbutton' is clicked on
+
+2022-01-15 07:16:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/NewCategory/Page_SiteTesting Add new category/div_ID number is already used for another category"), "ID number is already used for another category"): Actual text and expected text of test object 'Object Repository/NewCategory/Page_SiteTesting Add new category/div_ID number is already used for another category' are matched.
+
+2022-01-15 07:16:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/NewCategory/Page_SiteTesting Add new category/div_ID number is already used for another category' are matched.
+
+2022-01-15 07:16:20 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2022-01-15 07:16:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NewCourse/1. Create new course without enter any input field" time="11.631" classname="Test Cases/NewCourse/1. Create new course without enter any input field" status="PASSED">
+         <system-out><![CDATA[2022-01-15 07:16:21 - [TEST_CASE][PASSED] - Test Cases/NewCourse/1. Create new course without enter any input field: Test Cases/NewCourse/1. Create new course without enter any input field
+
+2022-01-15 07:16:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 07:16:21 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2022-01-15 07:16:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 07:16:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 07:16:22 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:16:22 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:16:22 - [TEST_STEP][PASSED] - click(findTestObject("NewCourse/Page_Automation Testing Site/a_Log in")): Object: 'Object Repository/NewCourse/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:16:23 - [MESSAGE][PASSED] - Object: 'Object Repository/NewCourse/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:16:23 - [TEST_STEP][PASSED] - setText(findTestObject("NewCourse/Page_Automation Testing Site Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/NewCourse/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:16:24 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/NewCourse/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:16:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("NewCourse/Page_Automation Testing Site Log in to the site/input_Password_password"), "cnpXG5HhkrZpEXzNIGBMZQ=="): Text ****** has been set on object 'Object Repository/NewCourse/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:16:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/NewCourse/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:16:25 - [TEST_STEP][PASSED] - click(findTestObject("NewCourse/Page_Automation Testing Site Log in to the site/button_Log in")): Object: 'Object Repository/NewCourse/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:16:26 - [MESSAGE][PASSED] - Object: 'Object Repository/NewCourse/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:16:26 - [TEST_STEP][PASSED] - click(findTestObject("NewCourse/Page_Dashboard/span_Site administration")): Object: 'Object Repository/NewCourse/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-15 07:16:27 - [MESSAGE][PASSED] - Object: 'Object Repository/NewCourse/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-15 07:16:28 - [TEST_STEP][PASSED] - click(findTestObject("NewCourse/Page_SiteTesting Administration Search/a_Courses")): Object: 'Object Repository/NewCourse/Page_SiteTesting Administration Search/a_Courses' is clicked on
+
+2022-01-15 07:16:28 - [MESSAGE][PASSED] - Object: 'Object Repository/NewCourse/Page_SiteTesting Administration Search/a_Courses' is clicked on
+
+2022-01-15 07:16:28 - [TEST_STEP][PASSED] - click(findTestObject("NewCourse/Page_SiteTesting Administration Search/a_Add a new course")): Object: 'Object Repository/NewCourse/Page_SiteTesting Administration Search/a_Add a new course' is clicked on
+
+2022-01-15 07:16:30 - [MESSAGE][PASSED] - Object: 'Object Repository/NewCourse/Page_SiteTesting Administration Search/a_Add a new course' is clicked on
+
+2022-01-15 07:16:30 - [TEST_STEP][PASSED] - click(findTestObject("NewCourse/Page_SiteTesting Add a new course/input__saveanddisplay")): Object: 'Object Repository/NewCourse/Page_SiteTesting Add a new course/input__saveanddisplay' is clicked on
+
+2022-01-15 07:16:31 - [MESSAGE][PASSED] - Object: 'Object Repository/NewCourse/Page_SiteTesting Add a new course/input__saveanddisplay' is clicked on
+
+2022-01-15 07:16:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("NewCourse/Page_SiteTesting Add a new course/div_- Missing full name"), "- Missing full name"): Actual text and expected text of test object 'Object Repository/NewCourse/Page_SiteTesting Add a new course/div_- Missing full name' are matched.
+
+2022-01-15 07:16:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/NewCourse/Page_SiteTesting Add a new course/div_- Missing full name' are matched.
+
+2022-01-15 07:16:31 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2022-01-15 07:16:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NewCourse/2. NewCourseWithCorrectData" time="15.063" classname="Test Cases/NewCourse/2. NewCourseWithCorrectData" status="PASSED">
+         <system-out><![CDATA[2022-01-15 07:16:32 - [TEST_CASE][PASSED] - Test Cases/NewCourse/2. NewCourseWithCorrectData: Test Cases/NewCourse/2. NewCourseWithCorrectData
+
+2022-01-15 07:16:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 07:16:32 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2022-01-15 07:16:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 07:16:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 07:16:34 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:16:34 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:16:34 - [TEST_STEP][PASSED] - click(findTestObject("NewCourse/Page_Automation Testing Site (1)/div_You are not logged in. (Log in)")): Object: 'Object Repository/NewCourse/Page_Automation Testing Site (1)/div_You are not logged in. (Log in)' is clicked on
+
+2022-01-15 07:16:35 - [MESSAGE][PASSED] - Object: 'Object Repository/NewCourse/Page_Automation Testing Site (1)/div_You are not logged in. (Log in)' is clicked on
+
+2022-01-15 07:16:35 - [TEST_STEP][PASSED] - click(findTestObject("NewCourse/Page_Automation Testing Site (1)/a_Log in")): Object: 'Object Repository/NewCourse/Page_Automation Testing Site (1)/a_Log in' is clicked on
+
+2022-01-15 07:16:35 - [MESSAGE][PASSED] - Object: 'Object Repository/NewCourse/Page_Automation Testing Site (1)/a_Log in' is clicked on
+
+2022-01-15 07:16:35 - [TEST_STEP][PASSED] - setText(findTestObject("NewCourse/Page_Automation Testing Site Log in to the site (1)/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/NewCourse/Page_Automation Testing Site Log in to the site (1)/input_Username_username'
+
+2022-01-15 07:16:36 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/NewCourse/Page_Automation Testing Site Log in to the site (1)/input_Username_username'
+
+2022-01-15 07:16:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("NewCourse/Page_Automation Testing Site Log in to the site (1)/input_Password_password"), "cnpXG5HhkrZpEXzNIGBMZQ=="): Text ****** has been set on object 'Object Repository/NewCourse/Page_Automation Testing Site Log in to the site (1)/input_Password_password'
+
+2022-01-15 07:16:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/NewCourse/Page_Automation Testing Site Log in to the site (1)/input_Password_password'
+
+2022-01-15 07:16:37 - [TEST_STEP][PASSED] - click(findTestObject("NewCourse/Page_Automation Testing Site Log in to the site (1)/button_Log in")): Object: 'Object Repository/NewCourse/Page_Automation Testing Site Log in to the site (1)/button_Log in' is clicked on
+
+2022-01-15 07:16:38 - [MESSAGE][PASSED] - Object: 'Object Repository/NewCourse/Page_Automation Testing Site Log in to the site (1)/button_Log in' is clicked on
+
+2022-01-15 07:16:38 - [TEST_STEP][PASSED] - click(findTestObject("NewCourse/Page_Dashboard (1)/span_Site administration")): Object: 'Object Repository/NewCourse/Page_Dashboard (1)/span_Site administration' is clicked on
+
+2022-01-15 07:16:40 - [MESSAGE][PASSED] - Object: 'Object Repository/NewCourse/Page_Dashboard (1)/span_Site administration' is clicked on
+
+2022-01-15 07:16:40 - [TEST_STEP][PASSED] - click(findTestObject("NewCourse/Page_SiteTesting Administration Search (1)/a_Courses")): Object: 'Object Repository/NewCourse/Page_SiteTesting Administration Search (1)/a_Courses' is clicked on
+
+2022-01-15 07:16:40 - [MESSAGE][PASSED] - Object: 'Object Repository/NewCourse/Page_SiteTesting Administration Search (1)/a_Courses' is clicked on
+
+2022-01-15 07:16:40 - [TEST_STEP][PASSED] - click(findTestObject("NewCourse/Page_SiteTesting Administration Search (1)/a_Add a new course")): Object: 'Object Repository/NewCourse/Page_SiteTesting Administration Search (1)/a_Add a new course' is clicked on
+
+2022-01-15 07:16:41 - [MESSAGE][PASSED] - Object: 'Object Repository/NewCourse/Page_SiteTesting Administration Search (1)/a_Add a new course' is clicked on
+
+2022-01-15 07:16:41 - [TEST_STEP][PASSED] - setText(findTestObject("NewCourse/Page_SiteTesting Add a new course (1)/input_Course full name_fullname"), "Init Course"): Text 'Init Course' is set on object 'Object Repository/NewCourse/Page_SiteTesting Add a new course (1)/input_Course full name_fullname'
+
+2022-01-15 07:16:43 - [MESSAGE][PASSED] - Text 'Init Course' is set on object 'Object Repository/NewCourse/Page_SiteTesting Add a new course (1)/input_Course full name_fullname'
+
+2022-01-15 07:16:43 - [TEST_STEP][PASSED] - setText(findTestObject("NewCourse/Page_SiteTesting Add a new course (1)/input_Course short name_shortname"), "test"): Text 'test' is set on object 'Object Repository/NewCourse/Page_SiteTesting Add a new course (1)/input_Course short name_shortname'
+
+2022-01-15 07:16:44 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/NewCourse/Page_SiteTesting Add a new course (1)/input_Course short name_shortname'
+
+2022-01-15 07:16:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/NewCourse/Page_SiteTesting Add a new course/input_Course ID number_idnumber"), "123"): Text '123' is set on object 'Object Repository/NewCourse/Page_SiteTesting Add a new course/input_Course ID number_idnumber'
+
+2022-01-15 07:16:45 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/NewCourse/Page_SiteTesting Add a new course/input_Course ID number_idnumber'
+
+2022-01-15 07:16:45 - [TEST_STEP][PASSED] - click(findTestObject("NewCourse/Page_SiteTesting Add a new course (1)/input__saveanddisplay")): Object: 'Object Repository/NewCourse/Page_SiteTesting Add a new course (1)/input__saveanddisplay' is clicked on
+
+2022-01-15 07:16:46 - [MESSAGE][PASSED] - Object: 'Object Repository/NewCourse/Page_SiteTesting Add a new course (1)/input__saveanddisplay' is clicked on
+
+2022-01-15 07:16:46 - [TEST_STEP][PASSED] - verifyTextPresent("Init Course", false): Text 'Init Course' is present on page 
+
+2022-01-15 07:16:46 - [MESSAGE][PASSED] - Text 'Init Course' is present on page 
+
+2022-01-15 07:16:46 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2022-01-15 07:16:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Xóa tài khoản/Xóa hết tài khoản đã tạo" time="31.789" classname="Test Cases/Xóa tài khoản/Xóa hết tài khoản đã tạo" status="PASSED">
+         <system-out><![CDATA[2022-01-15 07:16:47 - [TEST_CASE][PASSED] - Test Cases/Xóa tài khoản/Xóa hết tài khoản đã tạo: Test Cases/Xóa tài khoản/Xóa hết tài khoản đã tạo
+
+2022-01-15 07:16:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Kiểm tra thẻ Site Administration/Đăng nhập thành công"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công' successfully
+
+2022-01-15 07:16:47 - [TEST_CASE][PASSED] - Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công: Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công
+
+2022-01-15 07:16:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 07:16:47 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2022-01-15 07:16:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 07:16:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 07:16:49 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:16:49 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-15 07:16:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site/a_Log in")): Object: 'Object Repository/LoginObject/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:16:50 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-15 07:16:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:16:51 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-15 07:16:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password"), "cnpXG5HhkrZpEXzNIGBMZQ=="): Text ****** has been set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:16:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-15 07:16:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in")): Object: 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:16:53 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-15 07:16:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/LoginObject/Page_Dashboard/span_Site administration"), "Site administration"): Actual text and expected text of test object 'Object Repository/LoginObject/Page_Dashboard/span_Site administration' are matched.
+
+2022-01-15 07:16:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginObject/Page_Dashboard/span_Site administration' are matched.
+
+2022-01-15 07:16:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công' successfully
+
+2022-01-15 07:16:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AddANewUserObject/Page_Dashboard/span_Site administration")): Object: 'Object Repository/AddANewUserObject/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-15 07:16:55 - [MESSAGE][PASSED] - Object: 'Object Repository/AddANewUserObject/Page_Dashboard/span_Site administration' is clicked on
+
+2022-01-15 07:16:55 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/admin/search.php"): Navigate to 'http://localhost/admin/search.php' successfully
+
+2022-01-15 07:16:55 - [MESSAGE][PASSED] - Navigate to 'http://localhost/admin/search.php' successfully
+
+2022-01-15 07:16:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DeleteAnAccount/Page_SiteTesting Administration Search/a_Users")): Object: 'Object Repository/DeleteAnAccount/Page_SiteTesting Administration Search/a_Users' is clicked on
+
+2022-01-15 07:16:56 - [MESSAGE][PASSED] - Object: 'Object Repository/DeleteAnAccount/Page_SiteTesting Administration Search/a_Users' is clicked on
+
+2022-01-15 07:16:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DeleteAnAccount/Page_SiteTesting Administration Search/a_Browse list of users")): Object: 'Object Repository/DeleteAnAccount/Page_SiteTesting Administration Search/a_Browse list of users' is clicked on
+
+2022-01-15 07:16:57 - [MESSAGE][PASSED] - Object: 'Object Repository/DeleteAnAccount/Page_SiteTesting Administration Search/a_Browse list of users' is clicked on
+
+2022-01-15 07:16:57 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/admin/user.php"): Navigate to 'http://localhost/admin/user.php' successfully
+
+2022-01-15 07:16:58 - [MESSAGE][PASSED] - Navigate to 'http://localhost/admin/user.php' successfully
+
+2022-01-15 07:16:58 - [TEST_STEP][PASSED] - while (true): null
+
+2022-01-15 07:16:58 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/i_Never_icon fa fa-trash fa-fw"), 1, OPTIONAL) == false): Object 'Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/i_Never_icon fa fa-trash fa-fw' is visible
+
+2022-01-15 07:16:58 - [MESSAGE][PASSED] - Object 'Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/i_Never_icon fa fa-trash fa-fw' is visible
+
+2022-01-15 07:16:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/i_Never_icon fa fa-trash fa-fw")): Object: 'Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/i_Never_icon fa fa-trash fa-fw' is clicked on
+
+2022-01-15 07:16:59 - [MESSAGE][PASSED] - Object: 'Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/i_Never_icon fa fa-trash fa-fw' is clicked on
+
+2022-01-15 07:16:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/button_Delete")): Object: 'Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/button_Delete' is clicked on
+
+2022-01-15 07:17:01 - [MESSAGE][PASSED] - Object: 'Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/button_Delete' is clicked on
+
+2022-01-15 07:17:01 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/admin/user.php?sort=name&dir=ASC&perpage=30&page=0&delete=57&sesskey=OUmxCxziON"): Navigate to 'http://localhost/admin/user.php?sort=name&dir=ASC&perpage=30&page=0&delete=57&sesskey=OUmxCxziON' successfully
+
+2022-01-15 07:17:01 - [MESSAGE][PASSED] - Navigate to 'http://localhost/admin/user.php?sort=name&dir=ASC&perpage=30&page=0&delete=57&sesskey=OUmxCxziON' successfully
+
+2022-01-15 07:17:01 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/i_Never_icon fa fa-trash fa-fw"), 1, OPTIONAL) == false): Object 'Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/i_Never_icon fa fa-trash fa-fw' is visible
+
+2022-01-15 07:17:02 - [MESSAGE][PASSED] - Object 'Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/i_Never_icon fa fa-trash fa-fw' is visible
+
+2022-01-15 07:17:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/i_Never_icon fa fa-trash fa-fw")): Object: 'Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/i_Never_icon fa fa-trash fa-fw' is clicked on
+
+2022-01-15 07:17:03 - [MESSAGE][PASSED] - Object: 'Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/i_Never_icon fa fa-trash fa-fw' is clicked on
+
+2022-01-15 07:17:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/button_Delete")): Object: 'Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/button_Delete' is clicked on
+
+2022-01-15 07:17:04 - [MESSAGE][PASSED] - Object: 'Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/button_Delete' is clicked on
+
+2022-01-15 07:17:04 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/admin/user.php?sort=name&dir=ASC&perpage=30&page=0&delete=57&sesskey=OUmxCxziON"): Navigate to 'http://localhost/admin/user.php?sort=name&dir=ASC&perpage=30&page=0&delete=57&sesskey=OUmxCxziON' successfully
+
+2022-01-15 07:17:05 - [MESSAGE][PASSED] - Navigate to 'http://localhost/admin/user.php?sort=name&dir=ASC&perpage=30&page=0&delete=57&sesskey=OUmxCxziON' successfully
+
+2022-01-15 07:17:05 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/i_Never_icon fa fa-trash fa-fw"), 1, OPTIONAL) == false): Object 'Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/i_Never_icon fa fa-trash fa-fw' is visible
+
+2022-01-15 07:17:05 - [MESSAGE][PASSED] - Object 'Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/i_Never_icon fa fa-trash fa-fw' is visible
+
+2022-01-15 07:17:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/i_Never_icon fa fa-trash fa-fw")): Object: 'Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/i_Never_icon fa fa-trash fa-fw' is clicked on
+
+2022-01-15 07:17:06 - [MESSAGE][PASSED] - Object: 'Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/i_Never_icon fa fa-trash fa-fw' is clicked on
+
+2022-01-15 07:17:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/button_Delete")): Object: 'Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/button_Delete' is clicked on
+
+2022-01-15 07:17:07 - [MESSAGE][PASSED] - Object: 'Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/button_Delete' is clicked on
+
+2022-01-15 07:17:07 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/admin/user.php?sort=name&dir=ASC&perpage=30&page=0&delete=57&sesskey=OUmxCxziON"): Navigate to 'http://localhost/admin/user.php?sort=name&dir=ASC&perpage=30&page=0&delete=57&sesskey=OUmxCxziON' successfully
+
+2022-01-15 07:17:08 - [MESSAGE][PASSED] - Navigate to 'http://localhost/admin/user.php?sort=name&dir=ASC&perpage=30&page=0&delete=57&sesskey=OUmxCxziON' successfully
+
+2022-01-15 07:17:08 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/i_Never_icon fa fa-trash fa-fw"), 1, OPTIONAL) == false): null
+
+2022-01-15 07:17:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //i[@class = 'icon fa fa-trash fa-fw ' and @title = 'Delete']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-15 07:17:10 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/i_Never_icon fa fa-trash fa-fw'. Try using Self-healing.
+
+2022-01-15 07:17:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='yui_3_17_2_1_1641381882105_554']/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-15 07:17:11 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//a[@id='yui_3_17_2_1_1641381882105_554']/i'.
+
+2022-01-15 07:17:12 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//tr[4]/td[6]/a/i'.
+
+2022-01-15 07:17:12 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//a[@id='yui_3_17_2_1_1641381882105_554']/i'.
+
+2022-01-15 07:17:12 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//tr[4]/td[6]/a/i'.
+
+2022-01-15 07:17:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-15 07:17:13 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/i_Never_icon fa fa-trash fa-fw' located by '//i[@class = 'icon fa fa-trash fa-fw ' and @title = 'Delete']' not found
+
+2022-01-15 07:17:13 - [TEST_STEP][PASSED] - break: null
+
+2022-01-15 07:17:13 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/i_Never_icon fa fa-trash fa-fw"), 1, OPTIONAL) == true): Web element with id: 'Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/i_Never_icon fa fa-trash fa-fw' located by '//i[@class = 'icon fa fa-trash fa-fw ' and @title = 'Delete']' not found
+
+2022-01-15 07:17:16 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //i[@class = 'icon fa fa-trash fa-fw ' and @title = 'Delete']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-15 07:17:16 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/i_Never_icon fa fa-trash fa-fw'. Try using Self-healing.
+
+2022-01-15 07:17:17 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='yui_3_17_2_1_1641381882105_554']/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-15 07:17:17 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//a[@id='yui_3_17_2_1_1641381882105_554']/i'.
+
+2022-01-15 07:17:17 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//tr[4]/td[6]/a/i'.
+
+2022-01-15 07:17:18 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//a[@id='yui_3_17_2_1_1641381882105_554']/i'.
+
+2022-01-15 07:17:18 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//tr[4]/td[6]/a/i'.
+
+2022-01-15 07:17:19 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-15 07:17:19 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/i_Never_icon fa fa-trash fa-fw' located by '//i[@class = 'icon fa fa-trash fa-fw ' and @title = 'Delete']' not found]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-15 07:11:56 - [TEST_SUITE][PASSED] - Run all test cases: Test Cases/Xóa tài khoản/Xóa hết tài khoản đã tạo]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

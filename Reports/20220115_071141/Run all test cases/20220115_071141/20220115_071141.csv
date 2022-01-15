@@ -1,0 +1,280 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Run all test cases,Edge Chromium 97,Dành cho Iteration 1,,2022-01-15 07:11:56,2022-01-15 07:17:19,5m - 23.459s,PASSED
+,,,,,,,
+Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập dưới quyền Ẩn danh,Edge Chromium 97,,,2022-01-15 07:11:56,2022-01-15 07:12:07,10.781s,PASSED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-15 07:11:56,2022-01-15 07:12:00,3.381s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-15 07:12:00,2022-01-15 07:12:01,1.694s,PASSED
+"click(findTestObject(""Object Repository/AnonymousSignIn/Page_Automation Testing Site/a_Log in""))",Edge Chromium 97,,,2022-01-15 07:12:01,2022-01-15 07:12:02,0.758s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AnonymousSignIn/Page_Automation Testing Site Log in to the site/button_Log in as a guest""), 0)",Edge Chromium 97,,,2022-01-15 07:12:02,2022-01-15 07:12:03,0.463s,PASSED
+"click(findTestObject(""Object Repository/AnonymousSignIn/Page_Automation Testing Site Log in to the site/button_Log in as a guest""))",Edge Chromium 97,,,2022-01-15 07:12:03,2022-01-15 07:12:03,0.759s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-15 07:12:03,2022-01-15 07:12:04,0.195s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AnonymousSignIn/Page_Automation Testing Site/span_Calendar""), 0)",Edge Chromium 97,,,2022-01-15 07:12:04,2022-01-15 07:12:04,0.462s,PASSED
+"click(findTestObject(""Object Repository/AnonymousSignIn/Page_Automation Testing Site/span_Calendar""))",Edge Chromium 97,,,2022-01-15 07:12:04,2022-01-15 07:12:05,0.956s,PASSED
+"verifyTextPresent(""You are currently using guest access (Log in)"", false)",Edge Chromium 97,,,2022-01-15 07:12:05,2022-01-15 07:12:07,1.686s,PASSED
+,,,,,,,
+Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công,Edge Chromium 97,"Trong test case này, sẽ check tài khoản nhập đúng (đã tạo sẵn) với mật khẩu là Asuna@22",Login,2022-01-15 07:12:07,2022-01-15 07:12:15,7.840s,PASSED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-15 07:12:07,2022-01-15 07:12:09,2.135s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-15 07:12:09,2022-01-15 07:12:10,0.594s,PASSED
+"click(findTestObject(""Object Repository/LoginObject/Page_Automation Testing Site/a_Log in""))",Edge Chromium 97,,,2022-01-15 07:12:10,2022-01-15 07:12:10,0.737s,PASSED
+"setText(findTestObject(""Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username""), ""admin"")",Edge Chromium 97,,,2022-01-15 07:12:10,2022-01-15 07:12:11,0.831s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password""), ""cnpXG5HhkrZpEXzNIGBMZQ=="")",Edge Chromium 97,,,2022-01-15 07:12:11,2022-01-15 07:12:12,0.466s,PASSED
+"click(findTestObject(""Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-15 07:12:12,2022-01-15 07:12:13,1.589s,PASSED
+"verifyElementText(findTestObject(""Object Repository/LoginObject/Page_Dashboard/span_Site administration""), ""Site administration"")",Edge Chromium 97,,,2022-01-15 07:12:13,2022-01-15 07:12:15,1.284s,PASSED
+,,,,,,,
+Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thất bại,Edge Chromium 97,"Trong test case này, sẽ test liên quan đến việc đăng nhập sai mật khẩu",LoginFailed,2022-01-15 07:12:15,2022-01-15 07:12:21,6.616s,PASSED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-15 07:12:15,2022-01-15 07:12:17,2.041s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-15 07:12:17,2022-01-15 07:12:17,0.498s,PASSED
+"click(findTestObject(""Object Repository/LoginFailedObject/Page_Automation Testing Site/a_Log in""))",Edge Chromium 97,,,2022-01-15 07:12:17,2022-01-15 07:12:18,0.766s,PASSED
+"setText(findTestObject(""Object Repository/LoginFailedObject/Page_Automation Testing Site Log in to the site/input_Username_username""), ""admin"")",Edge Chromium 97,,,2022-01-15 07:12:18,2022-01-15 07:12:19,0.798s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/LoginFailedObject/Page_Automation Testing Site Log in to the site/input_Password_password""), ""RAIVpflpDOg="")",Edge Chromium 97,,,2022-01-15 07:12:19,2022-01-15 07:12:19,0.403s,PASSED
+"click(findTestObject(""Object Repository/LoginFailedObject/Page_Automation Testing Site Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-15 07:12:19,2022-01-15 07:12:20,0.702s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/LoginFailedObject/Page_Automation Testing Site Log in to the site/div_Invalid login, please try again""), 0)",Edge Chromium 97,,,2022-01-15 07:12:20,2022-01-15 07:12:20,0.441s,PASSED
+closeBrowser(),Edge Chromium 97,,,2022-01-15 07:12:20,2022-01-15 07:12:21,0.794s,PASSED
+,,,,,,,
+Test Cases/Phần thiết lập khác/Tạo Course tên là Sample Course For Permission,Edge Chromium 97,Tạo course cho việc setup quyền hạn,,2022-01-15 07:12:21,2022-01-15 07:12:37,15.451s,PASSED
+"callTestCase(findTestCase(""Kiểm tra thẻ Site Administration/Đăng nhập thành công""), [:], STOP_ON_FAILURE)",Edge Chromium 97,,,2022-01-15 07:12:21,2022-01-15 07:12:27,6.104s,PASSED
+"click(findTestObject(""Object Repository/AddSampleCourse/Page_Dashboard/span_Site home""))",Edge Chromium 97,,,2022-01-15 07:12:27,2022-01-15 07:12:29,1.110s,PASSED
+"if (verifyTextPresent(""Sample Course For Permission"", false, OPTIONAL) == true)",Edge Chromium 97,,,2022-01-15 07:12:29,2022-01-15 07:12:29,0.583s,PASSED
+else,Edge Chromium 97,,,2022-01-15 07:12:29,2022-01-15 07:12:37,7.462s,PASSED
+,,,,,,,
+Test Cases/Phần thiết lập khác/Kiểm tra sự hiện diện của tính năng tin nhắn,Edge Chromium 97,Phần này sẽ check có tính năng tin nhắn hay không,,2022-01-15 07:12:37,2022-01-15 07:12:47,10.307s,PASSED
+"callTestCase(findTestCase(""Kiểm tra thẻ Site Administration/Đăng nhập thành công""), [:], STOP_ON_FAILURE)",Edge Chromium 97,,,2022-01-15 07:12:37,2022-01-15 07:12:44,7.028s,PASSED
+"click(findTestObject(""Object Repository/CheckMessageVisible/Page_Dashboard/i_See all_icon fa fa-comment fa-fw""))",Edge Chromium 97,,,2022-01-15 07:12:44,2022-01-15 07:12:44,0.633s,PASSED
+"verifyTextPresent(""Contacts"", false)",Edge Chromium 97,,,2022-01-15 07:12:44,2022-01-15 07:12:46,1.055s,PASSED
+"verifyTextPresent(""Group"", false)",Edge Chromium 97,,,2022-01-15 07:12:46,2022-01-15 07:12:46,0.550s,PASSED
+"verifyTextPresent(""Private"", false)",Edge Chromium 97,,,2022-01-15 07:12:46,2022-01-15 07:12:47,0.481s,PASSED
+"click(findTestObject(""Object Repository/CheckMessageVisible/Page_Dashboard/i_See all_icon fa fa-comment fa-fw""))",Edge Chromium 97,,,2022-01-15 07:12:47,2022-01-15 07:12:47,0.339s,PASSED
+,,,,,,,
+Test Cases/Phần thiết lập khác/Kiểm tra việc tạo và xóa một Cohort,Edge Chromium 97,,,2022-01-15 07:12:47,2022-01-15 07:13:04,17.254s,PASSED
+"callTestCase(findTestCase(""Kiểm tra thẻ Site Administration/Đăng nhập thành công""), [:], STOP_ON_FAILURE)",Edge Chromium 97,,,2022-01-15 07:12:47,2022-01-15 07:12:54,6.788s,PASSED
+"click(findTestObject(""Object Repository/AddANewUserObject/Page_Dashboard/span_Site administration""))",Edge Chromium 97,,,2022-01-15 07:12:54,2022-01-15 07:12:55,1.123s,PASSED
+"navigateToUrl(""http://localhost/admin/search.php"")",Edge Chromium 97,,,2022-01-15 07:12:55,2022-01-15 07:12:56,0.495s,PASSED
+"click(findTestObject(""Object Repository/AddCohort/Page_SiteTesting Administration Search/a_Users""))",Edge Chromium 97,,,2022-01-15 07:12:56,2022-01-15 07:12:56,0.530s,PASSED
+"click(findTestObject(""Object Repository/AddCohort/Page_SiteTesting Administration Search/a_Cohorts""))",Edge Chromium 97,,,2022-01-15 07:12:56,2022-01-15 07:12:57,0.844s,PASSED
+"click(findTestObject(""Object Repository/AddCohort/Page_SiteTesting Administration Users Accou_c8a473/a_Add new cohort""))",Edge Chromium 97,,,2022-01-15 07:12:57,2022-01-15 07:12:58,1.206s,PASSED
+"setText(findTestObject(""Object Repository/AddCohort/Page_Add new cohort/input_Name_name""), ""Cohort1"")",Edge Chromium 97,,,2022-01-15 07:12:58,2022-01-15 07:13:00,1.396s,PASSED
+"click(findTestObject(""Object Repository/AddCohort/Page_Add new cohort/input_Description_submitbutton""))",Edge Chromium 97,,,2022-01-15 07:13:00,2022-01-15 07:13:01,1.201s,PASSED
+"verifyTextPresent(""Cohort1"", false)",Edge Chromium 97,,,2022-01-15 07:13:01,2022-01-15 07:13:02,0.625s,PASSED
+"click(findTestObject(""Object Repository/AddCohort/Page_SiteTesting Administration Users Accou_c8a473/i_Created manually_icon fa fa-trash fa-fw""))",Edge Chromium 97,,,2022-01-15 07:13:02,2022-01-15 07:13:02,0.775s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AddCohort/Page_Delete cohort/p_Do you really want to delete cohort Cohort1""), ""Do you really want to delete cohort 'Cohort1'?"")",Edge Chromium 97,,,2022-01-15 07:13:02,2022-01-15 07:13:03,0.543s,PASSED
+"click(findTestObject(""Object Repository/AddCohort/Page_Delete cohort/button_Continue""))",Edge Chromium 97,,,2022-01-15 07:13:03,2022-01-15 07:13:04,0.862s,PASSED
+"navigateToUrl(""http://localhost/cohort/index.php?page=0&contextid=1"")",Edge Chromium 97,,,2022-01-15 07:13:04,2022-01-15 07:13:04,0.417s,PASSED
+,,,,,,,
+Test Cases/Tạo 1 User mới/Điền sai định dạng email,Edge Chromium 97,"Trong phần này, thì sẽ điền sai định dạng về email để kiểm tra Exception",,2022-01-15 07:13:04,2022-01-15 07:13:22,18.263s,PASSED
+"callTestCase(findTestCase(""Kiểm tra thẻ Site Administration/Đăng nhập thành công""), [:], STOP_ON_FAILURE)",Edge Chromium 97,,,2022-01-15 07:13:04,2022-01-15 07:13:11,6.794s,PASSED
+"click(findTestObject(""Object Repository/AddANewUserObject/Page_Dashboard/span_Site administration""))",Edge Chromium 97,,,2022-01-15 07:13:11,2022-01-15 07:13:12,1.083s,PASSED
+"navigateToUrl(""http://localhost/admin/search.php"")",Edge Chromium 97,,,2022-01-15 07:13:12,2022-01-15 07:13:13,0.470s,PASSED
+"click(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Users""))",Edge Chromium 97,,,2022-01-15 07:13:13,2022-01-15 07:13:13,0.513s,PASSED
+"click(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Add a new user""))",Edge Chromium 97,,,2022-01-15 07:13:13,2022-01-15 07:13:15,1.433s,PASSED
+"setText(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Username_username""), ""testing_wrong_email"")",Edge Chromium 97,,,2022-01-15 07:13:15,2022-01-15 07:13:16,1.391s,PASSED
+"click(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/em_Click to enter text""))",Edge Chromium 97,,,2022-01-15 07:13:16,2022-01-15 07:13:17,0.562s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_New password_newpassword""), ""cnpXG5HhkrZpEXzNIGBMZQ=="")",Edge Chromium 97,,,2022-01-15 07:13:17,2022-01-15 07:13:17,0.508s,PASSED
+"setText(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_First name_firstname""), ""Quang"")",Edge Chromium 97,,,2022-01-15 07:13:17,2022-01-15 07:13:18,0.859s,PASSED
+"setText(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Surname_lastname""), ""Le2"")",Edge Chromium 97,,,2022-01-15 07:13:18,2022-01-15 07:13:19,1.024s,PASSED
+"setText(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Email address_email""), ""testing_wrong_email"")",Edge Chromium 97,,,2022-01-15 07:13:19,2022-01-15 07:13:20,0.807s,PASSED
+"click(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Address_submitbutton""))",Edge Chromium 97,,,2022-01-15 07:13:20,2022-01-15 07:13:21,1.477s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/div_Invalid email address""), ""Invalid email address"")",Edge Chromium 97,,,2022-01-15 07:13:21,2022-01-15 07:13:22,1.085s,PASSED
+,,,,,,,
+Test Cases/Tạo 1 User mới/Điền mật khẩu yếu,Edge Chromium 97,Ta sẽ điền mật khẩu 12345678,,2022-01-15 07:13:22,2022-01-15 07:13:41,19.015s,PASSED
+"callTestCase(findTestCase(""Kiểm tra thẻ Site Administration/Đăng nhập thành công""), [:], STOP_ON_FAILURE)",Edge Chromium 97,,,2022-01-15 07:13:23,2022-01-15 07:13:30,7.095s,PASSED
+"click(findTestObject(""Object Repository/AddANewUserObject/Page_Dashboard/span_Site administration""))",Edge Chromium 97,,,2022-01-15 07:13:30,2022-01-15 07:13:31,1.163s,PASSED
+"navigateToUrl(""http://localhost/admin/search.php"")",Edge Chromium 97,,,2022-01-15 07:13:31,2022-01-15 07:13:31,0.492s,PASSED
+"click(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Users""))",Edge Chromium 97,,,2022-01-15 07:13:31,2022-01-15 07:13:32,0.539s,PASSED
+"click(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Add a new user""))",Edge Chromium 97,,,2022-01-15 07:13:32,2022-01-15 07:13:33,1.473s,PASSED
+"setText(findTestObject(""Object Repository/WeakPasswordObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Username_username""), ""testing_weak_pass"")",Edge Chromium 97,,,2022-01-15 07:13:33,2022-01-15 07:13:35,1.476s,PASSED
+"setText(findTestObject(""Object Repository/WeakPasswordObject/Page_SiteTesting Administration Users Accou_a8eb60/input_First name_firstname""), ""Quang"")",Edge Chromium 97,,,2022-01-15 07:13:35,2022-01-15 07:13:36,0.855s,PASSED
+"setText(findTestObject(""Object Repository/WeakPasswordObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Surname_lastname""), ""Le6"")",Edge Chromium 97,,,2022-01-15 07:13:36,2022-01-15 07:13:37,0.787s,PASSED
+"setText(findTestObject(""Object Repository/WeakPasswordObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Email address_email""), ""testing_weak_pass@gmail.com"")",Edge Chromium 97,,,2022-01-15 07:13:37,2022-01-15 07:13:37,0.866s,PASSED
+"click(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/em_Click to enter text""))",Edge Chromium 97,,,2022-01-15 07:13:37,2022-01-15 07:13:38,0.561s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/WeakPasswordObject/Page_SiteTesting Administration Users Accou_a8eb60/input_New password_newpassword""), ""RigbBhfdqOBGNlJIWM1ClA=="")",Edge Chromium 97,,,2022-01-15 07:13:38,2022-01-15 07:13:39,0.553s,PASSED
+"click(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Address_submitbutton""))",Edge Chromium 97,,,2022-01-15 07:13:39,2022-01-15 07:13:40,1.313s,PASSED
+"verifyTextPresent(""The password must have at least 1 special character(s) such as as *, -, or #."", false)",Edge Chromium 97,,,2022-01-15 07:13:40,2022-01-15 07:13:41,1.602s,PASSED
+,,,,,,,
+Test Cases/Tạo 1 User mới/Điền không đầy đủ thông tin bắt buộc,Edge Chromium 97,"Trong phần này, thì sẽ điền bỏ 1 ô có dấu chấm than",,2022-01-15 07:13:41,2022-01-15 07:13:58,16.232s,PASSED
+"callTestCase(findTestCase(""Kiểm tra thẻ Site Administration/Đăng nhập thành công""), [:], STOP_ON_FAILURE)",Edge Chromium 97,,,2022-01-15 07:13:42,2022-01-15 07:13:49,7.232s,PASSED
+"click(findTestObject(""Object Repository/AddANewUserObject/Page_Dashboard/span_Site administration""))",Edge Chromium 97,,,2022-01-15 07:13:49,2022-01-15 07:13:50,1.215s,PASSED
+"navigateToUrl(""http://localhost/admin/search.php"")",Edge Chromium 97,,,2022-01-15 07:13:50,2022-01-15 07:13:51,0.503s,PASSED
+"click(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Users""))",Edge Chromium 97,,,2022-01-15 07:13:51,2022-01-15 07:13:51,0.502s,PASSED
+"click(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Add a new user""))",Edge Chromium 97,,,2022-01-15 07:13:51,2022-01-15 07:13:53,1.422s,PASSED
+"setText(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Username_username""), ""testing_redundant"")",Edge Chromium 97,,,2022-01-15 07:13:53,2022-01-15 07:13:54,1.287s,PASSED
+"click(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/em_Click to enter text""))",Edge Chromium 97,,,2022-01-15 07:13:54,2022-01-15 07:13:54,0.594s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_New password_newpassword""), ""cnpXG5HhkrZpEXzNIGBMZQ=="")",Edge Chromium 97,,,2022-01-15 07:13:54,2022-01-15 07:13:55,0.525s,PASSED
+"setText(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_First name_firstname""), ""Quang"")",Edge Chromium 97,,,2022-01-15 07:13:55,2022-01-15 07:13:56,0.785s,PASSED
+"setText(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Email address_email""), ""testing_redundant@gmail.com"")",Edge Chromium 97,,,2022-01-15 07:13:56,2022-01-15 07:13:57,1.043s,PASSED
+"click(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Address_submitbutton""))",Edge Chromium 97,,,2022-01-15 07:13:57,2022-01-15 07:13:57,0.510s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/div_- Missing surname""), ""- Missing surname"")",Edge Chromium 97,,,2022-01-15 07:13:57,2022-01-15 07:13:58,0.451s,PASSED
+,,,,,,,
+Test Cases/Tạo 1 User mới/Điền đầy đủ thông tin bắt buộc,Edge Chromium 97,"Trong phần này, thì sẽ điền hết các mục có dấu chấm than",,2022-01-15 07:13:58,2022-01-15 07:14:16,17.983s,PASSED
+"callTestCase(findTestCase(""Kiểm tra thẻ Site Administration/Đăng nhập thành công""), [:], STOP_ON_FAILURE)",Edge Chromium 97,,,2022-01-15 07:13:58,2022-01-15 07:14:05,7.014s,PASSED
+"click(findTestObject(""Object Repository/AddANewUserObject/Page_Dashboard/span_Site administration""))",Edge Chromium 97,,,2022-01-15 07:14:05,2022-01-15 07:14:06,1.139s,PASSED
+"navigateToUrl(""http://localhost/admin/search.php"")",Edge Chromium 97,,,2022-01-15 07:14:06,2022-01-15 07:14:07,0.503s,PASSED
+"click(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Users""))",Edge Chromium 97,,,2022-01-15 07:14:07,2022-01-15 07:14:07,0.488s,PASSED
+"click(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Add a new user""))",Edge Chromium 97,,,2022-01-15 07:14:07,2022-01-15 07:14:08,1.403s,PASSED
+"setText(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Username_username""), ""testing"")",Edge Chromium 97,,,2022-01-15 07:14:08,2022-01-15 07:14:10,1.324s,PASSED
+"click(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/em_Click to enter text""))",Edge Chromium 97,,,2022-01-15 07:14:10,2022-01-15 07:14:10,0.549s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_New password_newpassword""), ""cnpXG5HhkrZpEXzNIGBMZQ=="")",Edge Chromium 97,,,2022-01-15 07:14:10,2022-01-15 07:14:11,0.525s,PASSED
+"setText(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_First name_firstname""), ""Quang"")",Edge Chromium 97,,,2022-01-15 07:14:11,2022-01-15 07:14:12,0.811s,PASSED
+"setText(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Surname_lastname""), ""Le1"")",Edge Chromium 97,,,2022-01-15 07:14:12,2022-01-15 07:14:13,1.016s,PASSED
+"setText(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Email address_email""), ""testing@gmail.com"")",Edge Chromium 97,,,2022-01-15 07:14:13,2022-01-15 07:14:14,0.822s,PASSED
+"click(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Address_submitbutton""))",Edge Chromium 97,,,2022-01-15 07:14:14,2022-01-15 07:14:15,1.572s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Users Accou_36dc4d/td_testinggmail.com""), ""testing@gmail.com"")",Edge Chromium 97,,,2022-01-15 07:14:15,2022-01-15 07:14:16,0.617s,PASSED
+,,,,,,,
+Test Cases/Tạo 1 User mới/Test 1 vài trường optional khác,Edge Chromium 97,Test case này sẽ thực hiện việc kiểm thử tính năng Description có hoạt động tốt hay không + điền thêm 1-2 trường,,2022-01-15 07:14:16,2022-01-15 07:14:38,22.764s,PASSED
+"callTestCase(findTestCase(""Kiểm tra thẻ Site Administration/Đăng nhập thành công""), [:], STOP_ON_FAILURE)",Edge Chromium 97,,,2022-01-15 07:14:16,2022-01-15 07:14:23,6.920s,PASSED
+"click(findTestObject(""Object Repository/AddANewUserObject/Page_Dashboard/span_Site administration""))",Edge Chromium 97,,,2022-01-15 07:14:23,2022-01-15 07:14:24,1.095s,PASSED
+"navigateToUrl(""http://localhost/admin/search.php"")",Edge Chromium 97,,,2022-01-15 07:14:24,2022-01-15 07:14:24,0.519s,PASSED
+"click(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Users""))",Edge Chromium 97,,,2022-01-15 07:14:24,2022-01-15 07:14:25,0.514s,PASSED
+"click(findTestObject(""Object Repository/AddANewUserObject/Page_SiteTesting Administration Search/a_Add a new user""))",Edge Chromium 97,,,2022-01-15 07:14:25,2022-01-15 07:14:26,1.323s,PASSED
+"setText(findTestObject(""Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Username_username""), ""testing_description"")",Edge Chromium 97,,,2022-01-15 07:14:26,2022-01-15 07:14:28,1.392s,PASSED
+"click(findTestObject(""Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/em_Click to enter text""))",Edge Chromium 97,,,2022-01-15 07:14:28,2022-01-15 07:14:28,0.540s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_New password_newpassword""), ""cnpXG5HhkrZpEXzNIGBMZQ=="")",Edge Chromium 97,,,2022-01-15 07:14:28,2022-01-15 07:14:29,0.522s,PASSED
+"setText(findTestObject(""Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_First name_firstname""), ""Quang"")",Edge Chromium 97,,,2022-01-15 07:14:29,2022-01-15 07:14:30,0.822s,PASSED
+"setText(findTestObject(""Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Surname_lastname""), ""Le5"")",Edge Chromium 97,,,2022-01-15 07:14:30,2022-01-15 07:14:31,1.004s,PASSED
+"setText(findTestObject(""Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Email address_email""), ""testing_description@gmail.com"")",Edge Chromium 97,,,2022-01-15 07:14:31,2022-01-15 07:14:31,0.825s,PASSED
+"click(findTestObject(""Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/a_Additional names""))",Edge Chromium 97,,,2022-01-15 07:14:31,2022-01-15 07:14:32,0.482s,PASSED
+"setText(findTestObject(""Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_First name - phonetic_firstnamephonetic""), ""Quang"")",Edge Chromium 97,,,2022-01-15 07:14:32,2022-01-15 07:14:33,0.851s,PASSED
+"setText(findTestObject(""Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Surname - phonetic_lastnamephonetic""), ""Le"")",Edge Chromium 97,,,2022-01-15 07:14:33,2022-01-15 07:14:34,0.803s,PASSED
+"setText(findTestObject(""Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Middle name_middlename""), ""Nhat"")",Edge Chromium 97,,,2022-01-15 07:14:34,2022-01-15 07:14:34,0.797s,PASSED
+"click(findTestObject(""Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/a_Optional_1""))",Edge Chromium 97,,,2022-01-15 07:14:34,2022-01-15 07:14:35,0.524s,PASSED
+"setText(findTestObject(""Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Phone_phone1""), ""0123456789"")",Edge Chromium 97,,,2022-01-15 07:14:35,2022-01-15 07:14:36,0.908s,PASSED
+"setText(findTestObject(""Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_ID number_idnumber""), ""1000"")",Edge Chromium 97,,,2022-01-15 07:14:36,2022-01-15 07:14:37,0.773s,PASSED
+"click(findTestObject(""Object Repository/OptionalUserFormObject/Page_SiteTesting Administration Users Accou_a8eb60/input_Address_submitbutton""))",Edge Chromium 97,,,2022-01-15 07:14:37,2022-01-15 07:14:38,1.384s,PASSED
+"navigateToUrl(""http://localhost/admin/user.php"")",Edge Chromium 97,,,2022-01-15 07:14:38,2022-01-15 07:14:38,0.556s,PASSED
+,,,,,,,
+Test Cases/Tạo 1 User mới/Kiểm tra việc tài khoản bị ban sau khi chọn Suspended account,Edge Chromium 97,Test case sẽ kiểm tra account bị ban,,2022-01-15 07:14:38,2022-01-15 07:15:02,23.239s,PASSED
+"callTestCase(findTestCase(""Kiểm tra thẻ Site Administration/Đăng nhập thành công""), [:], STOP_ON_FAILURE)",Edge Chromium 97,,,2022-01-15 07:14:39,2022-01-15 07:14:46,7.103s,PASSED
+"click(findTestObject(""Object Repository/AddANewUserObject/Page_Dashboard/span_Site administration""))",Edge Chromium 97,,,2022-01-15 07:14:46,2022-01-15 07:14:47,1.165s,PASSED
+"navigateToUrl(""http://localhost/admin/search.php"")",Edge Chromium 97,,,2022-01-15 07:14:47,2022-01-15 07:14:48,0.497s,PASSED
+"click(findTestObject(""Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Search/a_Users""))",Edge Chromium 97,,,2022-01-15 07:14:48,2022-01-15 07:14:48,0.629s,PASSED
+"click(findTestObject(""Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Search/a_Add a new user""))",Edge Chromium 97,,,2022-01-15 07:14:48,2022-01-15 07:14:50,1.396s,PASSED
+"setText(findTestObject(""Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_a8eb60/input_Username_username""), ""testing_ban"")",Edge Chromium 97,,,2022-01-15 07:14:50,2022-01-15 07:14:51,1.491s,PASSED
+"click(findTestObject(""Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_a8eb60/input_Choose an authentication method_suspended""))",Edge Chromium 97,,,2022-01-15 07:14:51,2022-01-15 07:14:52,0.530s,PASSED
+"click(findTestObject(""Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_a8eb60/em_Click to enter text""))",Edge Chromium 97,,,2022-01-15 07:14:52,2022-01-15 07:14:52,0.540s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_a8eb60/input_New password_newpassword""), ""cnpXG5HhkrZpEXzNIGBMZQ=="")",Edge Chromium 97,,,2022-01-15 07:14:52,2022-01-15 07:14:53,0.520s,PASSED
+"setText(findTestObject(""Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_a8eb60/input_First name_firstname""), ""Quang"")",Edge Chromium 97,,,2022-01-15 07:14:53,2022-01-15 07:14:53,0.780s,PASSED
+"setText(findTestObject(""Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_a8eb60/input_Surname_lastname""), ""Le4"")",Edge Chromium 97,,,2022-01-15 07:14:53,2022-01-15 07:14:54,1.067s,PASSED
+"setText(findTestObject(""Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_a8eb60/input_Email address_email""), ""testing_ban@gmail.com"")",Edge Chromium 97,,,2022-01-15 07:14:54,2022-01-15 07:14:55,0.807s,PASSED
+"click(findTestObject(""Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_a8eb60/input_Address_submitbutton""))",Edge Chromium 97,,,2022-01-15 07:14:55,2022-01-15 07:14:57,1.474s,PASSED
+"navigateToUrl(""http://localhost/admin/user.php"")",Edge Chromium 97,,,2022-01-15 07:14:57,2022-01-15 07:14:57,0.534s,PASSED
+"click(findTestObject(""Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_36dc4d/a_Quang Le""))",Edge Chromium 97,,,2022-01-15 07:14:57,2022-01-15 07:14:58,0.577s,PASSED
+"click(findTestObject(""Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_36dc4d/span_Log out""))",Edge Chromium 97,,,2022-01-15 07:14:58,2022-01-15 07:14:59,0.842s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-15 07:14:59,2022-01-15 07:14:59,0.179s,PASSED
+"click(findTestObject(""Object Repository/AddSuspendedUserAccount/Page_Automation Testing Site/a_Log in""))",Edge Chromium 97,,,2022-01-15 07:14:59,2022-01-15 07:15:00,0.630s,PASSED
+"setText(findTestObject(""Object Repository/AddSuspendedUserAccount/Page_Automation Testing Site Log in to the site/input_Username_username""), ""testing_ban"")",Edge Chromium 97,,,2022-01-15 07:15:00,2022-01-15 07:15:00,0.806s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/AddSuspendedUserAccount/Page_Automation Testing Site Log in to the site/input_Password_password""), ""cnpXG5HhkrZpEXzNIGBMZQ=="")",Edge Chromium 97,,,2022-01-15 07:15:00,2022-01-15 07:15:01,0.395s,PASSED
+"click(findTestObject(""Object Repository/AddSuspendedUserAccount/Page_Automation Testing Site Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-15 07:15:01,2022-01-15 07:15:01,0.542s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AddSuspendedUserAccount/Page_Automation Testing Site Log in to the site/div_Invalid login, please try again""), ""Invalid login, please try again"")",Edge Chromium 97,,,2022-01-15 07:15:01,2022-01-15 07:15:02,0.466s,PASSED
+,,,,,,,
+Test Cases/Tạo 1 User mới/Kiểm tra việc gán quyền thành công trong 1 course,Edge Chromium 97,Test case này gán quyền cho 1 course tên là Sample Course For Permission (đã tạo sẵn),,2022-01-15 07:15:02,2022-01-15 07:15:19,17.253s,PASSED
+"callTestCase(findTestCase(""Kiểm tra thẻ Site Administration/Đăng nhập thành công""), [:], STOP_ON_FAILURE)",Edge Chromium 97,,,2022-01-15 07:15:02,2022-01-15 07:15:09,7.206s,PASSED
+"click(findTestObject(""Object Repository/AddToCourseObj/Page_Dashboard/span_Site home""))",Edge Chromium 97,,,2022-01-15 07:15:09,2022-01-15 07:15:10,1.049s,PASSED
+"click(findTestObject(""Object Repository/AddToCourseObj/Page_Automation Testing Site/a_Sample Course For Permission""))",Edge Chromium 97,,,2022-01-15 07:15:10,2022-01-15 07:15:11,1.153s,PASSED
+"click(findTestObject(""Object Repository/AddToCourseObj/Page_Course Sample Course For Permission/span_Participants""))",Edge Chromium 97,,,2022-01-15 07:15:11,2022-01-15 07:15:13,1.329s,PASSED
+"click(findTestObject(""Object Repository/AddToCourseObj/Page_SampleC Participants/input_With selected users_btn btn-secondary my-1""))",Edge Chromium 97,,,2022-01-15 07:15:13,2022-01-15 07:15:13,0.513s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/AddToCourseObj/Page_SampleC Participants/select_Manager            Teacher          _ffc00f""), ""4"", true)",Edge Chromium 97,,,2022-01-15 07:15:13,2022-01-15 07:15:16,2.356s,PASSED
+"click(findTestObject(""Object Repository/AddToCourseObj/Page_SampleC Participants/span_""))",Edge Chromium 97,,,2022-01-15 07:15:16,2022-01-15 07:15:16,0.486s,PASSED
+"click(findTestObject(""Object Repository/AddToCourseObj/Page_SampleC Participants/li_Quang Le1    testinggmail.com""))",Edge Chromium 97,,,2022-01-15 07:15:16,2022-01-15 07:15:17,0.947s,PASSED
+"click(findTestObject(""Object Repository/AddToCourseObj/Page_SampleC Participants/button_Enrol users""))",Edge Chromium 97,,,2022-01-15 07:15:17,2022-01-15 07:15:18,0.817s,PASSED
+"verifyTextPresent(""testing@gmail.com"", false)",Edge Chromium 97,,,2022-01-15 07:15:18,2022-01-15 07:15:19,1.171s,PASSED
+,,,,,,,
+Test Cases/Phần thiết lập khác/Test bộ lọc trong User của Moodle,Edge Chromium 97,Điều kiện là đã có 2 tài khoản đã tạo,,2022-01-15 07:15:19,2022-01-15 07:15:37,17.585s,PASSED
+"callTestCase(findTestCase(""Kiểm tra thẻ Site Administration/Đăng nhập thành công""), [:], STOP_ON_FAILURE)",Edge Chromium 97,,,2022-01-15 07:15:19,2022-01-15 07:15:27,7.352s,PASSED
+"click(findTestObject(""Object Repository/TestFilter/Page_Dashboard/span_Site administration""))",Edge Chromium 97,,,2022-01-15 07:15:27,2022-01-15 07:15:28,1.238s,PASSED
+"navigateToUrl(""http://localhost/admin/search.php"")",Edge Chromium 97,,,2022-01-15 07:15:28,2022-01-15 07:15:28,0.489s,PASSED
+"click(findTestObject(""Object Repository/TestFilter/Page_SiteTesting Administration Search/a_Users""))",Edge Chromium 97,,,2022-01-15 07:15:28,2022-01-15 07:15:29,0.506s,PASSED
+"click(findTestObject(""Object Repository/TestFilter/Page_SiteTesting Administration Search/a_Browse list of users""))",Edge Chromium 97,,,2022-01-15 07:15:29,2022-01-15 07:15:30,1.263s,PASSED
+"click(findTestObject(""Object Repository/TestFilter/Page_SiteTesting Administration Users Accou_36dc4d/a_Show more""))",Edge Chromium 97,,,2022-01-15 07:15:30,2022-01-15 07:15:31,0.632s,PASSED
+"setText(findTestObject(""Object Repository/TestFilter/Page_SiteTesting Administration Users Accou_36dc4d/input_User full name value_realname""), ""Quang"")",Edge Chromium 97,,,2022-01-15 07:15:31,2022-01-15 07:15:32,0.825s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TestFilter/Page_SiteTesting Administration Users Accou_36dc4d/select_contains        doesnt contain      _4edb1a""), ""3"", true)",Edge Chromium 97,,,2022-01-15 07:15:32,2022-01-15 07:15:33,1.281s,PASSED
+"setText(findTestObject(""Object Repository/TestFilter/Page_SiteTesting Administration Users Accou_36dc4d/input_Email address value_email""), ""testing_des"")",Edge Chromium 97,,,2022-01-15 07:15:33,2022-01-15 07:15:34,0.819s,PASSED
+"click(findTestObject(""Object Repository/TestFilter/Page_SiteTesting Administration Users Accou_36dc4d/input_Last IP address value_addfilter""))",Edge Chromium 97,,,2022-01-15 07:15:34,2022-01-15 07:15:35,1.115s,PASSED
+"verifyTextPresent(""testing_description@gmail.com"", false)",Edge Chromium 97,,,2022-01-15 07:15:35,2022-01-15 07:15:36,0.874s,PASSED
+"click(findTestObject(""Object Repository/TestFilter/Page_SiteTesting Administration Users Accou_36dc4d/input_concat(Email address starts with , , _fe21c5""))",Edge Chromium 97,,,2022-01-15 07:15:36,2022-01-15 07:15:37,0.953s,PASSED
+,,,,,,,
+Test Cases/NewCategory/1. Add category with blank fields,Edge Chromium 97,,NewCategory,2022-01-15 07:15:37,2022-01-15 07:15:50,13.134s,PASSED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-15 07:15:37,2022-01-15 07:15:39,2.191s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-15 07:15:39,2022-01-15 07:15:40,0.528s,PASSED
+"click(findTestObject(""Object Repository/NewCategory/Page_Automation Testing Site/a_Log in""))",Edge Chromium 97,,,2022-01-15 07:15:40,2022-01-15 07:15:40,0.776s,PASSED
+"setText(findTestObject(""Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/input_Username_username""), ""admin"")",Edge Chromium 97,,,2022-01-15 07:15:40,2022-01-15 07:15:41,0.851s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/input_Password_password""), ""cnpXG5HhkrZpEXzNIGBMZQ=="")",Edge Chromium 97,,,2022-01-15 07:15:41,2022-01-15 07:15:42,0.392s,PASSED
+"click(findTestObject(""Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-15 07:15:42,2022-01-15 07:15:43,1.084s,PASSED
+"click(findTestObject(""Object Repository/NewCategory/Page_Dashboard/span_Site administration""))",Edge Chromium 97,,,2022-01-15 07:15:43,2022-01-15 07:15:44,1.745s,PASSED
+"click(findTestObject(""Object Repository/NewCategory/Page_SiteTesting Administration Search/a_Courses""))",Edge Chromium 97,,,2022-01-15 07:15:44,2022-01-15 07:15:45,0.631s,PASSED
+"click(findTestObject(""Object Repository/NewCategory/Page_SiteTesting Administration Search/a_Add a category""))",Edge Chromium 97,,,2022-01-15 07:15:45,2022-01-15 07:15:46,1.148s,PASSED
+"click(findTestObject(""Object Repository/NewCategory/Page_SiteTesting Add new category/input_Description_submitbutton""))",Edge Chromium 97,,,2022-01-15 07:15:46,2022-01-15 07:15:48,1.730s,PASSED
+"verifyElementText(findTestObject(""Object Repository/NewCategory/Page_SiteTesting Add new category/div_Required""), ""Required"")",Edge Chromium 97,,,2022-01-15 07:15:48,2022-01-15 07:15:49,1.069s,PASSED
+closeBrowser(STOP_ON_FAILURE),Edge Chromium 97,,,2022-01-15 07:15:49,2022-01-15 07:15:50,0.757s,PASSED
+,,,,,,,
+Test Cases/NewCategory/2. Create successful,Edge Chromium 97,,NewCategory,2022-01-15 07:15:50,2022-01-15 07:16:07,16.978s,PASSED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-15 07:15:50,2022-01-15 07:15:51,1.316s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-15 07:15:51,2022-01-15 07:15:52,0.559s,PASSED
+"click(findTestObject(""Object Repository/NewCategory/Page_Automation Testing Site/a_Log in""))",Edge Chromium 97,,,2022-01-15 07:15:52,2022-01-15 07:15:53,0.767s,PASSED
+"setText(findTestObject(""Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/input_Username_username""), ""admin"")",Edge Chromium 97,,,2022-01-15 07:15:53,2022-01-15 07:15:53,0.804s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/input_Password_password""), ""cnpXG5HhkrZpEXzNIGBMZQ=="")",Edge Chromium 97,,,2022-01-15 07:15:53,2022-01-15 07:15:54,0.405s,PASSED
+"click(findTestObject(""Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-15 07:15:54,2022-01-15 07:15:55,1.051s,PASSED
+"click(findTestObject(""Object Repository/NewCategory/Page_Dashboard/span_Site administration""))",Edge Chromium 97,,,2022-01-15 07:15:55,2022-01-15 07:15:56,1.641s,PASSED
+"click(findTestObject(""Object Repository/NewCategory/Page_SiteTesting Administration Search/a_Courses""))",Edge Chromium 97,,,2022-01-15 07:15:56,2022-01-15 07:15:57,0.597s,PASSED
+"click(findTestObject(""Object Repository/NewCategory/Page_SiteTesting Administration Search/a_Add a category""))",Edge Chromium 97,,,2022-01-15 07:15:57,2022-01-15 07:15:58,1.201s,PASSED
+"setText(findTestObject(""Object Repository/NewCategory/Page_SiteTesting Add new category/input_Category name_name""), ""test"")",Edge Chromium 97,,,2022-01-15 07:15:58,2022-01-15 07:16:00,1.515s,PASSED
+"setText(findTestObject(""Object Repository/NewCategory/Page_SiteTesting Add new category/input_Category ID number_idnumber""), ""1234"")",Edge Chromium 97,,,2022-01-15 07:16:00,2022-01-15 07:16:01,0.795s,PASSED
+"click(findTestObject(""Object Repository/NewCategory/Page_SiteTesting Add new category/input_Description_submitbutton""))",Edge Chromium 97,,,2022-01-15 07:16:01,2022-01-15 07:16:05,4.695s,PASSED
+"verifyElementText(findTestObject(""Object Repository/NewCategory/Page_Course and category management/h2_Course and category management""), ""Course and category management"")",Edge Chromium 97,,,2022-01-15 07:16:05,2022-01-15 07:16:06,0.688s,PASSED
+closeBrowser(STOP_ON_FAILURE),Edge Chromium 97,,,2022-01-15 07:16:06,2022-01-15 07:16:07,0.796s,PASSED
+,,,,,,,
+Test Cases/NewCategory/3. Duplicate ID,Edge Chromium 97,,NewCategory,2022-01-15 07:16:07,2022-01-15 07:16:21,13.794s,PASSED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-15 07:16:07,2022-01-15 07:16:08,1.334s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-15 07:16:08,2022-01-15 07:16:09,0.556s,PASSED
+"click(findTestObject(""Object Repository/NewCategory/Page_Automation Testing Site/a_Log in""))",Edge Chromium 97,,,2022-01-15 07:16:09,2022-01-15 07:16:10,0.743s,PASSED
+"setText(findTestObject(""Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/input_Username_username""), ""admin"")",Edge Chromium 97,,,2022-01-15 07:16:10,2022-01-15 07:16:10,0.753s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/input_Password_password""), ""cnpXG5HhkrZpEXzNIGBMZQ=="")",Edge Chromium 97,,,2022-01-15 07:16:10,2022-01-15 07:16:11,0.385s,PASSED
+"click(findTestObject(""Object Repository/NewCategory/Page_Automation Testing Site Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-15 07:16:11,2022-01-15 07:16:12,1.025s,PASSED
+"click(findTestObject(""Object Repository/NewCategory/Page_Dashboard/span_Site administration""))",Edge Chromium 97,,,2022-01-15 07:16:12,2022-01-15 07:16:13,1.760s,PASSED
+"click(findTestObject(""Object Repository/NewCategory/Page_SiteTesting Administration Search/a_Courses""))",Edge Chromium 97,,,2022-01-15 07:16:13,2022-01-15 07:16:14,0.592s,PASSED
+"click(findTestObject(""Object Repository/NewCategory/Page_SiteTesting Administration Search/a_Add a category""))",Edge Chromium 97,,,2022-01-15 07:16:14,2022-01-15 07:16:15,1.192s,PASSED
+"setText(findTestObject(""Object Repository/NewCategory/Page_SiteTesting Add new category/input_Category name_name""), ""test2"")",Edge Chromium 97,,,2022-01-15 07:16:15,2022-01-15 07:16:17,1.429s,PASSED
+"setText(findTestObject(""Object Repository/NewCategory/Page_SiteTesting Add new category/input_Category ID number_idnumber""), ""1234"")",Edge Chromium 97,,,2022-01-15 07:16:17,2022-01-15 07:16:17,0.824s,PASSED
+"click(findTestObject(""Object Repository/NewCategory/Page_SiteTesting Add new category/input_Description_submitbutton""))",Edge Chromium 97,,,2022-01-15 07:16:17,2022-01-15 07:16:19,1.198s,PASSED
+"verifyElementText(findTestObject(""Object Repository/NewCategory/Page_SiteTesting Add new category/div_ID number is already used for another category""), ""ID number is already used for another category"")",Edge Chromium 97,,,2022-01-15 07:16:19,2022-01-15 07:16:20,1.073s,PASSED
+closeBrowser(STOP_ON_FAILURE),Edge Chromium 97,,,2022-01-15 07:16:20,2022-01-15 07:16:21,0.766s,PASSED
+,,,,,,,
+Test Cases/NewCourse/1. Create new course without enter any input field,Edge Chromium 97,,NewCourse,2022-01-15 07:16:21,2022-01-15 07:16:32,11.631s,PASSED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-15 07:16:21,2022-01-15 07:16:22,1.290s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-15 07:16:22,2022-01-15 07:16:22,0.523s,PASSED
+"click(findTestObject(""NewCourse/Page_Automation Testing Site/a_Log in""))",Edge Chromium 97,,,2022-01-15 07:16:22,2022-01-15 07:16:23,0.755s,PASSED
+"setText(findTestObject(""NewCourse/Page_Automation Testing Site Log in to the site/input_Username_username""), ""admin"")",Edge Chromium 97,,,2022-01-15 07:16:23,2022-01-15 07:16:24,0.882s,PASSED
+"setEncryptedText(findTestObject(""NewCourse/Page_Automation Testing Site Log in to the site/input_Password_password""), ""cnpXG5HhkrZpEXzNIGBMZQ=="")",Edge Chromium 97,,,2022-01-15 07:16:24,2022-01-15 07:16:25,0.437s,PASSED
+"click(findTestObject(""NewCourse/Page_Automation Testing Site Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-15 07:16:25,2022-01-15 07:16:26,1.177s,PASSED
+"click(findTestObject(""NewCourse/Page_Dashboard/span_Site administration""))",Edge Chromium 97,,,2022-01-15 07:16:26,2022-01-15 07:16:28,1.749s,PASSED
+"click(findTestObject(""NewCourse/Page_SiteTesting Administration Search/a_Courses""))",Edge Chromium 97,,,2022-01-15 07:16:28,2022-01-15 07:16:28,0.624s,PASSED
+"click(findTestObject(""NewCourse/Page_SiteTesting Administration Search/a_Add a new course""))",Edge Chromium 97,,,2022-01-15 07:16:28,2022-01-15 07:16:30,1.531s,PASSED
+"click(findTestObject(""NewCourse/Page_SiteTesting Add a new course/input__saveanddisplay""))",Edge Chromium 97,,,2022-01-15 07:16:30,2022-01-15 07:16:31,1.192s,PASSED
+"verifyElementText(findTestObject(""NewCourse/Page_SiteTesting Add a new course/div_- Missing full name""), ""- Missing full name"")",Edge Chromium 97,,,2022-01-15 07:16:31,2022-01-15 07:16:31,0.471s,PASSED
+closeBrowser(STOP_ON_FAILURE),Edge Chromium 97,,,2022-01-15 07:16:31,2022-01-15 07:16:32,0.836s,PASSED
+,,,,,,,
+Test Cases/NewCourse/2. NewCourseWithCorrectData,Edge Chromium 97,,NewCourse,2022-01-15 07:16:32,2022-01-15 07:16:47,15.063s,PASSED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-15 07:16:32,2022-01-15 07:16:34,1.295s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-15 07:16:34,2022-01-15 07:16:34,0.555s,PASSED
+"click(findTestObject(""NewCourse/Page_Automation Testing Site (1)/div_You are not logged in. (Log in)""))",Edge Chromium 97,,,2022-01-15 07:16:34,2022-01-15 07:16:35,0.497s,PASSED
+"click(findTestObject(""NewCourse/Page_Automation Testing Site (1)/a_Log in""))",Edge Chromium 97,,,2022-01-15 07:16:35,2022-01-15 07:16:35,0.662s,PASSED
+"setText(findTestObject(""NewCourse/Page_Automation Testing Site Log in to the site (1)/input_Username_username""), ""admin"")",Edge Chromium 97,,,2022-01-15 07:16:35,2022-01-15 07:16:36,0.893s,PASSED
+"setEncryptedText(findTestObject(""NewCourse/Page_Automation Testing Site Log in to the site (1)/input_Password_password""), ""cnpXG5HhkrZpEXzNIGBMZQ=="")",Edge Chromium 97,,,2022-01-15 07:16:36,2022-01-15 07:16:37,0.410s,PASSED
+"click(findTestObject(""NewCourse/Page_Automation Testing Site Log in to the site (1)/button_Log in""))",Edge Chromium 97,,,2022-01-15 07:16:37,2022-01-15 07:16:38,1.257s,PASSED
+"click(findTestObject(""NewCourse/Page_Dashboard (1)/span_Site administration""))",Edge Chromium 97,,,2022-01-15 07:16:38,2022-01-15 07:16:40,1.723s,PASSED
+"click(findTestObject(""NewCourse/Page_SiteTesting Administration Search (1)/a_Courses""))",Edge Chromium 97,,,2022-01-15 07:16:40,2022-01-15 07:16:40,0.498s,PASSED
+"click(findTestObject(""NewCourse/Page_SiteTesting Administration Search (1)/a_Add a new course""))",Edge Chromium 97,,,2022-01-15 07:16:40,2022-01-15 07:16:41,1.342s,PASSED
+"setText(findTestObject(""NewCourse/Page_SiteTesting Add a new course (1)/input_Course full name_fullname""), ""Init Course"")",Edge Chromium 97,,,2022-01-15 07:16:41,2022-01-15 07:16:43,1.433s,PASSED
+"setText(findTestObject(""NewCourse/Page_SiteTesting Add a new course (1)/input_Course short name_shortname""), ""test"")",Edge Chromium 97,,,2022-01-15 07:16:43,2022-01-15 07:16:44,0.804s,PASSED
+"setText(findTestObject(""Object Repository/NewCourse/Page_SiteTesting Add a new course/input_Course ID number_idnumber""), ""123"")",Edge Chromium 97,,,2022-01-15 07:16:44,2022-01-15 07:16:45,0.790s,PASSED
+"click(findTestObject(""NewCourse/Page_SiteTesting Add a new course (1)/input__saveanddisplay""))",Edge Chromium 97,,,2022-01-15 07:16:45,2022-01-15 07:16:46,1.341s,PASSED
+"verifyTextPresent(""Init Course"", false)",Edge Chromium 97,,,2022-01-15 07:16:46,2022-01-15 07:16:46,0.544s,PASSED
+closeBrowser(STOP_ON_FAILURE),Edge Chromium 97,,,2022-01-15 07:16:46,2022-01-15 07:16:47,0.835s,PASSED
+,,,,,,,
+Test Cases/Xóa tài khoản/Xóa hết tài khoản đã tạo,Edge Chromium 97,"Trong test cases này, xóa hết khi không còn thùng rác nữa",,2022-01-15 07:16:47,2022-01-15 07:17:19,31.789s,PASSED
+"callTestCase(findTestCase(""Kiểm tra thẻ Site Administration/Đăng nhập thành công""), [:], STOP_ON_FAILURE)",Edge Chromium 97,,,2022-01-15 07:16:47,2022-01-15 07:16:54,6.319s,PASSED
+"click(findTestObject(""Object Repository/AddANewUserObject/Page_Dashboard/span_Site administration""))",Edge Chromium 97,,,2022-01-15 07:16:54,2022-01-15 07:16:55,1.260s,PASSED
+"navigateToUrl(""http://localhost/admin/search.php"")",Edge Chromium 97,,,2022-01-15 07:16:55,2022-01-15 07:16:55,0.484s,PASSED
+"click(findTestObject(""Object Repository/DeleteAnAccount/Page_SiteTesting Administration Search/a_Users""))",Edge Chromium 97,,,2022-01-15 07:16:55,2022-01-15 07:16:56,0.513s,PASSED
+"click(findTestObject(""Object Repository/DeleteAnAccount/Page_SiteTesting Administration Search/a_Browse list of users""))",Edge Chromium 97,,,2022-01-15 07:16:56,2022-01-15 07:16:57,1.273s,PASSED
+"navigateToUrl(""http://localhost/admin/user.php"")",Edge Chromium 97,,,2022-01-15 07:16:57,2022-01-15 07:16:58,0.549s,PASSED
+while (true),Edge Chromium 97,,,2022-01-15 07:16:58,2022-01-15 07:17:13,15.671s,PASSED
+"if (waitForElementVisible(findTestObject(""Object Repository/DeleteAllObject/Page_SiteTesting Administration Users Accou_36dc4d/i_Never_icon fa fa-trash fa-fw""), 1, OPTIONAL) == true)",Edge Chromium 97,,,2022-01-15 07:17:13,2022-01-15 07:17:19,5.554s,PASSED

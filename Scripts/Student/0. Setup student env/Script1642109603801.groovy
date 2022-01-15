@@ -47,6 +47,8 @@ WebUI.click(findTestObject('Object Repository/Page_SiteTesting Add a new course/
 
 WebUI.click(findTestObject('Object Repository/Page_Grades View/span_General'))
 
+WebUI.scrollToPosition(0, 0)
+
 WebUI.click(findTestObject('Object Repository/Page_Course CNTN/button_Turn editing on'))
 
 WebUI.click(findTestObject('Object Repository/Page_Course CNTN/span_Add an activity or resource'))
