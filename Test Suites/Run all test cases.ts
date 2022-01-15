@@ -186,6 +186,66 @@
       <testCaseId>Test Cases/NewCourse/2. NewCourseWithCorrectData</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>4665ed22-11c3-474c-b9d3-32ba08023378</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/NewCourse/3. Duplicate Short Name</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>53c93442-ea63-4487-a3e4-5a3a4f71e9b1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/NewCourse/4. Start day greater than end day</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b5c6989f-81d1-4fe4-bd73-d7c035526c6f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/NewCourse/5. Duplicate ID</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e5454ea8-0ab3-4a1b-b3e5-f67d3766db02</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/NewTag/1. Create New Tag Success</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7d9bd0b5-1223-4616-9fe7-802325bb7e21</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/NewTag/2. Create new tag with blank field</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8b665281-974a-466f-ac5a-3fa2979af70c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Role Giáo Viên/1. Tạo thông báo mới với dữ liệu trống</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3ff8cca3-d2ca-42df-b501-1c917bb863d2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Role Giáo Viên/2. Tạo thông báo mới với đầy đủ dữ liệu</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dbdf4da7-5642-4700-95ee-46e14502bedf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Role Giáo Viên/3. Tạo bài tập mới với dữ liệu rỗng</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>146fe9c9-e3b3-40de-837b-c2960ce2de6c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Role Giáo Viên/4. Tạo bài tập mới với dữ liệu đúng</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cc84fc30-857e-4b26-ab28-9eaf930c5c05</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Role Giáo Viên/5. Tạo bài tập mới với ngày open lớn hơn due day</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>21aef6cf-dcac-436b-bc4a-7694f81a76a7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
