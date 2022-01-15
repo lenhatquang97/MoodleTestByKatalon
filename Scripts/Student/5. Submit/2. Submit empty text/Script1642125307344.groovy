@@ -21,17 +21,12 @@ WebUI.callTestCase(findTestCase('Student/2. Login as student'), [:], FailureHand
 
 WebUI.click(findTestObject('Object Repository/Page_Course CNTN/span_assignment test'))
 
-WebUI.navigateToUrl('http://localhost/mod/assign/view.php?id=13')
-
 WebUI.click(findTestObject('Object Repository/Page_cntn assignment test/button_Add submission'))
 
 WebUI.click(findTestObject('Object Repository/Page_cntn assignment test - Edit submission/input_Online text_submitbutton'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_cntn assignment test - Edit submission/div_Nothing was submitted'), 
     0)
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_cntn assignment test - Edit submission/div_Nothing was submitted'), 
-    '×\n Nothing was submitted')
 
 WebUI.closeBrowser()
 

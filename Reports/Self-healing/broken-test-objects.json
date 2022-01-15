@@ -329,6 +329,26 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_cntn assignment test/button_Mark as done_1_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CheckMessageVisible/Page_Dashboard/i_See all_icon fa fa-comment fa-fw",
+      "brokenLocator": "//*[@class \u003d \u0027icon fa fa-comment fa-fw \u0027 and @title \u003d \u0027Toggle messaging drawer\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[2]/a/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CheckMessageVisible/Page_Dashboard/i_See all_icon fa fa-comment fa-fw_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/TestFilter/Page_SiteTesting Administration Users Accou_36dc4d/input_Last IP address value_addfilter",
+      "brokenLocator": "//input[@id\u003d\u0027id_addfilter\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[4]/div[2]/fieldset/div/div/span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/TestFilter/Page_SiteTesting Administration Users Accou_36dc4d/input_Last IP address value_addfilter_position.png"
     }
   ]
 }

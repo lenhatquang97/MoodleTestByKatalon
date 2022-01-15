@@ -21,8 +21,6 @@ WebUI.callTestCase(findTestCase('Student/2. Login as student'), [:], FailureHand
 
 WebUI.click(findTestObject('Object Repository/Page_Course CNTN/span_assignment test'))
 
-WebUI.navigateToUrl('http://localhost/mod/assign/view.php?id=13')
-
 WebUI.click(findTestObject('Object Repository/Page_cntn assignment test/button_Mark as done'))
 
 WebUI.click(findTestObject('Object Repository/Page_cntn assignment test/button_Done'))
