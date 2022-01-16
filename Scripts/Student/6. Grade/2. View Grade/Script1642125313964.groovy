@@ -21,8 +21,6 @@ WebUI.callTestCase(findTestCase('Student/2. Login as student'), [:], FailureHand
 
 WebUI.click(findTestObject('Object Repository/Page_Course CNTN/span_Grades'))
 
-WebUI.navigateToUrl('http://localhost/grade/report/user/index.php?id=6')
-
 WebUI.click(findTestObject('Object Repository/Page_Grades View/a_User report'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Grades View/a_assignment test'), 'assignment test')

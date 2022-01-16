@@ -1,0 +1,434 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Course and category management/a_Create new course",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1642147506792_57\u0027]/div/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Create new course\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Page_Course and category management/a_Create new course_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Course CNTN/div_Assignment",
+      "brokenLocator": "//div[@id\u003d\u0027all-6\u0027]/div/div/div/a/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Recommended\u0027])[1]/following::div[9]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Page_Course CNTN/div_Assignment_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Course CNTN/span_Add an activity or resource_1",
+      "brokenLocator": "//span[@id\u003d\u0027yui_3_17_2_1_1642138852412_644\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Add file(s) here\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Page_Course CNTN/span_Add an activity or resource_1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Course CNTN/span_Add an activity or resource_1_2_3",
+      "brokenLocator": "//span[@id\u003d\u0027yui_3_17_2_1_1642147556110_611\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Add file(s) here\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Page_Course CNTN/span_Add an activity or resource_1_2_3_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_SiteTesting Administration Users Accou_a8eb60/em_Click to enter text",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1642121855075_766\u0027]/span/span/em",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027New password\u0027])[1]/following::em[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Page_SiteTesting Administration Users Accou_a8eb60/em_Click to enter text_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_cntn Participants/span_",
+      "brokenLocator": "//span[@id\u003d\u0027form_autocomplete_downarrow-1642122004951\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027fitem_id_userlist\u0027]/div[2]/div[3]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Page_cntn Participants/span__idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_cntn Participants/small_cgmail.com",
+      "brokenLocator": "//li[@id\u003d\u0027form_autocomplete_suggestions-1642122004951-0\u0027]/span/span[2]/small",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027a b\u0027])[2]/following::small[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Page_cntn Participants/small_cgmail.com_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_cntn Participants/button_Enrol users",
+      "brokenLocator": "//button[@id\u003d\u0027yui_3_17_2_1_1642122004793_252\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Minute\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Page_cntn Participants/button_Enrol users_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/span_Site home",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027nav-drawer\u0027]/nav/ul/li[2]/a/div/div/span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Page_Dashboard/span_Site home_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_SiteTesting Calendar Detailed month vi_90ebed/button_Save",
+      "brokenLocator": "//button[@type \u003d \u0027button\u0027 and @class \u003d \u0027btn btn-primary\u0027 and @data-action \u003d \u0027save\u0027 and (text() \u003d \u0027\n\n            Save\n            \n                \n                \n                \n            \n        \u0027 or . \u003d \u0027\n\n            Save\n            \n                \n                \n                \n            \n        \u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Repeat weekly, creating altogether\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Page_SiteTesting Calendar Detailed month vi_90ebed/button_Save_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CreateAndDeleteEvent/Page_SiteTesting Calendar Detailed month vi_90ebed/button_New event",
+      "brokenLocator": "//div[@id\u003d\u0027calendar-month-61e37021be34e61e370219286d15\u0027]/div/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027List of courses\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/CreateAndDeleteEvent/Page_SiteTesting Calendar Detailed month vi_90ebed/button_New event_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CreateAndDeleteEvent/Page_SiteTesting Calendar Detailed month vi_90ebed/button_Save",
+      "brokenLocator": "//button[@id\u003d\u0027yui_3_17_2_1_1642295329780_1151\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Repeat weekly, creating altogether\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/CreateAndDeleteEvent/Page_SiteTesting Calendar Detailed month vi_90ebed/button_Save_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CreateAndDeleteEvent/Page_SiteTesting Calendar Detailed month vi_90ebed/span_Deadline",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1642295329780_1883\u0027]/span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027new\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/CreateAndDeleteEvent/Page_SiteTesting Calendar Detailed month vi_90ebed/span_Deadline_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CreateAndDeleteEvent/Page_SiteTesting Calendar Detailed month vi_90ebed/button_Delete",
+      "brokenLocator": "//button[@id\u003d\u0027yui_3_17_2_1_1642295329780_1905\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027User event\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/CreateAndDeleteEvent/Page_SiteTesting Calendar Detailed month vi_90ebed/button_Delete_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CreateAndDeleteEvent/Page_SiteTesting Calendar Detailed month vi_90ebed/button_Delete event",
+      "brokenLocator": "//button[@id\u003d\u0027yui_3_17_2_1_1642295329780_1925\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003dconcat(\u0027Are you sure you want to delete the \u0027, \u0027\"\u0027, \u0027Deadline\u0027, \u0027\"\u0027, \u0027 event?\u0027)])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/CreateAndDeleteEvent/Page_SiteTesting Calendar Detailed month vi_90ebed/button_Delete event_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_SiteTesting Calendar Detailed month vi_90ebed/a_Show more",
+      "brokenLocator": "//*[@href \u003d \u0027#\u0027 and @class \u003d \u0027moreless-toggler\u0027 and @aria-expanded \u003d \u0027false\u0027 and @role \u003d \u0027button\u0027 and @id \u003d \u0027yui_3_17_2_1_1641262406973_609\u0027 and (text() \u003d \u0027Show more...\u0027 or . \u003d \u0027Show more...\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//a[contains(text(),\u0027Show more...\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Page_SiteTesting Calendar Detailed month vi_90ebed/a_Show more_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_SiteTesting Calendar Detailed month vi_90ebed/button_Save_1",
+      "brokenLocator": "//button[@type \u003d \u0027button\u0027 and @class \u003d \u0027btn btn-primary\u0027 and @data-action \u003d \u0027save\u0027 and (text() \u003d \u0027\n\n            Save\n            \n                \n                \n                \n            \n        \u0027 or . \u003d \u0027\n\n            Save\n            \n                \n                \n                \n            \n        \u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Repeat weekly, creating altogether\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Page_SiteTesting Calendar Detailed month vi_90ebed/button_Save_1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Course CNTN/span_assignment test",
+      "brokenLocator": "//li[@id\u003d\u0027module-13\u0027]/div/div/div[2]/div/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Forum\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Page_Course CNTN/span_assignment test_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_cntn assignment test/span_Comments (0)",
+      "brokenLocator": "//span[@id\u003d\u0027comment-link-text-61e0d7219f79b\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Show comments\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Page_cntn assignment test/span_Comments (0)_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_cntn assignment test/textarea_Comments (0)_content",
+      "brokenLocator": "//textarea[@id\u003d\u0027dlg-content-61e0d7219f79b\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//textarea",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Page_cntn assignment test/textarea_Comments (0)_content_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_cntn assignment test/a_Save comment",
+      "brokenLocator": "//a[@id\u003d\u0027comment-action-post-61e0d7219f79b\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Save comment\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Page_cntn assignment test/a_Save comment_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_cntn assignment test/div_test",
+      "brokenLocator": "//li[@id\u003d\u0027comment-3-61e0d6b2c515d\u0027]/div/div[2]/div[2]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027a b\u0027])[2]/following::div[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Page_cntn assignment test/div_test_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_cntn assignment test/button_Done",
+      "brokenLocator": "//button[@id\u003d\u0027yui_3_17_2_1_1642122361242_63\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Page_cntn assignment test/button_Done_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_cntn assignment test/button_Add submission",
+      "brokenLocator": "//button[@id\u003d\u0027single_button61e0d28ae8c4015\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//form/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Page_cntn assignment test/button_Add submission_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_cntn assignment test/button_Remove submission",
+      "brokenLocator": "//button[@id\u003d\u0027single_button61e0d0d10be4a18\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//section[@id\u003d\u0027region-main\u0027]/div/div[3]/div[2]/div[2]/form/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Page_cntn assignment test/button_Remove submission_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_cntn assignment test/button_Continue",
+      "brokenLocator": "//button[@id\u003d\u0027single_button61e0d0d82a84914\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027modal-footer\u0027]/div/div/form/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Page_cntn assignment test/button_Continue_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_cntn assignment test - Grading/button_Save changes",
+      "brokenLocator": "//button[@id\u003d\u0027yui_3_17_2_1_1642124150222_570\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Notify student\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Page_cntn assignment test - Grading/button_Save changes_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_cntn assignment test - Grading/a_90.00",
+      "brokenLocator": "//a[@id\u003d\u0027action_link61e0d388954b916\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u002790.00\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Page_cntn assignment test - Grading/a_90.00_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Grades View/a_assignment test",
+      "brokenLocator": "//th[@id\u003d\u0027row_10_4\u0027]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027assignment test\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Page_Grades View/a_assignment test_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Grades View/td_90.00",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1642124699891_24\u0027]/table/tbody/tr[2]/td[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[(text() \u003d \u002790.00\u0027 or . \u003d \u002790.00\u0027)]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Page_Grades View/td_90.00_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Grades View/a_CNTN",
+      "brokenLocator": "//td[@id\u003d\u0027grade-report-overview-4_r0_c0\u0027]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027CNTN\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Page_Grades View/a_CNTN_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Course CNTN/span_forum test",
+      "brokenLocator": "//li[@id\u003d\u0027module-15\u0027]/div/div/div[2]/div/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027chat test\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Page_Course CNTN/span_forum test_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_forum test/a_Add a new discussion topic",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1642141777368_496\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Add a new discussion topic\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Page_forum test/a_Add a new discussion topic_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_forum test/p_Test",
+      "brokenLocator": "//p[@id\u003d\u0027yui_3_17_2_1_1642140744739_515\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027id_messageeditable\u0027]/p",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Page_forum test/p_Test_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_forum test/a_Test",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1642140833563_499\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Test\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Page_forum test/a_Test_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_cntn Test/a_Delete",
+      "brokenLocator": "//article[@id\u003d\u0027p4\u0027]/div/div/div/div[2]/div[2]/div/a[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Delete\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Page_cntn Test/a_Delete_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Course CNTN/span_Announcements Forum",
+      "brokenLocator": "//li[@id\u003d\u0027module-12\u0027]/div/div/div[2]/div/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027General\u0027])[2]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Page_Course CNTN/span_Announcements Forum_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_a8eb60/input_Choose an authentication method_suspended",
+      "brokenLocator": "//input[@id\u003d\u0027id_suspended\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/input[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/AddSuspendedUserAccount/Page_SiteTesting Administration Users Accou_a8eb60/input_Choose an authentication method_suspended_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AddSuspendedUserAccount/Page_Automation Testing Site Log in to the site/div_Invalid login, please try again",
+      "brokenLocator": "//section[@id\u003d\u0027region-main\u0027]/div/div[2]/div/div/div/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Skip to main content\u0027])[1]/following::div[12]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/AddSuspendedUserAccount/Page_Automation Testing Site Log in to the site/div_Invalid login, please try again_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Tạo bài tập mới với dữ liệu rỗng/Page_Course Init Course/img_Recommended_icon icon",
+      "brokenLocator": "//*[@class \u003d \u0027icon icon\u0027 and @src \u003d \u0027http://localhost/theme/image.php/boost/assign/1641197589/icon\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027all-4\u0027]/div/div/div/a/div/img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Tạo bài tập mới với dữ liệu rỗng/Page_Course Init Course/img_Recommended_icon icon_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Tạo bài tập mới với dữ liệu đúng/Page_Course Init Course/img_Recommended_icon icon",
+      "brokenLocator": "//*[@class \u003d \u0027icon icon\u0027 and @src \u003d \u0027http://localhost/theme/image.php/boost/assign/1641197589/icon\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027all-4\u0027]/div/div/div/a/div/img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Tạo bài tập mới với dữ liệu đúng/Page_Course Init Course/img_Recommended_icon icon_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Tạo bài tập mới với ngày open lớn hơn due date/Page_Course Init Course/img_Recommended_icon icon",
+      "brokenLocator": "//*[@class \u003d \u0027icon icon\u0027 and @src \u003d \u0027http://localhost/theme/image.php/boost/assign/1641197589/icon\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027all-4\u0027]/div/div/div/a/div/img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Tạo bài tập mới với ngày open lớn hơn due date/Page_Course Init Course/img_Recommended_icon icon_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Tạo quiz/Page_Course Init Course/img_Information about the Page activity_icon icon",
+      "brokenLocator": "//*[@class \u003d \u0027icon icon\u0027 and @src \u003d \u0027http://localhost/theme/image.php/boost/quiz/1641197589/icon\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027all-4\u0027]/div/div[17]/div/a/div/img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220116_092731/Run all test cases/20220116_092731/Object Repository/Tạo quiz/Page_Course Init Course/img_Information about the Page activity_icon icon_XPATH.png"
+    }
+  ]
+}

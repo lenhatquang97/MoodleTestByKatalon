@@ -36,6 +36,12 @@
       <testCaseId>Test Cases/Student/3. Calendar/1. create calendar event</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>53bf47b4-218e-4331-a09f-ab87e39250b6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student/3. Calendar/2. create and delete calendar</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>06fdd2eb-cd0f-4337-b647-f7815d00e4c9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -76,6 +82,48 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Student/5. Submit/4. Remove submittion</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5344deb8-09dd-47f3-9d14-f8e8ceb75df4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student/6. Grade/1. Give grade</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3a9bc614-2c41-4c87-af61-98c89670e1ef</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student/6. Grade/2. View Grade</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>81626b45-a60c-4999-af83-367875ff37c9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student/6. Grade/3. View Overview report</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>94d52ec4-ef89-4981-9584-bf914b27ad71</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student/6. Grade/4. Check graded</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a5291127-da1e-4b5e-a363-2922a98df497</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student/7. Khác/1. Forum</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cc79a08f-4ce4-4d0c-9f27-2a191afff445</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student/7. Khác/2. Create forum with empty description</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9ba0d8f3-5526-4cec-961d-1c4e489f0ff2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Student/7. Khác/4. View announcements</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>67d1b527-076d-4aca-95e7-f88dc0228be7</guid>
@@ -244,6 +292,18 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Role Giáo Viên/5. Tạo bài tập mới với ngày open lớn hơn due day</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>26901a21-2850-45e5-8980-edebe02ca7f7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Role Giáo Viên/6. Chuyển đổi mode</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cabb8c92-6943-4028-9120-1080d075c6b1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Role Giáo Viên/7. Tạo quiz</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>21aef6cf-dcac-436b-bc4a-7694f81a76a7</guid>

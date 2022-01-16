@@ -399,6 +399,126 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/AddSuspendedUserAccount/Page_Automation Testing Site Log in to the site/div_Invalid login, please try again_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CreateAndDeleteEvent/Page_SiteTesting Calendar Detailed month vi_90ebed/button_New event",
+      "brokenLocator": "//div[@id\u003d\u0027calendar-month-61e37021be34e61e370219286d15\u0027]/div/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027List of courses\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CreateAndDeleteEvent/Page_SiteTesting Calendar Detailed month vi_90ebed/button_New event_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CreateAndDeleteEvent/Page_SiteTesting Calendar Detailed month vi_90ebed/button_Save",
+      "brokenLocator": "//button[@id\u003d\u0027yui_3_17_2_1_1642295329780_1151\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Repeat weekly, creating altogether\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CreateAndDeleteEvent/Page_SiteTesting Calendar Detailed month vi_90ebed/button_Save_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CreateAndDeleteEvent/Page_SiteTesting Calendar Detailed month vi_90ebed/span_Deadline",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1642295329780_1883\u0027]/span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027new\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CreateAndDeleteEvent/Page_SiteTesting Calendar Detailed month vi_90ebed/span_Deadline_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CreateAndDeleteEvent/Page_SiteTesting Calendar Detailed month vi_90ebed/button_Delete",
+      "brokenLocator": "//button[@id\u003d\u0027yui_3_17_2_1_1642295329780_1905\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027User event\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CreateAndDeleteEvent/Page_SiteTesting Calendar Detailed month vi_90ebed/button_Delete_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/CreateAndDeleteEvent/Page_SiteTesting Calendar Detailed month vi_90ebed/button_Delete event",
+      "brokenLocator": "//button[@id\u003d\u0027yui_3_17_2_1_1642295329780_1925\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003dconcat(\u0027Are you sure you want to delete the \u0027, \u0027\"\u0027, \u0027Deadline\u0027, \u0027\"\u0027, \u0027 event?\u0027)])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/CreateAndDeleteEvent/Page_SiteTesting Calendar Detailed month vi_90ebed/button_Delete event_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Grades View/a_assignment test",
+      "brokenLocator": "//th[@id\u003d\u0027row_10_4\u0027]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027assignment test\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Grades View/a_assignment test_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Course CNTN/span_forum test",
+      "brokenLocator": "//li[@id\u003d\u0027module-15\u0027]/div/div/div[2]/div/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027chat test\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Course CNTN/span_forum test_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_forum test/a_Add a new discussion topic",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1642141777368_496\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Add a new discussion topic\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_forum test/a_Add a new discussion topic_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_forum test/p_Test",
+      "brokenLocator": "//p[@id\u003d\u0027yui_3_17_2_1_1642140744739_515\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027id_messageeditable\u0027]/p",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_forum test/p_Test_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_forum test/a_Test",
+      "brokenLocator": "//a[@id\u003d\u0027yui_3_17_2_1_1642140833563_499\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Test\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_forum test/a_Test_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_cntn Test/a_Delete",
+      "brokenLocator": "//article[@id\u003d\u0027p4\u0027]/div/div/div/div[2]/div[2]/div/a[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Delete\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_cntn Test/a_Delete_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Course CNTN/span_Announcements Forum",
+      "brokenLocator": "//li[@id\u003d\u0027module-12\u0027]/div/div/div[2]/div/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027General\u0027])[2]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Course CNTN/span_Announcements Forum_neighbor.png"
     }
   ]
 }

@@ -17,25 +17,32 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Student/2. Login as student'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost/calendar/view.php?view=month')
+WebUI.navigateToUrl('http://localhost/')
 
-WebUI.click(findTestObject('Object Repository/Page_SiteTesting Calendar Detailed month vi_90ebed/button_New event'))
+WebUI.click(findTestObject('Object Repository/Page_Automation Testing Site/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Page_SiteTesting Calendar Detailed month vi_90ebed/input_Event title_name'), 
-    'new')
+WebUI.setText(findTestObject('Object Repository/Page_Automation Testing Site Log in to the site/input_Username_username'), 
+    'student')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_SiteTesting Calendar Detailed month vi_90ebed/select_1        2        3        4        _45ea30'), 
-    '5', true)
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Automation Testing Site Log in to the site/input_Password_password'), 
+    'cnpXG5HhkrZpEXzNIGBMZQ==')
 
-WebUI.click(findTestObject('Object Repository/Page_SiteTesting Calendar Detailed month vi_90ebed/button_Save'))
+WebUI.click(findTestObject('Object Repository/Page_Automation Testing Site Log in to the site/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Page_SiteTesting Calendar Detailed month vi_90ebed/a_new'))
+WebUI.click(findTestObject('Object Repository/CreateAndDeleteEvent/Page_Dashboard/span_Calendar'))
 
-WebUI.click(findTestObject('Object Repository/Page_SiteTesting Calendar Detailed month vi_90ebed/button_Delete'))
+WebUI.click(findTestObject('Object Repository/CreateAndDeleteEvent/Page_SiteTesting Calendar Detailed month vi_90ebed/button_New event'))
 
-WebUI.click(findTestObject('Object Repository/Page_SiteTesting Calendar Detailed month vi_90ebed/button_Delete event'))
+WebUI.setText(findTestObject('Object Repository/CreateAndDeleteEvent/Page_SiteTesting Calendar Detailed month vi_90ebed/input_Event title_name'), 
+    'Deadline')
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/CreateAndDeleteEvent/Page_SiteTesting Calendar Detailed month vi_90ebed/button_Save'))
+
+WebUI.click(findTestObject('Object Repository/CreateAndDeleteEvent/Page_SiteTesting Calendar Detailed month vi_90ebed/span_Deadline'))
+
+WebUI.click(findTestObject('Object Repository/CreateAndDeleteEvent/Page_SiteTesting Calendar Detailed month vi_90ebed/button_Delete'))
+
+WebUI.click(findTestObject('Object Repository/CreateAndDeleteEvent/Page_SiteTesting Calendar Detailed month vi_90ebed/button_Delete event'))
 
