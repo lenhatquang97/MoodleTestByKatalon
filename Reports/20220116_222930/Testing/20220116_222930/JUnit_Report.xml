@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Testing" time="19.101" tests="1" failures="0" errors="0">
+   <testsuite name="Testing" tests="1" failures="0" errors="0" time="19.101" skipped="0" timestamp="2022-01-16 22:29:50" hostname="ASUS - LAPTOP-O4I5TINJ" id="Test Suites/Testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\MoodleTestByKatalon\\Reports\\20220116_222930\\Testing\\20220116_222930"/>
+         <property name="logFiles" value="E:\\MoodleTestByKatalon\\Reports\\20220116_222930\\Testing\\20220116_222930\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - LAPTOP-O4I5TINJ"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Edge Chromium 97"/>
+         <property name="hostAddress" value="192.168.11.1"/>
+         <property name="sessionId" value="8c5459c1eb7933a0bff9e1381fbd0a4e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công" time="18.539" classname="Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công" status="PASSED">
+         <system-out><![CDATA[2022-01-16 22:29:50 - [TEST_CASE][PASSED] - Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công: Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công
+
+2022-01-16 22:29:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-16 22:29:52 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2022-01-16 22:29:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-16 22:29:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-16 22:29:58 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-16 22:30:02 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-16 22:30:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site/a_Log in")): Object: 'Object Repository/LoginObject/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-16 22:30:03 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/Page_Automation Testing Site/a_Log in' is clicked on
+
+2022-01-16 22:30:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-16 22:30:04 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username'
+
+2022-01-16 22:30:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password"), "cnpXG5HhkrZpEXzNIGBMZQ=="): Text ****** has been set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-16 22:30:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password'
+
+2022-01-16 22:30:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in")): Object: 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-16 22:30:07 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in' is clicked on
+
+2022-01-16 22:30:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/LoginObject/Page_Dashboard/span_Site administration"), "Site administration"): Actual text and expected text of test object 'Object Repository/LoginObject/Page_Dashboard/span_Site administration' are matched.
+
+2022-01-16 22:30:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginObject/Page_Dashboard/span_Site administration' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-16 22:29:50 - [TEST_SUITE][PASSED] - Testing: Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Testing,Edge Chromium 97,,,2022-01-16 22:29:50,2022-01-16 22:30:09,19.101s,PASSED
+,,,,,,,
+Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công,Edge Chromium 97,"Trong test case này, sẽ check tài khoản nhập đúng (đã tạo sẵn) với mật khẩu là Asuna@22",Login,2022-01-16 22:29:50,2022-01-16 22:30:09,18.539s,PASSED
+"openBrowser("""")",Edge Chromium 97,,,2022-01-16 22:29:51,2022-01-16 22:29:58,7.086s,PASSED
+"navigateToUrl(""http://localhost/"")",Edge Chromium 97,,,2022-01-16 22:29:58,2022-01-16 22:30:02,3.517s,PASSED
+"click(findTestObject(""Object Repository/LoginObject/Page_Automation Testing Site/a_Log in""))",Edge Chromium 97,,,2022-01-16 22:30:02,2022-01-16 22:30:03,1.582s,PASSED
+"setText(findTestObject(""Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Username_username""), ""admin"")",Edge Chromium 97,,,2022-01-16 22:30:03,2022-01-16 22:30:04,0.988s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/input_Password_password""), ""cnpXG5HhkrZpEXzNIGBMZQ=="")",Edge Chromium 97,,,2022-01-16 22:30:04,2022-01-16 22:30:05,0.669s,PASSED
+"click(findTestObject(""Object Repository/LoginObject/Page_Automation Testing Site Log in to the site/button_Log in""))",Edge Chromium 97,,,2022-01-16 22:30:05,2022-01-16 22:30:07,2.085s,PASSED
+"verifyElementText(findTestObject(""Object Repository/LoginObject/Page_Dashboard/span_Site administration""), ""Site administration"")",Edge Chromium 97,,,2022-01-16 22:30:07,2022-01-16 22:30:09,1.706s,PASSED
