@@ -1,0 +1,50 @@
+{"testCaseName":"Test Cases/Phần thiết lập khác/Tạo Course tên là Sample Course For Permission","testCaseId":"Test Cases/Phần thiết lập khác/Tạo Course tên là Sample Course For Permission"}
+{"testCaseName":"Test Cases/Student/0. Setup student env","testCaseId":"Test Cases/Student/0. Setup student env"}
+{"testCaseName":"Test Cases/Student/1. Join class","testCaseId":"Test Cases/Student/1. Join class"}
+{"testCaseName":"Test Cases/Student/3. Calendar/1. create calendar event","testCaseId":"Test Cases/Student/3. Calendar/1. create calendar event"}
+{"testCaseName":"Test Cases/Student/3. Calendar/2. create and delete calendar","testCaseId":"Test Cases/Student/3. Calendar/2. create and delete calendar"}
+{"testCaseName":"Test Cases/Student/3. Calendar/3. create calendar empty title","testCaseId":"Test Cases/Student/3. Calendar/3. create calendar empty title"}
+{"testCaseName":"Test Cases/Student/3. Calendar/4. create calendar with invaid date","testCaseId":"Test Cases/Student/3. Calendar/4. create calendar with invaid date"}
+{"testCaseName":"Test Cases/Student/4. Comment/2. Add comment","testCaseId":"Test Cases/Student/4. Comment/2. Add comment"}
+{"testCaseName":"Test Cases/Student/5. Submit/1. Mask Done","testCaseId":"Test Cases/Student/5. Submit/1. Mask Done"}
+{"testCaseName":"Test Cases/Student/5. Submit/2. Submit empty text","testCaseId":"Test Cases/Student/5. Submit/2. Submit empty text"}
+{"testCaseName":"Test Cases/Student/5. Submit/3. Submit","testCaseId":"Test Cases/Student/5. Submit/3. Submit"}
+{"testCaseName":"Test Cases/Student/5. Submit/4. Remove submittion","testCaseId":"Test Cases/Student/5. Submit/4. Remove submittion"}
+{"testCaseName":"Test Cases/Student/6. Grade/1. Give grade","testCaseId":"Test Cases/Student/6. Grade/1. Give grade"}
+{"testCaseName":"Test Cases/Student/6. Grade/2. View Grade","testCaseId":"Test Cases/Student/6. Grade/2. View Grade"}
+{"testCaseName":"Test Cases/Student/6. Grade/3. View Overview report","testCaseId":"Test Cases/Student/6. Grade/3. View Overview report"}
+{"testCaseName":"Test Cases/Student/6. Grade/4. Check graded","testCaseId":"Test Cases/Student/6. Grade/4. Check graded"}
+{"testCaseName":"Test Cases/Student/7. Khác/1. Forum","testCaseId":"Test Cases/Student/7. Khác/1. Forum"}
+{"testCaseName":"Test Cases/Student/7. Khác/2. Create forum with empty description","testCaseId":"Test Cases/Student/7. Khác/2. Create forum with empty description"}
+{"testCaseName":"Test Cases/Student/7. Khác/4. View announcements","testCaseId":"Test Cases/Student/7. Khác/4. View announcements"}
+{"testCaseName":"Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập dưới quyền Ẩn danh","testCaseId":"Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập dưới quyền Ẩn danh"}
+{"testCaseName":"Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thất bại","testCaseId":"Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thất bại"}
+{"testCaseName":"Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công","testCaseId":"Test Cases/Kiểm tra thẻ Site Administration/Đăng nhập thành công"}
+{"testCaseName":"Test Cases/Phần thiết lập khác/Kiểm tra sự hiện diện của tính năng tin nhắn","testCaseId":"Test Cases/Phần thiết lập khác/Kiểm tra sự hiện diện của tính năng tin nhắn"}
+{"testCaseName":"Test Cases/Phần thiết lập khác/Kiểm tra việc tạo và xóa một Cohort","testCaseId":"Test Cases/Phần thiết lập khác/Kiểm tra việc tạo và xóa một Cohort"}
+{"testCaseName":"Test Cases/Tạo 1 User mới/Điền không đầy đủ thông tin bắt buộc","testCaseId":"Test Cases/Tạo 1 User mới/Điền không đầy đủ thông tin bắt buộc"}
+{"testCaseName":"Test Cases/Tạo 1 User mới/Điền mật khẩu yếu","testCaseId":"Test Cases/Tạo 1 User mới/Điền mật khẩu yếu"}
+{"testCaseName":"Test Cases/Tạo 1 User mới/Điền sai định dạng email","testCaseId":"Test Cases/Tạo 1 User mới/Điền sai định dạng email"}
+{"testCaseName":"Test Cases/Tạo 1 User mới/Điền đầy đủ thông tin bắt buộc","testCaseId":"Test Cases/Tạo 1 User mới/Điền đầy đủ thông tin bắt buộc"}
+{"testCaseName":"Test Cases/Tạo 1 User mới/Test 1 vài trường optional khác","testCaseId":"Test Cases/Tạo 1 User mới/Test 1 vài trường optional khác"}
+{"testCaseName":"Test Cases/Tạo 1 User mới/Kiểm tra việc tài khoản bị ban sau khi chọn Suspended account","testCaseId":"Test Cases/Tạo 1 User mới/Kiểm tra việc tài khoản bị ban sau khi chọn Suspended account"}
+{"testCaseName":"Test Cases/Tạo 1 User mới/Kiểm tra việc gán quyền thành công trong 1 course","testCaseId":"Test Cases/Tạo 1 User mới/Kiểm tra việc gán quyền thành công trong 1 course"}
+{"testCaseName":"Test Cases/Phần thiết lập khác/Test bộ lọc trong User của Moodle","testCaseId":"Test Cases/Phần thiết lập khác/Test bộ lọc trong User của Moodle"}
+{"testCaseName":"Test Cases/NewCategory/1. Add category with blank fields","testCaseId":"Test Cases/NewCategory/1. Add category with blank fields"}
+{"testCaseName":"Test Cases/NewCategory/2. Create successful","testCaseId":"Test Cases/NewCategory/2. Create successful"}
+{"testCaseName":"Test Cases/NewCategory/3. Duplicate ID","testCaseId":"Test Cases/NewCategory/3. Duplicate ID"}
+{"testCaseName":"Test Cases/NewCourse/1. Create new course without enter any input field","testCaseId":"Test Cases/NewCourse/1. Create new course without enter any input field"}
+{"testCaseName":"Test Cases/NewCourse/2. NewCourseWithCorrectData","testCaseId":"Test Cases/NewCourse/2. NewCourseWithCorrectData"}
+{"testCaseName":"Test Cases/NewCourse/3. Duplicate Short Name","testCaseId":"Test Cases/NewCourse/3. Duplicate Short Name"}
+{"testCaseName":"Test Cases/NewCourse/4. Start day greater than end day","testCaseId":"Test Cases/NewCourse/4. Start day greater than end day"}
+{"testCaseName":"Test Cases/NewCourse/5. Duplicate ID","testCaseId":"Test Cases/NewCourse/5. Duplicate ID"}
+{"testCaseName":"Test Cases/NewTag/1. Create New Tag Success","testCaseId":"Test Cases/NewTag/1. Create New Tag Success"}
+{"testCaseName":"Test Cases/NewTag/2. Create new tag with blank field","testCaseId":"Test Cases/NewTag/2. Create new tag with blank field"}
+{"testCaseName":"Test Cases/Role Giáo Viên/1. Tạo thông báo mới với dữ liệu trống","testCaseId":"Test Cases/Role Giáo Viên/1. Tạo thông báo mới với dữ liệu trống"}
+{"testCaseName":"Test Cases/Role Giáo Viên/2. Tạo thông báo mới với đầy đủ dữ liệu","testCaseId":"Test Cases/Role Giáo Viên/2. Tạo thông báo mới với đầy đủ dữ liệu"}
+{"testCaseName":"Test Cases/Role Giáo Viên/3. Tạo bài tập mới với dữ liệu rỗng","testCaseId":"Test Cases/Role Giáo Viên/3. Tạo bài tập mới với dữ liệu rỗng"}
+{"testCaseName":"Test Cases/Role Giáo Viên/4. Tạo bài tập mới với dữ liệu đúng","testCaseId":"Test Cases/Role Giáo Viên/4. Tạo bài tập mới với dữ liệu đúng"}
+{"testCaseName":"Test Cases/Role Giáo Viên/5. Tạo bài tập mới với ngày open lớn hơn due day","testCaseId":"Test Cases/Role Giáo Viên/5. Tạo bài tập mới với ngày open lớn hơn due day"}
+{"testCaseName":"Test Cases/Role Giáo Viên/6. Chuyển đổi mode","testCaseId":"Test Cases/Role Giáo Viên/6. Chuyển đổi mode"}
+{"testCaseName":"Test Cases/Role Giáo Viên/7. Tạo quiz","testCaseId":"Test Cases/Role Giáo Viên/7. Tạo quiz"}
+{"testCaseName":"Test Cases/Xóa tài khoản/Xóa hết tài khoản đã tạo","testCaseId":"Test Cases/Xóa tài khoản/Xóa hết tài khoản đã tạo"}

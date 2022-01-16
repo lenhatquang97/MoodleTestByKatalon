@@ -519,6 +519,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Course CNTN/span_Announcements Forum_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/NewCategory/Page_SiteTesting Add new category/input_Category name_name",
+      "brokenLocator": "//input[@id\u003d\u0027id_name\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/NewCategory/Page_SiteTesting Add new category/input_Category name_name_position.png"
     }
   ]
 }
